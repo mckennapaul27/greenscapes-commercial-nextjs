@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// 1. Import the initial variables
+@import '../node_modules/bulma/sass/utilities/initial-variables';
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+
+// 2. Override styles
+$lightgray: #F0F3F3;
+$snow: #FCFAFA;
+$wageningengreen: #339935;
+$wildblueyonder: #A4B8C4;
+$aurometalsauras: #6E8387;
+$polypomonagreen: #1C541D;
+
+$family-sans-serif: "montserrat",sans-serif;
+$light: $lightgray;
+$white: $snow;
+$info: $polypomonagreen;
+$link: $aurometalsauras;
+$primary: $wageningengreen;
+$success: $wildblueyonder;
+// 3. Import the rest of Bulma;
+@import '../node_modules/bulma/bulma';
+
+
