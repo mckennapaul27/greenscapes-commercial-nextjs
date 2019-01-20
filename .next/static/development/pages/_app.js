@@ -710,7 +710,7 @@ function (_Component) {
         color: 'white',
         textAlign: 'center'
       };
-      var services = ['Grounds Management', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];
+      var services = ['Grounds mManagement', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "navbar",
         __source: {
@@ -864,7 +864,7 @@ function (_Component) {
           lineNumber: 79
         },
         __self: this
-      })), "Home"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      })), "Homes"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 84

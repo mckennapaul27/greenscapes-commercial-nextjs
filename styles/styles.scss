@@ -2,8 +2,10 @@
 
 // 1. Import the initial variables
 @import '../node_modules/bulma/sass/utilities/initial-variables';
+
 // Import a Google Font
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 // 2. Override styles
 $lightgray: #F0F3F3;
@@ -13,7 +15,7 @@ $wildblueyonder: #A4B8C4;
 $aurometalsauras: #6E8387;
 $polypomonagreen: #1C541D;
 
-$family-sans-serif: "montserrat",sans-serif;
+$family-sans-serif: 'Montserrat', sans-serif;
 $light: $lightgray;
 $white: $snow;
 $info: $polypomonagreen;

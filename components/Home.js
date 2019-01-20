@@ -1,0 +1,120 @@
+import Link from 'next/link';
+import FadeIn from 'react-fade-in';
+import {isMobile} from 'react-device-detect';
+import Level from './Level';
+import Services from './Services';
+
+const Home = () => {
+    
+    const contentStyle = {  
+        backgroundImage: "url('/static/images/office_garden.jpg')",
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+        backgroundSize: 'cover',
+        minHeight: '90vh'
+    }
+
+    const servicesStyle = {
+        backgroundImage: "url('/static/images/mower.jpg')",
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+        backgroundSize: 'cover',
+        minHeight: '60vh'
+    }
+    const contentStyleMobile = {  
+        backgroundImage: "url('/static/images/flats_garden.jpg')",
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center center',
+        backgroundSize: 'cover'
+    }
+
+    return (
+        <div>
+            {/* Header */}
+            <div style={contentStyle}>
+                <div style={{ display: 'flex', alignItems: 'center', minHeight: '90vh', background: 'rgba(16,46,16, 0.8)'}}>
+                    <div className='container' style={{padding: '2rem 1rem'}}>
+                        <div className='has-text-centered'>
+                            <FadeIn transitionDuration={1500}>
+                            <h1 className="title is-1" style={{color: '#FCFAFA', padding: '1rem', fontSize: '2.75rem', lineHeight: '3.25rem'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
+                            <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</h2>
+                            <div>
+                                <Link href='/contact'>
+                                    <button className={`button is-primary ${!isMobile ? 'is-medium' : ''}`}>
+                                        <a style={{color: 'white'}}>
+                                            <span>
+                                                <i style={{marginRight: '0.5rem'}} className='fa fa-quote-left'>
+                                                </i>
+                                            </span>
+                                            Free Quotation
+                                        </a>
+                                    </button>
+                                </Link>
+                                <span style={{marginLeft: '1rem'}}>
+                                <Link href='/contact'>
+                                    <button className={`button is-primary ${!isMobile ? 'is-medium' : ''} is-outlined`}>
+                                        <a style={{color: 'white'}}>
+                                            <span>
+                                                <i style={{marginRight: '0.5rem'}} className='fa fa-envelope'>
+                                                </i>
+                                            </span>
+                                            Contact Us
+                                        </a>
+                                    </button>
+                                </Link>
+                                </span>
+                            </div>
+                            </FadeIn>
+                        </div>            
+                    </div>
+                </div> 
+            </div>
+            {/* Middle upper */}
+            <div className='container' style={{minHeight: '100vh'}}>
+                <div className='columns is-centered' style={{padding: '2rem 1rem', margin: '0'}}>
+                    <div className='column' style={{display: 'flex', alignItems: 'center'}}>
+                        <div className='content' style={{height: '90%'}}>
+                            <img src="/static/images/garden3.jpg" alt=""/>
+                        </div>                        
+                    </div>
+                    <div className='column is-1'></div>
+                    <div className='column'>
+                        <div className='content'>
+                            <h2>About Us</h2>                            
+                            <hr style={{border: '3px solid #339935', width: '5rem'}} />
+                            <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>
+                            <h2>Domestic Garden Design and Maintenance</h2>
+                            <p>We specialize in garden design, landscaped gardens, Hedge trimming, lawn maintenance, turfing and planting. We take your garden design ideas and turn them into reality from start to finish leaving you with a specific tailored garden designed and built to your specific requirements. We also offer garden maintenance services so you get time to relax and enjoy your free time.</p>
+                            <h2>Commercial Ground Maintenance</h2>
+                            <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings. We offer garden maintenance contracts to ensure that your business looks at its best for your visitors and Clients First Impressions count!</p>
+                            <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
+                        </div>
+                    </div>
+                </div>
+                <div style={{display: 'flex', justifyContent: 'center'}}>
+                    <hr style={{border: '1px solid #F0F3F3', width: '100%'}} />
+                </div>                
+            </div>
+            <Level /> 
+            <div style={servicesStyle}>
+                <div style={{ display: 'flex', alignItems: 'center', minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem 0'}}> 
+                    <div className='container' style={{minHeight: '60vh'}}>
+                        <div className='columns is-centered' style={{padding: '2rem 0.25rem', margin: '0'}}>
+                            <div className='column' style={{display: 'flex', alignItems: 'center'}}>
+                                <div className='content' >
+                                    <img src="/static/images/gardening.jpg" alt=""/>
+                                </div>                        
+                            </div>
+                            <div className='column is-1'></div>
+                            <div className='column'>
+                                <Services />
+                            </div>
+                        </div>                                 
+                    </div>      
+                </div> 
+            </div>
+        </div>
+    )
+}
+
+export default Home;

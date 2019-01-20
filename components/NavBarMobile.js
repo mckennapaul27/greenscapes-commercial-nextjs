@@ -36,7 +36,7 @@ export default class NavBarMobile extends Component {
             textAlign: 'center'
         }       
 
-        const services = ['Grounds Management', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];        
+        const services = ['Grounds mManagement', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];        
 
         return (
             <div 
@@ -77,7 +77,7 @@ export default class NavBarMobile extends Component {
                                 <a style={linkStyle} onClick={this.toggleClass}>
                                     <span>
                                         <i style={{marginRight: '0.3rem'}} className='fa fa-home'></i>
-                                    </span>Home
+                                    </span>Homes
                                 </a>
                                 </Link>                                
                             </li>  

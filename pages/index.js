@@ -1,9 +1,9 @@
 import '../styles/styles.scss';
-import HomeHead from '../components/HomeHead';
+import Home from '../components/Home';
 const Index = () => {
     return (
         <div>
-           <HomeHead />
+           <Home />
         </div>
     )
 }

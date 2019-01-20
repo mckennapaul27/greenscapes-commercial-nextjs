@@ -1,9 +1,9 @@
 ((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/index.js"],{
 
-/***/ "./components/HomeHead.js":
-/*!********************************!*\
-  !*** ./components/HomeHead.js ***!
-  \********************************/
+/***/ "./components/Home.js":
+/*!****************************!*\
+  !*** ./components/Home.js ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13,11 +13,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/paul/temp/greenscapes-commercial/components/HomeHead.js";
+/* harmony import */ var react_fade_in__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-fade-in */ "./node_modules/react-fade-in/lib/index.js");
+/* harmony import */ var react_fade_in__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_fade_in__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-device-detect */ "./node_modules/react-device-detect/dist/index.js");
+/* harmony import */ var react_device_detect__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_device_detect__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Level__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Level */ "./components/Level.js");
+/* harmony import */ var _Services__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Services */ "./components/Services.js");
+var _jsxFileName = "/home/paul/temp/greenscapes-commercial/components/Home.js";
 
 
 
-var HomeHead = function HomeHead() {
+
+
+
+
+var Home = function Home() {
   var contentStyle = {
     backgroundImage: "url('/static/images/office_garden.jpg')",
     backgroundRepeat: 'no-repeat',
@@ -25,14 +35,12 @@ var HomeHead = function HomeHead() {
     backgroundSize: 'cover',
     minHeight: '90vh'
   };
-  var contentS = {
-    background: "url('/static/images/office_garden.jpg') no-repeat center center fixed",
-    webkitBackgroundSize: 'cover',
-    mozBackgroundSize: 'cover',
-    oBackgroundSize: 'cover',
+  var servicesStyle = {
+    backgroundImage: "url('/static/images/mower.jpg')",
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center center',
     backgroundSize: 'cover',
-    height: '100%',
-    overflow: 'hidden'
+    minHeight: '60vh'
   };
   var contentStyleMobile = {
     backgroundImage: "url('/static/images/flats_garden.jpg')",
@@ -41,10 +49,16 @@ var HomeHead = function HomeHead() {
     backgroundSize: 'cover'
   };
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: contentStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -56,21 +70,31 @@ var HomeHead = function HomeHead() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
+    style: {
+      padding: '2rem 1rem'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 36
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "has-text-centered",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 37
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_fade_in__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    transitionDuration: 1500,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
@@ -79,11 +103,11 @@ var HomeHead = function HomeHead() {
       color: '#FCFAFA',
       padding: '1rem',
       fontSize: '2.75rem',
-      lineHeight: '3rem'
+      lineHeight: '3.25rem'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 39
     },
     __self: this
   }, "Established And Trustworthy Commercial Garden & Grounds Maintenance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
@@ -92,25 +116,31 @@ var HomeHead = function HomeHead() {
       color: '#FCFAFA',
       padding: '2rem',
       fontSize: '1.1rem',
-      lineHeight: '1.75rem'
+      lineHeight: '1.95rem'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 40
     },
     __self: this
-  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 36
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "button is-primary",
+    className: "button is-primary ".concat(!react_device_detect__WEBPACK_IMPORTED_MODULE_3__["isMobile"] ? 'is-medium' : ''),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -119,13 +149,13 @@ var HomeHead = function HomeHead() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 45
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
@@ -135,7 +165,7 @@ var HomeHead = function HomeHead() {
     className: "fa fa-quote-left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 46
     },
     __self: this
   })), "Free Quotation"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
@@ -144,21 +174,21 @@ var HomeHead = function HomeHead() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 53
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
     href: "/contact",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 54
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "button is-primary is-outlined",
+    className: "button is-primary ".concat(!react_device_detect__WEBPACK_IMPORTED_MODULE_3__["isMobile"] ? 'is-medium' : '', " is-outlined"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 55
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
@@ -167,13 +197,13 @@ var HomeHead = function HomeHead() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 56
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
@@ -183,13 +213,856 @@ var HomeHead = function HomeHead() {
     className: "fa fa-envelope",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 58
     },
     __self: this
-  })), "Contact Us"))))))));
+  })), "Contact Us")))))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    style: {
+      minHeight: '100vh'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns is-centered",
+    style: {
+      padding: '2rem 1rem',
+      margin: '0'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      display: 'flex',
+      alignItems: 'center'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content",
+    style: {
+      height: '90%'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/garden3.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 80
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, "About Us"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    style: {
+      border: '3px solid #339935',
+      width: '5rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, "Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, "Domestic Garden Design and Maintenance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  }, "We specialize in garden design, landscaped gardens, Hedge trimming, lawn maintenance, turfing and planting. We take your garden design ideas and turn them into reality from start to finish leaving you with a specific tailored garden designed and built to your specific requirements. We also offer garden maintenance services so you get time to relax and enjoy your free time."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 88
+    },
+    __self: this
+  }, "Commercial Ground Maintenance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, "We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings. We offer garden maintenance contracts to ensure that your business looks at its best for your visitors and Clients First Impressions count!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      display: 'flex',
+      justifyContent: 'center'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    style: {
+      border: '1px solid #F0F3F3',
+      width: '100%'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Level__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: servicesStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 99
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      minHeight: '60vh',
+      background: 'rgba(16,46,16, 0.8)',
+      padding: '2rem 0'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "container",
+    style: {
+      minHeight: '60vh'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns is-centered",
+    style: {
+      padding: '2rem 0.25rem',
+      margin: '0'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    style: {
+      display: 'flex',
+      alignItems: 'center'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 103
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 104
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/gardening.jpg",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 105
+    },
+    __self: this
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Services__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 110
+    },
+    __self: this
+  })))))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (HomeHead);
+/* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+
+/***/ "./components/Level.js":
+/*!*****************************!*\
+  !*** ./components/Level.js ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_on_screen__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-on-screen */ "./node_modules/react-on-screen/lib/index.js");
+/* harmony import */ var react_on_screen__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_on_screen__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_countup__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-countup */ "./node_modules/react-countup/build/index.js");
+/* harmony import */ var react_countup__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_countup__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/home/paul/temp/greenscapes-commercial/components/Level.js";
+
+
+
+
+var Level = function Level(_ref) {
+  var isVisible = _ref.isVisible;
+  var headingStyle = {
+    fontSize: '0.75rem',
+    padding: '1.5rem 0'
+  };
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "level",
+    style: {
+      padding: '4rem 1rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "level-item has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/certificate.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "heading",
+    style: headingStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    start: 1,
+    end: 15,
+    duration: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }), "+"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "level-item has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/heart.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "heading",
+    style: headingStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, "Happy Customers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    start: 1,
+    end: 250,
+    duration: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), "+"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "level-item has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/coin.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "heading",
+    style: headingStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "G's Baby"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    start: 1,
+    end: 60,
+    duration: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "level-item has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/like.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "heading",
+    style: headingStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Social Likes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    start: 1,
+    end: 500,
+    duration: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }), "+"))));
+};
+
+var VisibleLevel = function VisibleLevel() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_on_screen__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    once: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Level, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (VisibleLevel);
+
+/***/ }),
+
+/***/ "./components/Services.js":
+/*!********************************!*\
+  !*** ./components/Services.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_on_screen__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-on-screen */ "./node_modules/react-on-screen/lib/index.js");
+/* harmony import */ var react_on_screen__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_on_screen__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_fade_in__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-fade-in */ "./node_modules/react-fade-in/lib/index.js");
+/* harmony import */ var react_fade_in__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_fade_in__WEBPACK_IMPORTED_MODULE_2__);
+var _jsxFileName = "/home/paul/temp/greenscapes-commercial/components/Services.js";
+
+
+
+
+var Services = function Services(_ref) {
+  var isVisible = _ref.isVisible;
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_fade_in__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    transitionDuration: 1500,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+    style: {
+      color: 'white'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
+    style: {
+      border: '3px solid #339935',
+      width: '5rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns is-mobile",
+    style: {
+      padding: '1.5rem 0'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-one-third",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/contract.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title is-6",
+    style: {
+      textAlign: 'center',
+      color: 'white',
+      marginTop: '1rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Total Grounds Management")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-one-third",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/plant.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title is-6",
+    style: {
+      textAlign: 'center',
+      color: 'white',
+      marginTop: '1rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "Landscaping & Planting")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-one-third",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/hedge-clippers.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title is-6",
+    style: {
+      textAlign: 'center',
+      color: 'white',
+      marginTop: '1rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "Hedge & Shrub Maintainance"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "columns is-mobile",
+    style: {
+      padding: '0 0 2rem 0'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-one-third",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/lawn-mower.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title is-6",
+    style: {
+      textAlign: 'center',
+      color: 'white',
+      marginTop: '1rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "Lawn Care")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-one-third",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/wiping-swipe-for-floors.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title is-6",
+    style: {
+      textAlign: 'center',
+      color: 'white',
+      marginTop: '1rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Outdoor Cleaning")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-one-third",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/planting.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title is-6",
+    style: {
+      textAlign: 'center',
+      color: 'white',
+      marginTop: '1rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "Vegetation Control"))))));
+};
+
+var VisibleLevel = function VisibleLevel() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_on_screen__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    once: true,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Services, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    },
+    __self: this
+  }));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (VisibleLevel);
 
 /***/ }),
 
@@ -4469,6 +5342,21 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 /***/ }),
 
+/***/ "./node_modules/countup.js/dist/countUp.min.js":
+/*!*****************************************************!*\
+  !*** ./node_modules/countup.js/dist/countUp.min.js ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;!function(a,n){ true?!(__WEBPACK_AMD_DEFINE_FACTORY__ = (n),
+				__WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ?
+				(__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) :
+				__WEBPACK_AMD_DEFINE_FACTORY__),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__)):undefined}(this,function(a,n,t){var e=function(a,n,t,e,i,r){function o(a){var n,t,e,i,r,o,s=a<0;if(a=Math.abs(a).toFixed(l.decimals),a+="",n=a.split("."),t=n[0],e=n.length>1?l.options.decimal+n[1]:"",l.options.useGrouping){for(i="",r=0,o=t.length;r<o;++r)0!==r&&r%3===0&&(i=l.options.separator+i),i=t[o-r-1]+i;t=i}return l.options.numerals.length&&(t=t.replace(/[0-9]/g,function(a){return l.options.numerals[+a]}),e=e.replace(/[0-9]/g,function(a){return l.options.numerals[+a]})),(s?"-":"")+l.options.prefix+t+e+l.options.suffix}function s(a,n,t,e){return t*(-Math.pow(2,-10*a/e)+1)*1024/1023+n}function u(a){return"number"==typeof a&&!isNaN(a)}var l=this;if(l.version=function(){return"1.9.3"},l.options={useEasing:!0,useGrouping:!0,separator:",",decimal:".",easingFn:s,formattingFn:o,prefix:"",suffix:"",numerals:[]},r&&"object"==typeof r)for(var m in l.options)r.hasOwnProperty(m)&&null!==r[m]&&(l.options[m]=r[m]);""===l.options.separator?l.options.useGrouping=!1:l.options.separator=""+l.options.separator;for(var d=0,c=["webkit","moz","ms","o"],f=0;f<c.length&&!window.requestAnimationFrame;++f)window.requestAnimationFrame=window[c[f]+"RequestAnimationFrame"],window.cancelAnimationFrame=window[c[f]+"CancelAnimationFrame"]||window[c[f]+"CancelRequestAnimationFrame"];window.requestAnimationFrame||(window.requestAnimationFrame=function(a,n){var t=(new Date).getTime(),e=Math.max(0,16-(t-d)),i=window.setTimeout(function(){a(t+e)},e);return d=t+e,i}),window.cancelAnimationFrame||(window.cancelAnimationFrame=function(a){clearTimeout(a)}),l.initialize=function(){return!!l.initialized||(l.error="",l.d="string"==typeof a?document.getElementById(a):a,l.d?(l.startVal=Number(n),l.endVal=Number(t),u(l.startVal)&&u(l.endVal)?(l.decimals=Math.max(0,e||0),l.dec=Math.pow(10,l.decimals),l.duration=1e3*Number(i)||2e3,l.countDown=l.startVal>l.endVal,l.frameVal=l.startVal,l.initialized=!0,!0):(l.error="[CountUp] startVal ("+n+") or endVal ("+t+") is not a number",!1)):(l.error="[CountUp] target is null or undefined",!1))},l.printValue=function(a){var n=l.options.formattingFn(a);"INPUT"===l.d.tagName?this.d.value=n:"text"===l.d.tagName||"tspan"===l.d.tagName?this.d.textContent=n:this.d.innerHTML=n},l.count=function(a){l.startTime||(l.startTime=a),l.timestamp=a;var n=a-l.startTime;l.remaining=l.duration-n,l.options.useEasing?l.countDown?l.frameVal=l.startVal-l.options.easingFn(n,0,l.startVal-l.endVal,l.duration):l.frameVal=l.options.easingFn(n,l.startVal,l.endVal-l.startVal,l.duration):l.countDown?l.frameVal=l.startVal-(l.startVal-l.endVal)*(n/l.duration):l.frameVal=l.startVal+(l.endVal-l.startVal)*(n/l.duration),l.countDown?l.frameVal=l.frameVal<l.endVal?l.endVal:l.frameVal:l.frameVal=l.frameVal>l.endVal?l.endVal:l.frameVal,l.frameVal=Math.round(l.frameVal*l.dec)/l.dec,l.printValue(l.frameVal),n<l.duration?l.rAF=requestAnimationFrame(l.count):l.callback&&l.callback()},l.start=function(a){l.initialize()&&(l.callback=a,l.rAF=requestAnimationFrame(l.count))},l.pauseResume=function(){l.paused?(l.paused=!1,delete l.startTime,l.duration=l.remaining,l.startVal=l.frameVal,requestAnimationFrame(l.count)):(l.paused=!0,cancelAnimationFrame(l.rAF))},l.reset=function(){l.paused=!1,delete l.startTime,l.initialized=!1,l.initialize()&&(cancelAnimationFrame(l.rAF),l.printValue(l.startVal))},l.update=function(a){if(l.initialize()){if(a=Number(a),!u(a))return void(l.error="[CountUp] update() - new endVal is not a number: "+a);l.error="",a!==l.frameVal&&(cancelAnimationFrame(l.rAF),l.paused=!1,delete l.startTime,l.startVal=l.frameVal,l.endVal=a,l.countDown=l.startVal>l.endVal,l.rAF=requestAnimationFrame(l.count))}},l.initialize()&&l.printValue(l.startVal)};return e});
+
+/***/ }),
+
 /***/ "./node_modules/define-properties/index.js":
 /*!*************************************************!*\
   !*** ./node_modules/define-properties/index.js ***!
@@ -4768,6 +5656,457 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
 
 module.exports = hoistNonReactStatics;
 
+
+/***/ }),
+
+/***/ "./node_modules/lodash.throttle/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/lodash.throttle/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {/**
+ * lodash (Custom Build) <https://lodash.com/>
+ * Build: `lodash modularize exports="npm" -o ./`
+ * Copyright jQuery Foundation and other contributors <https://jquery.org/>
+ * Released under MIT license <https://lodash.com/license>
+ * Based on Underscore.js 1.8.3 <http://underscorejs.org/LICENSE>
+ * Copyright Jeremy Ashkenas, DocumentCloud and Investigative Reporters & Editors
+ */
+
+/** Used as the `TypeError` message for "Functions" methods. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/** Used as references for various `Number` constants. */
+var NAN = 0 / 0;
+
+/** `Object#toString` result references. */
+var symbolTag = '[object Symbol]';
+
+/** Used to match leading and trailing whitespace. */
+var reTrim = /^\s+|\s+$/g;
+
+/** Used to detect bad signed hexadecimal string values. */
+var reIsBadHex = /^[-+]0x[0-9a-f]+$/i;
+
+/** Used to detect binary string values. */
+var reIsBinary = /^0b[01]+$/i;
+
+/** Used to detect octal string values. */
+var reIsOctal = /^0o[0-7]+$/i;
+
+/** Built-in method references without a dependency on `root`. */
+var freeParseInt = parseInt;
+
+/** Detect free variable `global` from Node.js. */
+var freeGlobal = typeof global == 'object' && global && global.Object === Object && global;
+
+/** Detect free variable `self`. */
+var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
+
+/** Used as a reference to the global object. */
+var root = freeGlobal || freeSelf || Function('return this')();
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/**
+ * Used to resolve the
+ * [`toStringTag`](http://ecma-international.org/ecma-262/7.0/#sec-object.prototype.tostring)
+ * of values.
+ */
+var objectToString = objectProto.toString;
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max,
+    nativeMin = Math.min;
+
+/**
+ * Gets the timestamp of the number of milliseconds that have elapsed since
+ * the Unix epoch (1 January 1970 00:00:00 UTC).
+ *
+ * @static
+ * @memberOf _
+ * @since 2.4.0
+ * @category Date
+ * @returns {number} Returns the timestamp.
+ * @example
+ *
+ * _.defer(function(stamp) {
+ *   console.log(_.now() - stamp);
+ * }, _.now());
+ * // => Logs the number of milliseconds it took for the deferred invocation.
+ */
+var now = function() {
+  return root.Date.now();
+};
+
+/**
+ * Creates a debounced function that delays invoking `func` until after `wait`
+ * milliseconds have elapsed since the last time the debounced function was
+ * invoked. The debounced function comes with a `cancel` method to cancel
+ * delayed `func` invocations and a `flush` method to immediately invoke them.
+ * Provide `options` to indicate whether `func` should be invoked on the
+ * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
+ * with the last arguments provided to the debounced function. Subsequent
+ * calls to the debounced function return the result of the last `func`
+ * invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the debounced function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.debounce` and `_.throttle`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to debounce.
+ * @param {number} [wait=0] The number of milliseconds to delay.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=false]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {number} [options.maxWait]
+ *  The maximum time `func` is allowed to be delayed before it's invoked.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new debounced function.
+ * @example
+ *
+ * // Avoid costly calculations while the window size is in flux.
+ * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
+ *
+ * // Invoke `sendMail` when clicked, debouncing subsequent calls.
+ * jQuery(element).on('click', _.debounce(sendMail, 300, {
+ *   'leading': true,
+ *   'trailing': false
+ * }));
+ *
+ * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
+ * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
+ * var source = new EventSource('/stream');
+ * jQuery(source).on('message', debounced);
+ *
+ * // Cancel the trailing debounced invocation.
+ * jQuery(window).on('popstate', debounced.cancel);
+ */
+function debounce(func, wait, options) {
+  var lastArgs,
+      lastThis,
+      maxWait,
+      result,
+      timerId,
+      lastCallTime,
+      lastInvokeTime = 0,
+      leading = false,
+      maxing = false,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  wait = toNumber(wait) || 0;
+  if (isObject(options)) {
+    leading = !!options.leading;
+    maxing = 'maxWait' in options;
+    maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+
+  function invokeFunc(time) {
+    var args = lastArgs,
+        thisArg = lastThis;
+
+    lastArgs = lastThis = undefined;
+    lastInvokeTime = time;
+    result = func.apply(thisArg, args);
+    return result;
+  }
+
+  function leadingEdge(time) {
+    // Reset any `maxWait` timer.
+    lastInvokeTime = time;
+    // Start the timer for the trailing edge.
+    timerId = setTimeout(timerExpired, wait);
+    // Invoke the leading edge.
+    return leading ? invokeFunc(time) : result;
+  }
+
+  function remainingWait(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime,
+        result = wait - timeSinceLastCall;
+
+    return maxing ? nativeMin(result, maxWait - timeSinceLastInvoke) : result;
+  }
+
+  function shouldInvoke(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime;
+
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
+    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+      (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
+  }
+
+  function timerExpired() {
+    var time = now();
+    if (shouldInvoke(time)) {
+      return trailingEdge(time);
+    }
+    // Restart the timer.
+    timerId = setTimeout(timerExpired, remainingWait(time));
+  }
+
+  function trailingEdge(time) {
+    timerId = undefined;
+
+    // Only invoke if we have `lastArgs` which means `func` has been
+    // debounced at least once.
+    if (trailing && lastArgs) {
+      return invokeFunc(time);
+    }
+    lastArgs = lastThis = undefined;
+    return result;
+  }
+
+  function cancel() {
+    if (timerId !== undefined) {
+      clearTimeout(timerId);
+    }
+    lastInvokeTime = 0;
+    lastArgs = lastCallTime = lastThis = timerId = undefined;
+  }
+
+  function flush() {
+    return timerId === undefined ? result : trailingEdge(now());
+  }
+
+  function debounced() {
+    var time = now(),
+        isInvoking = shouldInvoke(time);
+
+    lastArgs = arguments;
+    lastThis = this;
+    lastCallTime = time;
+
+    if (isInvoking) {
+      if (timerId === undefined) {
+        return leadingEdge(lastCallTime);
+      }
+      if (maxing) {
+        // Handle invocations in a tight loop.
+        timerId = setTimeout(timerExpired, wait);
+        return invokeFunc(lastCallTime);
+      }
+    }
+    if (timerId === undefined) {
+      timerId = setTimeout(timerExpired, wait);
+    }
+    return result;
+  }
+  debounced.cancel = cancel;
+  debounced.flush = flush;
+  return debounced;
+}
+
+/**
+ * Creates a throttled function that only invokes `func` at most once per
+ * every `wait` milliseconds. The throttled function comes with a `cancel`
+ * method to cancel delayed `func` invocations and a `flush` method to
+ * immediately invoke them. Provide `options` to indicate whether `func`
+ * should be invoked on the leading and/or trailing edge of the `wait`
+ * timeout. The `func` is invoked with the last arguments provided to the
+ * throttled function. Subsequent calls to the throttled function return the
+ * result of the last `func` invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the throttled function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.throttle` and `_.debounce`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to throttle.
+ * @param {number} [wait=0] The number of milliseconds to throttle invocations to.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=true]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new throttled function.
+ * @example
+ *
+ * // Avoid excessively updating the position while scrolling.
+ * jQuery(window).on('scroll', _.throttle(updatePosition, 100));
+ *
+ * // Invoke `renewToken` when the click event is fired, but not more than once every 5 minutes.
+ * var throttled = _.throttle(renewToken, 300000, { 'trailing': false });
+ * jQuery(element).on('click', throttled);
+ *
+ * // Cancel the trailing throttled invocation.
+ * jQuery(window).on('popstate', throttled.cancel);
+ */
+function throttle(func, wait, options) {
+  var leading = true,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  if (isObject(options)) {
+    leading = 'leading' in options ? !!options.leading : leading;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+  return debounce(func, wait, {
+    'leading': leading,
+    'maxWait': wait,
+    'trailing': trailing
+  });
+}
+
+/**
+ * Checks if `value` is the
+ * [language type](http://www.ecma-international.org/ecma-262/7.0/#sec-ecmascript-language-types)
+ * of `Object`. (e.g. arrays, functions, objects, regexes, `new Number(0)`, and `new String('')`)
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an object, else `false`.
+ * @example
+ *
+ * _.isObject({});
+ * // => true
+ *
+ * _.isObject([1, 2, 3]);
+ * // => true
+ *
+ * _.isObject(_.noop);
+ * // => true
+ *
+ * _.isObject(null);
+ * // => false
+ */
+function isObject(value) {
+  var type = typeof value;
+  return !!value && (type == 'object' || type == 'function');
+}
+
+/**
+ * Checks if `value` is object-like. A value is object-like if it's not `null`
+ * and has a `typeof` result of "object".
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is object-like, else `false`.
+ * @example
+ *
+ * _.isObjectLike({});
+ * // => true
+ *
+ * _.isObjectLike([1, 2, 3]);
+ * // => true
+ *
+ * _.isObjectLike(_.noop);
+ * // => false
+ *
+ * _.isObjectLike(null);
+ * // => false
+ */
+function isObjectLike(value) {
+  return !!value && typeof value == 'object';
+}
+
+/**
+ * Checks if `value` is classified as a `Symbol` primitive or object.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is a symbol, else `false`.
+ * @example
+ *
+ * _.isSymbol(Symbol.iterator);
+ * // => true
+ *
+ * _.isSymbol('abc');
+ * // => false
+ */
+function isSymbol(value) {
+  return typeof value == 'symbol' ||
+    (isObjectLike(value) && objectToString.call(value) == symbolTag);
+}
+
+/**
+ * Converts `value` to a number.
+ *
+ * @static
+ * @memberOf _
+ * @since 4.0.0
+ * @category Lang
+ * @param {*} value The value to process.
+ * @returns {number} Returns the number.
+ * @example
+ *
+ * _.toNumber(3.2);
+ * // => 3.2
+ *
+ * _.toNumber(Number.MIN_VALUE);
+ * // => 5e-324
+ *
+ * _.toNumber(Infinity);
+ * // => Infinity
+ *
+ * _.toNumber('3.2');
+ * // => 3.2
+ */
+function toNumber(value) {
+  if (typeof value == 'number') {
+    return value;
+  }
+  if (isSymbol(value)) {
+    return NAN;
+  }
+  if (isObject(value)) {
+    var other = typeof value.valueOf == 'function' ? value.valueOf() : value;
+    value = isObject(other) ? (other + '') : other;
+  }
+  if (typeof value != 'string') {
+    return value === 0 ? value : +value;
+  }
+  value = value.replace(reTrim, '');
+  var isBinary = reIsBinary.test(value);
+  return (isBinary || reIsOctal.test(value))
+    ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
+    : (reIsBadHex.test(value) ? NAN : +value);
+}
+
+module.exports = throttle;
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -8368,6 +9707,1546 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ }),
 
+/***/ "./node_modules/react-countup/build/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-countup/build/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
+var Count = _interopDefault(__webpack_require__(/*! countup.js */ "./node_modules/countup.js/dist/countUp.min.js"));
+var PropTypes = _interopDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var React__default = _interopDefault(React);
+var warning = _interopDefault(__webpack_require__(/*! warning */ "./node_modules/warning/warning.js"));
+
+function _classCallCheck(instance, Constructor) {
+  if (!(instance instanceof Constructor)) {
+    throw new TypeError("Cannot call a class as a function");
+  }
+}
+
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function _inherits(subClass, superClass) {
+  if (typeof superClass !== "function" && superClass !== null) {
+    throw new TypeError("Super expression must either be null or a function");
+  }
+
+  subClass.prototype = Object.create(superClass && superClass.prototype, {
+    constructor: {
+      value: subClass,
+      writable: true,
+      configurable: true
+    }
+  });
+  if (superClass) _setPrototypeOf(subClass, superClass);
+}
+
+function _getPrototypeOf(o) {
+  _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) {
+    return o.__proto__ || Object.getPrototypeOf(o);
+  };
+  return _getPrototypeOf(o);
+}
+
+function _setPrototypeOf(o, p) {
+  _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) {
+    o.__proto__ = p;
+    return o;
+  };
+
+  return _setPrototypeOf(o, p);
+}
+
+function _assertThisInitialized(self) {
+  if (self === void 0) {
+    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+  }
+
+  return self;
+}
+
+function _possibleConstructorReturn(self, call) {
+  if (call && (typeof call === "object" || typeof call === "function")) {
+    return call;
+  }
+
+  return _assertThisInitialized(self);
+}
+
+var CountUp =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(CountUp, _Component);
+
+  function CountUp() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, CountUp);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(CountUp)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "createInstance", function () {
+      if (typeof _this.props.children === 'function') {
+        // Warn when user didn't use containerRef at all
+        warning(_this.containerRef.current && _this.containerRef.current instanceof HTMLElement, "Couldn't find attached element to hook the CountUp instance into! Try to attach \"containerRef\" from the render prop to a an HTMLElement, eg. <span ref={containerRef} />.");
+      }
+
+      var _this$props = _this.props,
+          decimal = _this$props.decimal,
+          decimals = _this$props.decimals,
+          duration = _this$props.duration,
+          easingFn = _this$props.easingFn,
+          end = _this$props.end,
+          formattingFn = _this$props.formattingFn,
+          prefix = _this$props.prefix,
+          separator = _this$props.separator,
+          start = _this$props.start,
+          suffix = _this$props.suffix,
+          useEasing = _this$props.useEasing;
+      return new Count(_this.containerRef.current, start, end, decimals, duration, {
+        decimal: decimal,
+        easingFn: easingFn,
+        formattingFn: formattingFn,
+        separator: separator,
+        prefix: prefix,
+        suffix: suffix,
+        useEasing: useEasing,
+        useGrouping: !!separator
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "pauseResume", function () {
+      var _assertThisInitialize = _assertThisInitialized(_assertThisInitialized(_this)),
+          reset = _assertThisInitialize.reset,
+          start = _assertThisInitialize.restart,
+          update = _assertThisInitialize.update;
+
+      var onPauseResume = _this.props.onPauseResume;
+
+      _this.instance.pauseResume();
+
+      onPauseResume({
+        reset: reset,
+        start: start,
+        update: update
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "reset", function () {
+      var _assertThisInitialize2 = _assertThisInitialized(_assertThisInitialized(_this)),
+          pauseResume = _assertThisInitialize2.pauseResume,
+          start = _assertThisInitialize2.restart,
+          update = _assertThisInitialize2.update;
+
+      var onReset = _this.props.onReset;
+
+      _this.instance.reset();
+
+      onReset({
+        pauseResume: pauseResume,
+        start: start,
+        update: update
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "restart", function () {
+      _this.reset();
+
+      _this.start();
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "start", function () {
+      var _assertThisInitialize3 = _assertThisInitialized(_assertThisInitialized(_this)),
+          pauseResume = _assertThisInitialize3.pauseResume,
+          reset = _assertThisInitialize3.reset,
+          start = _assertThisInitialize3.restart,
+          update = _assertThisInitialize3.update;
+
+      var _this$props2 = _this.props,
+          delay = _this$props2.delay,
+          onEnd = _this$props2.onEnd,
+          onStart = _this$props2.onStart;
+
+      var run = function run() {
+        return _this.instance.start(function () {
+          return onEnd({
+            pauseResume: pauseResume,
+            reset: reset,
+            start: start,
+            update: update
+          });
+        });
+      }; // Delay start if delay prop is properly set
+
+
+      if (delay > 0) {
+        setTimeout(run, delay * 1000);
+      } else {
+        run();
+      }
+
+      onStart({
+        pauseResume: pauseResume,
+        reset: reset,
+        update: update
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "update", function (newEnd) {
+      var _assertThisInitialize4 = _assertThisInitialized(_assertThisInitialized(_this)),
+          pauseResume = _assertThisInitialize4.pauseResume,
+          reset = _assertThisInitialize4.reset,
+          start = _assertThisInitialize4.restart;
+
+      var onUpdate = _this.props.onUpdate;
+
+      _this.instance.update(newEnd);
+
+      onUpdate({
+        pauseResume: pauseResume,
+        reset: reset,
+        start: start
+      });
+    });
+
+    _defineProperty(_assertThisInitialized(_assertThisInitialized(_this)), "containerRef", React__default.createRef());
+
+    return _this;
+  }
+
+  _createClass(CountUp, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this$props3 = this.props,
+          children = _this$props3.children,
+          delay = _this$props3.delay;
+      this.instance = this.createInstance(); // Don't invoke start if component is used as a render prop
+
+      if (typeof children === 'function' && delay !== 0) return; // Otherwise just start immediately
+
+      this.start();
+    }
+  }, {
+    key: "shouldComponentUpdate",
+    value: function shouldComponentUpdate(nextProps) {
+      var hasCertainPropsChanged = this.props.duration !== nextProps.duration || this.props.end !== nextProps.end || this.props.start !== nextProps.start;
+      return hasCertainPropsChanged || this.props.redraw;
+    }
+  }, {
+    key: "componentDidUpdate",
+    value: function componentDidUpdate(prevProps) {
+      // If duration or start has changed, there's no way to update the duration
+      // or start value. So we need to re-create the CountUp instance in order to
+      // restart it.
+      if (this.props.duration !== prevProps.duration || this.props.start !== prevProps.start) {
+        this.instance = this.createInstance();
+        this.start();
+      } // Only end value has changed, so reset and and re-animate with the updated
+      // end value.
+
+
+      if (this.props.end !== prevProps.end) {
+        this.instance.reset();
+        this.instance.update(this.props.end);
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this$props4 = this.props,
+          children = _this$props4.children,
+          className = _this$props4.className,
+          style = _this$props4.style;
+      var containerRef = this.containerRef,
+          pauseResume = this.pauseResume,
+          reset = this.reset,
+          restart = this.restart,
+          update = this.update;
+
+      if (typeof children === 'function') {
+        return children({
+          countUpRef: containerRef,
+          pauseResume: pauseResume,
+          reset: reset,
+          start: restart,
+          update: update
+        });
+      }
+
+      return React__default.createElement("span", {
+        className: className,
+        ref: containerRef,
+        style: style
+      });
+    }
+  }]);
+
+  return CountUp;
+}(React.Component);
+
+_defineProperty(CountUp, "propTypes", {
+  decimal: PropTypes.string,
+  decimals: PropTypes.number,
+  delay: PropTypes.number,
+  easingFn: PropTypes.func,
+  end: PropTypes.number.isRequired,
+  formattingFn: PropTypes.func,
+  onEnd: PropTypes.func,
+  onStart: PropTypes.func,
+  prefix: PropTypes.string,
+  redraw: PropTypes.bool,
+  separator: PropTypes.string,
+  start: PropTypes.number,
+  suffix: PropTypes.string,
+  style: PropTypes.object,
+  useEasing: PropTypes.bool
+});
+
+_defineProperty(CountUp, "defaultProps", {
+  decimal: '.',
+  decimals: 0,
+  delay: null,
+  duration: null,
+  easingFn: null,
+  formattingFn: null,
+  onEnd: function onEnd() {},
+  onPauseResume: function onPauseResume() {},
+  onReset: function onReset() {},
+  onStart: function onStart() {},
+  onUpdate: function onUpdate() {},
+  prefix: '',
+  redraw: false,
+  separator: '',
+  start: 0,
+  suffix: '',
+  style: undefined,
+  useEasing: true
+});
+
+module.exports = CountUp;
+
+
+/***/ }),
+
+/***/ "./node_modules/react-device-detect/dist/index.js":
+/*!********************************************************!*\
+  !*** ./node_modules/react-device-detect/dist/index.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, {
+/******/ 				configurable: false,
+/******/ 				enumerable: true,
+/******/ 				get: getter
+/******/ 			});
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ })
+/************************************************************************/
+/******/ ([
+/* 0 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var UAParser = __webpack_require__(6);
+
+var UA = exports.UA = new UAParser();
+
+var browser = exports.browser = UA.getBrowser();
+var cpu = exports.cpu = UA.getCPU();
+var device = exports.device = UA.getDevice();
+var engine = exports.engine = UA.getEngine();
+var os = exports.os = UA.getOS();
+var ua = exports.ua = UA.getUA();
+var setUA = exports.setUA = function setUA(uaStr) {
+  return UA.setUA(uaStr);
+};
+
+var mockUserAgent = exports.mockUserAgent = function mockUserAgent(userAgent) {
+  window.navigator.__defineGetter__("userAgent", function () {
+    return userAgent;
+  });
+};
+
+/***/ }),
+/* 1 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.isYandex = exports.isEdge = exports.getUA = exports.engineVersion = exports.engineName = exports.mobileModel = exports.mobileVendor = exports.browserName = exports.browserVersion = exports.fullBrowserVersion = exports.osName = exports.osVersion = exports.isIE = exports.isOpera = exports.isSafari = exports.isFirefox = exports.isChrome = exports.isIOS = exports.isWinPhone = exports.isAndroid = exports.isBrowser = exports.isTablet = exports.isMobileOnly = exports.isMobile = exports.isChromium = exports.isMobileSafari = exports.isWearable = exports.isConsole = exports.isSmartTV = undefined;
+
+var _getUaData = __webpack_require__(0);
+
+var _types = __webpack_require__(2);
+
+var CHROME = _types.BROWSER_TYPES.CHROME,
+    CHROMIUM = _types.BROWSER_TYPES.CHROMIUM,
+    IE = _types.BROWSER_TYPES.IE,
+    INTERNET_EXPLORER = _types.BROWSER_TYPES.INTERNET_EXPLORER,
+    OPERA = _types.BROWSER_TYPES.OPERA,
+    FIREFOX = _types.BROWSER_TYPES.FIREFOX,
+    SAFARI = _types.BROWSER_TYPES.SAFARI,
+    MOBILE_SAFARI = _types.BROWSER_TYPES.MOBILE_SAFARI,
+    EDGE = _types.BROWSER_TYPES.EDGE,
+    YANDEX = _types.BROWSER_TYPES.YANDEX;
+var MOBILE = _types.DEVICE_TYPES.MOBILE,
+    TABLET = _types.DEVICE_TYPES.TABLET,
+    SMART_TV = _types.DEVICE_TYPES.SMART_TV,
+    BROWSER = _types.DEVICE_TYPES.BROWSER,
+    WEARABLE = _types.DEVICE_TYPES.WEARABLE,
+    CONSOLE = _types.DEVICE_TYPES.CONSOLE;
+var ANDROID = _types.OS_TYPES.ANDROID,
+    WINDOWS_PHONE = _types.OS_TYPES.WINDOWS_PHONE,
+    IOS = _types.OS_TYPES.IOS;
+
+
+var isMobileType = function isMobileType() {
+  return _getUaData.device.type === MOBILE;
+};
+var isTabletType = function isTabletType() {
+  return _getUaData.device.type === TABLET;
+};
+
+var isMobileAndTabletType = function isMobileAndTabletType() {
+  switch (_getUaData.device.type) {
+    case MOBILE:
+    case TABLET:
+      return true;
+    default:
+      return false;
+  }
+};
+
+var isSmartTVType = function isSmartTVType() {
+  return _getUaData.device.type === SMART_TV;
+};
+var isBrowserType = function isBrowserType() {
+  return _getUaData.device.type === BROWSER;
+};
+var isWearableType = function isWearableType() {
+  return _getUaData.device.type === WEARABLE;
+};
+var isConsoleType = function isConsoleType() {
+  return _getUaData.device.type === CONSOLE;
+};
+var isAndroidType = function isAndroidType() {
+  return _getUaData.os.name === ANDROID;
+};
+var isWinPhoneType = function isWinPhoneType() {
+  return _getUaData.os.name === WINDOWS_PHONE;
+};
+var isIOSType = function isIOSType() {
+  return _getUaData.os.name === IOS;
+};
+var isChromeType = function isChromeType() {
+  return _getUaData.browser.name === CHROME;
+};
+var isFirefoxType = function isFirefoxType() {
+  return _getUaData.browser.name === FIREFOX;
+};
+var isChromiumType = function isChromiumType() {
+  return _getUaData.browser.name === CHROMIUM;
+};
+var isEdgeType = function isEdgeType() {
+  return _getUaData.browser.name === EDGE;
+};
+var isYandexType = function isYandexType() {
+  return _getUaData.browser.name === YANDEX;
+};
+var isSafariType = function isSafariType() {
+  return _getUaData.browser.name === SAFARI || _getUaData.browser.name === MOBILE_SAFARI;
+};
+var isMobileSafariType = function isMobileSafariType() {
+  return _getUaData.browser.name === MOBILE_SAFARI;
+};
+var isOperaType = function isOperaType() {
+  return _getUaData.browser.name === OPERA;
+};
+var isIEType = function isIEType() {
+  return _getUaData.browser.name === INTERNET_EXPLORER || _getUaData.browser.name === IE;
+};
+
+var getBrowserFullVersion = function getBrowserFullVersion() {
+  return _getUaData.browser.major;
+};
+var getBrowserVersion = function getBrowserVersion() {
+  return _getUaData.browser.version;
+};
+var getOsVersion = function getOsVersion() {
+  return _getUaData.os.version ? _getUaData.os.version : "none";
+};
+var getOsName = function getOsName() {
+  return _getUaData.os.name ? _getUaData.os.name : "none";
+};
+var getBrowserName = function getBrowserName() {
+  return _getUaData.browser.name;
+};
+var getMobileVendor = function getMobileVendor() {
+  return _getUaData.device.vendor ? _getUaData.device.vendor : "none";
+};
+var getMobileModel = function getMobileModel() {
+  return _getUaData.device.model ? _getUaData.device.model : "none";
+};
+var getEngineName = function getEngineName() {
+  return _getUaData.engine.name;
+};
+var getEngineVersion = function getEngineVersion() {
+  return _getUaData.engine.version;
+};
+var getUseragent = function getUseragent() {
+  return _getUaData.ua;
+};
+
+var isSmartTV = exports.isSmartTV = isSmartTVType();
+var isConsole = exports.isConsole = isConsoleType();
+var isWearable = exports.isWearable = isWearableType();
+var isMobileSafari = exports.isMobileSafari = isMobileSafariType();
+var isChromium = exports.isChromium = isChromiumType();
+var isMobile = exports.isMobile = isMobileAndTabletType();
+var isMobileOnly = exports.isMobileOnly = isMobileType();
+var isTablet = exports.isTablet = isTabletType();
+var isBrowser = exports.isBrowser = isBrowserType();
+var isAndroid = exports.isAndroid = isAndroidType();
+var isWinPhone = exports.isWinPhone = isWinPhoneType();
+var isIOS = exports.isIOS = isIOSType();
+var isChrome = exports.isChrome = isChromeType();
+var isFirefox = exports.isFirefox = isFirefoxType();
+var isSafari = exports.isSafari = isSafariType();
+var isOpera = exports.isOpera = isOperaType();
+var isIE = exports.isIE = isIEType();
+var osVersion = exports.osVersion = getOsVersion();
+var osName = exports.osName = getOsName();
+var fullBrowserVersion = exports.fullBrowserVersion = getBrowserFullVersion();
+var browserVersion = exports.browserVersion = getBrowserVersion();
+var browserName = exports.browserName = getBrowserName();
+var mobileVendor = exports.mobileVendor = getMobileVendor();
+var mobileModel = exports.mobileModel = getMobileModel();
+var engineName = exports.engineName = getEngineName();
+var engineVersion = exports.engineVersion = getEngineVersion();
+var getUA = exports.getUA = getUseragent();
+var isEdge = exports.isEdge = isEdgeType();
+var isYandex = exports.isYandex = isYandexType();
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.wearPayload = exports.consolePayload = exports.stvPayload = exports.mobilePayload = exports.broPayload = exports.getCurrentBrowser = exports.checkType = exports.OS_TYPES = exports.BROWSER_TYPES = exports.DEVICE_TYPES = undefined;
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+var _getUaData = __webpack_require__(0);
+
+var DEVICE_TYPES = exports.DEVICE_TYPES = {
+  MOBILE: 'mobile',
+  TABLET: 'tablet',
+  SMART_TV: 'smarttv',
+  CONSOLE: 'console',
+  WEARABLE: 'wearable',
+  BROWSER: undefined
+};
+
+var BROWSER_TYPES = exports.BROWSER_TYPES = {
+  CHROME: 'Chrome',
+  FIREFOX: "Firefox",
+  OPERA: "Opera",
+  YANDEX: "Yandex",
+  SAFARI: "Safari",
+  INTERNET_EXPLORER: "Internet Explorer",
+  EDGE: "Edge",
+  CHROMIUM: "Chromium",
+  IE: 'IE',
+  MOBILE_SAFARI: "Mobile Safari"
+};
+
+var OS_TYPES = exports.OS_TYPES = {
+  IOS: 'iOS',
+  ANDROID: "Android",
+  WINDOWS_PHONE: "Windows Phone"
+};
+
+var initialData = {
+  isMobile: false,
+  isTablet: false,
+  isBrowser: false,
+  isSmartTV: false,
+  isConsole: false,
+  isWearable: false
+};
+
+var checkType = exports.checkType = function checkType(type) {
+  switch (type) {
+    case DEVICE_TYPES.MOBILE:
+      return { isMobile: true };
+    case DEVICE_TYPES.TABLET:
+      return { isTablet: true };
+    case DEVICE_TYPES.SMART_TV:
+      return { isSmartTV: true };
+    case DEVICE_TYPES.CONSOLE:
+      return { isConsole: true };
+    case DEVICE_TYPES.WEARABLE:
+      return { isWearable: true };
+    case DEVICE_TYPES.BROWSER:
+      return { isBrowser: true };
+    default:
+      return initialData;
+  }
+};
+
+var getCurrentBrowser = exports.getCurrentBrowser = function getCurrentBrowser(name) {
+  switch (name) {
+    case BROWSER_TYPES.CHROME:
+    case BROWSER_TYPES.FIREFOX:
+    case BROWSER_TYPES.OPERA:
+    case BROWSER_TYPES.YANDEX:
+    case BROWSER_TYPES.SAFARI:
+    case BROWSER_TYPES.IE:
+    case BROWSER_TYPES.EDGE:
+    case BROWSER_TYPES.CHROMIUM:
+      return true;
+    default:
+      return false;
+  }
+};
+
+var broPayload = exports.broPayload = function broPayload(isBrowser, browser, engine, os, ua) {
+  return {
+    isBrowser: isBrowser,
+    browserMajorVersion: browser.major,
+    browserFullVersion: browser.version,
+    browserName: browser.name,
+    engineName: engine.name || false,
+    engineVersion: engine.version,
+    osName: os.name,
+    osVersion: os.version,
+    userAgent: ua
+  };
+};
+
+var mobilePayload = exports.mobilePayload = function mobilePayload(type, device, os, ua) {
+  return _extends({}, type, {
+    vendor: device.vendor || "none",
+    model: device.model || "none",
+    os: os.name || "none",
+    osVersion: os.version || "none",
+    ua: ua || "none"
+  });
+};
+
+var stvPayload = exports.stvPayload = function stvPayload(isSmartTV, engine, os, ua) {
+  return {
+    isSmartTV: isSmartTV,
+    engineName: engine.name || false,
+    engineVersion: engine.version,
+    osName: os.name,
+    osVersion: os.version,
+    userAgent: ua
+  };
+};
+
+var consolePayload = exports.consolePayload = function consolePayload(isConsole, engine, os, ua) {
+  return {
+    isConsole: isConsole,
+    engineName: engine.name || false,
+    engineVersion: engine.version,
+    osName: os.name,
+    osVersion: os.version,
+    userAgent: ua
+  };
+};
+
+var wearPayload = exports.wearPayload = function wearPayload(isWearable, engine, os, ua) {
+  return {
+    isWearable: isWearable,
+    engineName: engine.name || false,
+    engineVersion: engine.version,
+    osName: os.name,
+    osVersion: os.version,
+    userAgent: ua
+  };
+};
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.deviceDetect = undefined;
+
+var _views = __webpack_require__(4);
+
+Object.keys(_views).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _views[key];
+    }
+  });
+});
+
+var _selectors = __webpack_require__(1);
+
+Object.keys(_selectors).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _selectors[key];
+    }
+  });
+});
+
+var _detect = __webpack_require__(8);
+
+var _detect2 = _interopRequireDefault(_detect);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.deviceDetect = _detect2.default;
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.CustomView = exports.WearableView = exports.ConsoleView = exports.SmartTVView = exports.MobileOnlyView = exports.WinPhoneView = exports.TabletView = exports.MobileView = exports.IOSView = exports.IEView = exports.BrowserView = exports.AndroidView = undefined;
+
+var _react = __webpack_require__(5);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _selectors = __webpack_require__(1);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var AndroidView = exports.AndroidView = function AndroidView(_ref) {
+  var renderWithFragment = _ref.renderWithFragment,
+      children = _ref.children,
+      viewClassName = _ref.viewClassName,
+      style = _ref.style;
+
+  return _selectors.isAndroid ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var BrowserView = exports.BrowserView = function BrowserView(_ref2) {
+  var renderWithFragment = _ref2.renderWithFragment,
+      children = _ref2.children,
+      viewClassName = _ref2.viewClassName,
+      style = _ref2.style;
+
+  return _selectors.isBrowser ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var IEView = exports.IEView = function IEView(_ref3) {
+  var renderWithFragment = _ref3.renderWithFragment,
+      children = _ref3.children,
+      viewClassName = _ref3.viewClassName,
+      style = _ref3.style;
+
+  return _selectors.isIE ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var IOSView = exports.IOSView = function IOSView(_ref4) {
+  var renderWithFragment = _ref4.renderWithFragment,
+      children = _ref4.children,
+      viewClassName = _ref4.viewClassName,
+      style = _ref4.style;
+
+  return _selectors.isIOS ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var MobileView = exports.MobileView = function MobileView(_ref5) {
+  var renderWithFragment = _ref5.renderWithFragment,
+      children = _ref5.children,
+      viewClassName = _ref5.viewClassName,
+      style = _ref5.style;
+
+  return _selectors.isMobile ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var TabletView = exports.TabletView = function TabletView(_ref6) {
+  var renderWithFragment = _ref6.renderWithFragment,
+      children = _ref6.children,
+      viewClassName = _ref6.viewClassName,
+      style = _ref6.style;
+
+  return _selectors.isTablet ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var WinPhoneView = exports.WinPhoneView = function WinPhoneView(_ref7) {
+  var renderWithFragment = _ref7.renderWithFragment,
+      children = _ref7.children,
+      viewClassName = _ref7.viewClassName,
+      style = _ref7.style;
+
+  return _selectors.isWinPhone ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var MobileOnlyView = exports.MobileOnlyView = function MobileOnlyView(_ref8) {
+  var renderWithFragment = _ref8.renderWithFragment,
+      children = _ref8.children,
+      viewClassName = _ref8.viewClassName,
+      style = _ref8.style;
+
+  return _selectors.isMobileOnly ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var SmartTVView = exports.SmartTVView = function SmartTVView(_ref9) {
+  var renderWithFragment = _ref9.renderWithFragment,
+      children = _ref9.children,
+      viewClassName = _ref9.viewClassName,
+      style = _ref9.style;
+
+  return _selectors.isSmartTV ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var ConsoleView = exports.ConsoleView = function ConsoleView(_ref10) {
+  var renderWithFragment = _ref10.renderWithFragment,
+      children = _ref10.children,
+      viewClassName = _ref10.viewClassName,
+      style = _ref10.style;
+
+  return _selectors.isConsole ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var WearableView = exports.WearableView = function WearableView(_ref11) {
+  var renderWithFragment = _ref11.renderWithFragment,
+      children = _ref11.children,
+      viewClassName = _ref11.viewClassName,
+      style = _ref11.style;
+
+  return _selectors.isWearable ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+var CustomView = exports.CustomView = function CustomView(_ref12) {
+  var renderWithFragment = _ref12.renderWithFragment,
+      children = _ref12.children,
+      viewClassName = _ref12.viewClassName,
+      style = _ref12.style,
+      condition = _ref12.condition;
+
+  return condition ? renderWithFragment ? _react2.default.createElement(
+    _react.Fragment,
+    null,
+    children
+  ) : _react2.default.createElement(
+    'div',
+    { className: viewClassName, style: style },
+    children
+  ) : null;
+};
+
+/***/ }),
+/* 5 */
+/***/ (function(module, exports) {
+
+module.exports = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var __WEBPACK_AMD_DEFINE_RESULT__;/*!
+ * UAParser.js v0.7.18
+ * Lightweight JavaScript-based User-Agent string parser
+ * https://github.com/faisalman/ua-parser-js
+ *
+ * Copyright © 2012-2016 Faisal Salman <fyzlman@gmail.com>
+ * Dual licensed under GPLv2 or MIT
+ */
+(function(window,undefined){"use strict";var LIBVERSION="0.7.18",EMPTY="",UNKNOWN="?",FUNC_TYPE="function",UNDEF_TYPE="undefined",OBJ_TYPE="object",STR_TYPE="string",MAJOR="major",MODEL="model",NAME="name",TYPE="type",VENDOR="vendor",VERSION="version",ARCHITECTURE="architecture",CONSOLE="console",MOBILE="mobile",TABLET="tablet",SMARTTV="smarttv",WEARABLE="wearable",EMBEDDED="embedded";var util={extend:function(regexes,extensions){var margedRegexes={};for(var i in regexes){if(extensions[i]&&extensions[i].length%2===0){margedRegexes[i]=extensions[i].concat(regexes[i])}else{margedRegexes[i]=regexes[i]}}return margedRegexes},has:function(str1,str2){if(typeof str1==="string"){return str2.toLowerCase().indexOf(str1.toLowerCase())!==-1}else{return false}},lowerize:function(str){return str.toLowerCase()},major:function(version){return typeof version===STR_TYPE?version.replace(/[^\d\.]/g,"").split(".")[0]:undefined},trim:function(str){return str.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"")}};var mapper={rgx:function(ua,arrays){var i=0,j,k,p,q,matches,match;while(i<arrays.length&&!matches){var regex=arrays[i],props=arrays[i+1];j=k=0;while(j<regex.length&&!matches){matches=regex[j++].exec(ua);if(!!matches){for(p=0;p<props.length;p++){match=matches[++k];q=props[p];if(typeof q===OBJ_TYPE&&q.length>0){if(q.length==2){if(typeof q[1]==FUNC_TYPE){this[q[0]]=q[1].call(this,match)}else{this[q[0]]=q[1]}}else if(q.length==3){if(typeof q[1]===FUNC_TYPE&&!(q[1].exec&&q[1].test)){this[q[0]]=match?q[1].call(this,match,q[2]):undefined}else{this[q[0]]=match?match.replace(q[1],q[2]):undefined}}else if(q.length==4){this[q[0]]=match?q[3].call(this,match.replace(q[1],q[2])):undefined}}else{this[q]=match?match:undefined}}}}i+=2}},str:function(str,map){for(var i in map){if(typeof map[i]===OBJ_TYPE&&map[i].length>0){for(var j=0;j<map[i].length;j++){if(util.has(map[i][j],str)){return i===UNKNOWN?undefined:i}}}else if(util.has(map[i],str)){return i===UNKNOWN?undefined:i}}return str}};var maps={browser:{oldsafari:{version:{"1.0":"/8",1.2:"/1",1.3:"/3","2.0":"/412","2.0.2":"/416","2.0.3":"/417","2.0.4":"/419","?":"/"}}},device:{amazon:{model:{"Fire Phone":["SD","KF"]}},sprint:{model:{"Evo Shift 4G":"7373KT"},vendor:{HTC:"APA",Sprint:"Sprint"}}},os:{windows:{version:{ME:"4.90","NT 3.11":"NT3.51","NT 4.0":"NT4.0",2000:"NT 5.0",XP:["NT 5.1","NT 5.2"],Vista:"NT 6.0",7:"NT 6.1",8:"NT 6.2",8.1:"NT 6.3",10:["NT 6.4","NT 10.0"],RT:"ARM"}}}};var regexes={browser:[[/(opera\smini)\/([\w\.-]+)/i,/(opera\s[mobiletab]+).+version\/([\w\.-]+)/i,/(opera).+version\/([\w\.]+)/i,/(opera)[\/\s]+([\w\.]+)/i],[NAME,VERSION],[/(opios)[\/\s]+([\w\.]+)/i],[[NAME,"Opera Mini"],VERSION],[/\s(opr)\/([\w\.]+)/i],[[NAME,"Opera"],VERSION],[/(kindle)\/([\w\.]+)/i,/(lunascape|maxthon|netfront|jasmine|blazer)[\/\s]?([\w\.]*)/i,/(avant\s|iemobile|slim|baidu)(?:browser)?[\/\s]?([\w\.]*)/i,/(?:ms|\()(ie)\s([\w\.]+)/i,/(rekonq)\/([\w\.]*)/i,/(chromium|flock|rockmelt|midori|epiphany|silk|skyfire|ovibrowser|bolt|iron|vivaldi|iridium|phantomjs|bowser|quark)\/([\w\.-]+)/i],[NAME,VERSION],[/(trident).+rv[:\s]([\w\.]+).+like\sgecko/i],[[NAME,"IE"],VERSION],[/(edge|edgios|edgea)\/((\d+)?[\w\.]+)/i],[[NAME,"Edge"],VERSION],[/(yabrowser)\/([\w\.]+)/i],[[NAME,"Yandex"],VERSION],[/(puffin)\/([\w\.]+)/i],[[NAME,"Puffin"],VERSION],[/((?:[\s\/])uc?\s?browser|(?:juc.+)ucweb)[\/\s]?([\w\.]+)/i],[[NAME,"UCBrowser"],VERSION],[/(comodo_dragon)\/([\w\.]+)/i],[[NAME,/_/g," "],VERSION],[/(micromessenger)\/([\w\.]+)/i],[[NAME,"WeChat"],VERSION],[/(qqbrowserlite)\/([\w\.]+)/i],[NAME,VERSION],[/(QQ)\/([\d\.]+)/i],[NAME,VERSION],[/m?(qqbrowser)[\/\s]?([\w\.]+)/i],[NAME,VERSION],[/(BIDUBrowser)[\/\s]?([\w\.]+)/i],[NAME,VERSION],[/(2345Explorer)[\/\s]?([\w\.]+)/i],[NAME,VERSION],[/(MetaSr)[\/\s]?([\w\.]+)/i],[NAME],[/(LBBROWSER)/i],[NAME],[/xiaomi\/miuibrowser\/([\w\.]+)/i],[VERSION,[NAME,"MIUI Browser"]],[/;fbav\/([\w\.]+);/i],[VERSION,[NAME,"Facebook"]],[/headlesschrome(?:\/([\w\.]+)|\s)/i],[VERSION,[NAME,"Chrome Headless"]],[/\swv\).+(chrome)\/([\w\.]+)/i],[[NAME,/(.+)/,"$1 WebView"],VERSION],[/((?:oculus|samsung)browser)\/([\w\.]+)/i],[[NAME,/(.+(?:g|us))(.+)/,"$1 $2"],VERSION],[/android.+version\/([\w\.]+)\s+(?:mobile\s?safari|safari)*/i],[VERSION,[NAME,"Android Browser"]],[/(chrome|omniweb|arora|[tizenoka]{5}\s?browser)\/v?([\w\.]+)/i],[NAME,VERSION],[/(dolfin)\/([\w\.]+)/i],[[NAME,"Dolphin"],VERSION],[/((?:android.+)crmo|crios)\/([\w\.]+)/i],[[NAME,"Chrome"],VERSION],[/(coast)\/([\w\.]+)/i],[[NAME,"Opera Coast"],VERSION],[/fxios\/([\w\.-]+)/i],[VERSION,[NAME,"Firefox"]],[/version\/([\w\.]+).+?mobile\/\w+\s(safari)/i],[VERSION,[NAME,"Mobile Safari"]],[/version\/([\w\.]+).+?(mobile\s?safari|safari)/i],[VERSION,NAME],[/webkit.+?(gsa)\/([\w\.]+).+?(mobile\s?safari|safari)(\/[\w\.]+)/i],[[NAME,"GSA"],VERSION],[/webkit.+?(mobile\s?safari|safari)(\/[\w\.]+)/i],[NAME,[VERSION,mapper.str,maps.browser.oldsafari.version]],[/(konqueror)\/([\w\.]+)/i,/(webkit|khtml)\/([\w\.]+)/i],[NAME,VERSION],[/(navigator|netscape)\/([\w\.-]+)/i],[[NAME,"Netscape"],VERSION],[/(swiftfox)/i,/(icedragon|iceweasel|camino|chimera|fennec|maemo\sbrowser|minimo|conkeror)[\/\s]?([\w\.\+]+)/i,/(firefox|seamonkey|k-meleon|icecat|iceape|firebird|phoenix|palemoon|basilisk|waterfox)\/([\w\.-]+)$/i,/(mozilla)\/([\w\.]+).+rv\:.+gecko\/\d+/i,/(polaris|lynx|dillo|icab|doris|amaya|w3m|netsurf|sleipnir)[\/\s]?([\w\.]+)/i,/(links)\s\(([\w\.]+)/i,/(gobrowser)\/?([\w\.]*)/i,/(ice\s?browser)\/v?([\w\._]+)/i,/(mosaic)[\/\s]([\w\.]+)/i],[NAME,VERSION]],cpu:[[/(?:(amd|x(?:(?:86|64)[_-])?|wow|win)64)[;\)]/i],[[ARCHITECTURE,"amd64"]],[/(ia32(?=;))/i],[[ARCHITECTURE,util.lowerize]],[/((?:i[346]|x)86)[;\)]/i],[[ARCHITECTURE,"ia32"]],[/windows\s(ce|mobile);\sppc;/i],[[ARCHITECTURE,"arm"]],[/((?:ppc|powerpc)(?:64)?)(?:\smac|;|\))/i],[[ARCHITECTURE,/ower/,"",util.lowerize]],[/(sun4\w)[;\)]/i],[[ARCHITECTURE,"sparc"]],[/((?:avr32|ia64(?=;))|68k(?=\))|arm(?:64|(?=v\d+;))|(?=atmel\s)avr|(?:irix|mips|sparc)(?:64)?(?=;)|pa-risc)/i],[[ARCHITECTURE,util.lowerize]]],device:[[/\((ipad|playbook);[\w\s\);-]+(rim|apple)/i],[MODEL,VENDOR,[TYPE,TABLET]],[/applecoremedia\/[\w\.]+ \((ipad)/],[MODEL,[VENDOR,"Apple"],[TYPE,TABLET]],[/(apple\s{0,1}tv)/i],[[MODEL,"Apple TV"],[VENDOR,"Apple"]],[/(archos)\s(gamepad2?)/i,/(hp).+(touchpad)/i,/(hp).+(tablet)/i,/(kindle)\/([\w\.]+)/i,/\s(nook)[\w\s]+build\/(\w+)/i,/(dell)\s(strea[kpr\s\d]*[\dko])/i],[VENDOR,MODEL,[TYPE,TABLET]],[/(kf[A-z]+)\sbuild\/.+silk\//i],[MODEL,[VENDOR,"Amazon"],[TYPE,TABLET]],[/(sd|kf)[0349hijorstuw]+\sbuild\/.+silk\//i],[[MODEL,mapper.str,maps.device.amazon.model],[VENDOR,"Amazon"],[TYPE,MOBILE]],[/\((ip[honed|\s\w*]+);.+(apple)/i],[MODEL,VENDOR,[TYPE,MOBILE]],[/\((ip[honed|\s\w*]+);/i],[MODEL,[VENDOR,"Apple"],[TYPE,MOBILE]],[/(blackberry)[\s-]?(\w+)/i,/(blackberry|benq|palm(?=\-)|sonyericsson|acer|asus|dell|meizu|motorola|polytron)[\s_-]?([\w-]*)/i,/(hp)\s([\w\s]+\w)/i,/(asus)-?(\w+)/i],[VENDOR,MODEL,[TYPE,MOBILE]],[/\(bb10;\s(\w+)/i],[MODEL,[VENDOR,"BlackBerry"],[TYPE,MOBILE]],[/android.+(transfo[prime\s]{4,10}\s\w+|eeepc|slider\s\w+|nexus 7|padfone)/i],[MODEL,[VENDOR,"Asus"],[TYPE,TABLET]],[/(sony)\s(tablet\s[ps])\sbuild\//i,/(sony)?(?:sgp.+)\sbuild\//i],[[VENDOR,"Sony"],[MODEL,"Xperia Tablet"],[TYPE,TABLET]],[/android.+\s([c-g]\d{4}|so[-l]\w+)\sbuild\//i],[MODEL,[VENDOR,"Sony"],[TYPE,MOBILE]],[/\s(ouya)\s/i,/(nintendo)\s([wids3u]+)/i],[VENDOR,MODEL,[TYPE,CONSOLE]],[/android.+;\s(shield)\sbuild/i],[MODEL,[VENDOR,"Nvidia"],[TYPE,CONSOLE]],[/(playstation\s[34portablevi]+)/i],[MODEL,[VENDOR,"Sony"],[TYPE,CONSOLE]],[/(sprint\s(\w+))/i],[[VENDOR,mapper.str,maps.device.sprint.vendor],[MODEL,mapper.str,maps.device.sprint.model],[TYPE,MOBILE]],[/(lenovo)\s?(S(?:5000|6000)+(?:[-][\w+]))/i],[VENDOR,MODEL,[TYPE,TABLET]],[/(htc)[;_\s-]+([\w\s]+(?=\))|\w+)*/i,/(zte)-(\w*)/i,/(alcatel|geeksphone|lenovo|nexian|panasonic|(?=;\s)sony)[_\s-]?([\w-]*)/i],[VENDOR,[MODEL,/_/g," "],[TYPE,MOBILE]],[/(nexus\s9)/i],[MODEL,[VENDOR,"HTC"],[TYPE,TABLET]],[/d\/huawei([\w\s-]+)[;\)]/i,/(nexus\s6p)/i],[MODEL,[VENDOR,"Huawei"],[TYPE,MOBILE]],[/(microsoft);\s(lumia[\s\w]+)/i],[VENDOR,MODEL,[TYPE,MOBILE]],[/[\s\(;](xbox(?:\sone)?)[\s\);]/i],[MODEL,[VENDOR,"Microsoft"],[TYPE,CONSOLE]],[/(kin\.[onetw]{3})/i],[[MODEL,/\./g," "],[VENDOR,"Microsoft"],[TYPE,MOBILE]],[/\s(milestone|droid(?:[2-4x]|\s(?:bionic|x2|pro|razr))?:?(\s4g)?)[\w\s]+build\//i,/mot[\s-]?(\w*)/i,/(XT\d{3,4}) build\//i,/(nexus\s6)/i],[MODEL,[VENDOR,"Motorola"],[TYPE,MOBILE]],[/android.+\s(mz60\d|xoom[\s2]{0,2})\sbuild\//i],[MODEL,[VENDOR,"Motorola"],[TYPE,TABLET]],[/hbbtv\/\d+\.\d+\.\d+\s+\([\w\s]*;\s*(\w[^;]*);([^;]*)/i],[[VENDOR,util.trim],[MODEL,util.trim],[TYPE,SMARTTV]],[/hbbtv.+maple;(\d+)/i],[[MODEL,/^/,"SmartTV"],[VENDOR,"Samsung"],[TYPE,SMARTTV]],[/\(dtv[\);].+(aquos)/i],[MODEL,[VENDOR,"Sharp"],[TYPE,SMARTTV]],[/android.+((sch-i[89]0\d|shw-m380s|gt-p\d{4}|gt-n\d+|sgh-t8[56]9|nexus 10))/i,/((SM-T\w+))/i],[[VENDOR,"Samsung"],MODEL,[TYPE,TABLET]],[/smart-tv.+(samsung)/i],[VENDOR,[TYPE,SMARTTV],MODEL],[/((s[cgp]h-\w+|gt-\w+|galaxy\snexus|sm-\w[\w\d]+))/i,/(sam[sung]*)[\s-]*(\w+-?[\w-]*)/i,/sec-((sgh\w+))/i],[[VENDOR,"Samsung"],MODEL,[TYPE,MOBILE]],[/sie-(\w*)/i],[MODEL,[VENDOR,"Siemens"],[TYPE,MOBILE]],[/(maemo|nokia).*(n900|lumia\s\d+)/i,/(nokia)[\s_-]?([\w-]*)/i],[[VENDOR,"Nokia"],MODEL,[TYPE,MOBILE]],[/android\s3\.[\s\w;-]{10}(a\d{3})/i],[MODEL,[VENDOR,"Acer"],[TYPE,TABLET]],[/android.+([vl]k\-?\d{3})\s+build/i],[MODEL,[VENDOR,"LG"],[TYPE,TABLET]],[/android\s3\.[\s\w;-]{10}(lg?)-([06cv9]{3,4})/i],[[VENDOR,"LG"],MODEL,[TYPE,TABLET]],[/(lg) netcast\.tv/i],[VENDOR,MODEL,[TYPE,SMARTTV]],[/(nexus\s[45])/i,/lg[e;\s\/-]+(\w*)/i,/android.+lg(\-?[\d\w]+)\s+build/i],[MODEL,[VENDOR,"LG"],[TYPE,MOBILE]],[/android.+(ideatab[a-z0-9\-\s]+)/i],[MODEL,[VENDOR,"Lenovo"],[TYPE,TABLET]],[/linux;.+((jolla));/i],[VENDOR,MODEL,[TYPE,MOBILE]],[/((pebble))app\/[\d\.]+\s/i],[VENDOR,MODEL,[TYPE,WEARABLE]],[/android.+;\s(oppo)\s?([\w\s]+)\sbuild/i],[VENDOR,MODEL,[TYPE,MOBILE]],[/crkey/i],[[MODEL,"Chromecast"],[VENDOR,"Google"]],[/android.+;\s(glass)\s\d/i],[MODEL,[VENDOR,"Google"],[TYPE,WEARABLE]],[/android.+;\s(pixel c)\s/i],[MODEL,[VENDOR,"Google"],[TYPE,TABLET]],[/android.+;\s(pixel xl|pixel)\s/i],[MODEL,[VENDOR,"Google"],[TYPE,MOBILE]],[/android.+;\s(\w+)\s+build\/hm\1/i,/android.+(hm[\s\-_]*note?[\s_]*(?:\d\w)?)\s+build/i,/android.+(mi[\s\-_]*(?:one|one[\s_]plus|note lte)?[\s_]*(?:\d?\w?)[\s_]*(?:plus)?)\s+build/i,/android.+(redmi[\s\-_]*(?:note)?(?:[\s_]*[\w\s]+))\s+build/i],[[MODEL,/_/g," "],[VENDOR,"Xiaomi"],[TYPE,MOBILE]],[/android.+(mi[\s\-_]*(?:pad)(?:[\s_]*[\w\s]+))\s+build/i],[[MODEL,/_/g," "],[VENDOR,"Xiaomi"],[TYPE,TABLET]],[/android.+;\s(m[1-5]\snote)\sbuild/i],[MODEL,[VENDOR,"Meizu"],[TYPE,TABLET]],[/android.+a000(1)\s+build/i,/android.+oneplus\s(a\d{4})\s+build/i],[MODEL,[VENDOR,"OnePlus"],[TYPE,MOBILE]],[/android.+[;\/]\s*(RCT[\d\w]+)\s+build/i],[MODEL,[VENDOR,"RCA"],[TYPE,TABLET]],[/android.+[;\/\s]+(Venue[\d\s]{2,7})\s+build/i],[MODEL,[VENDOR,"Dell"],[TYPE,TABLET]],[/android.+[;\/]\s*(Q[T|M][\d\w]+)\s+build/i],[MODEL,[VENDOR,"Verizon"],[TYPE,TABLET]],[/android.+[;\/]\s+(Barnes[&\s]+Noble\s+|BN[RT])(V?.*)\s+build/i],[[VENDOR,"Barnes & Noble"],MODEL,[TYPE,TABLET]],[/android.+[;\/]\s+(TM\d{3}.*\b)\s+build/i],[MODEL,[VENDOR,"NuVision"],[TYPE,TABLET]],[/android.+;\s(k88)\sbuild/i],[MODEL,[VENDOR,"ZTE"],[TYPE,TABLET]],[/android.+[;\/]\s*(gen\d{3})\s+build.*49h/i],[MODEL,[VENDOR,"Swiss"],[TYPE,MOBILE]],[/android.+[;\/]\s*(zur\d{3})\s+build/i],[MODEL,[VENDOR,"Swiss"],[TYPE,TABLET]],[/android.+[;\/]\s*((Zeki)?TB.*\b)\s+build/i],[MODEL,[VENDOR,"Zeki"],[TYPE,TABLET]],[/(android).+[;\/]\s+([YR]\d{2})\s+build/i,/android.+[;\/]\s+(Dragon[\-\s]+Touch\s+|DT)(\w{5})\sbuild/i],[[VENDOR,"Dragon Touch"],MODEL,[TYPE,TABLET]],[/android.+[;\/]\s*(NS-?\w{0,9})\sbuild/i],[MODEL,[VENDOR,"Insignia"],[TYPE,TABLET]],[/android.+[;\/]\s*((NX|Next)-?\w{0,9})\s+build/i],[MODEL,[VENDOR,"NextBook"],[TYPE,TABLET]],[/android.+[;\/]\s*(Xtreme\_)?(V(1[045]|2[015]|30|40|60|7[05]|90))\s+build/i],[[VENDOR,"Voice"],MODEL,[TYPE,MOBILE]],[/android.+[;\/]\s*(LVTEL\-)?(V1[12])\s+build/i],[[VENDOR,"LvTel"],MODEL,[TYPE,MOBILE]],[/android.+[;\/]\s*(V(100MD|700NA|7011|917G).*\b)\s+build/i],[MODEL,[VENDOR,"Envizen"],[TYPE,TABLET]],[/android.+[;\/]\s*(Le[\s\-]+Pan)[\s\-]+(\w{1,9})\s+build/i],[VENDOR,MODEL,[TYPE,TABLET]],[/android.+[;\/]\s*(Trio[\s\-]*.*)\s+build/i],[MODEL,[VENDOR,"MachSpeed"],[TYPE,TABLET]],[/android.+[;\/]\s*(Trinity)[\-\s]*(T\d{3})\s+build/i],[VENDOR,MODEL,[TYPE,TABLET]],[/android.+[;\/]\s*TU_(1491)\s+build/i],[MODEL,[VENDOR,"Rotor"],[TYPE,TABLET]],[/android.+(KS(.+))\s+build/i],[MODEL,[VENDOR,"Amazon"],[TYPE,TABLET]],[/android.+(Gigaset)[\s\-]+(Q\w{1,9})\s+build/i],[VENDOR,MODEL,[TYPE,TABLET]],[/\s(tablet|tab)[;\/]/i,/\s(mobile)(?:[;\/]|\ssafari)/i],[[TYPE,util.lowerize],VENDOR,MODEL],[/(android[\w\.\s\-]{0,9});.+build/i],[MODEL,[VENDOR,"Generic"]]],engine:[[/windows.+\sedge\/([\w\.]+)/i],[VERSION,[NAME,"EdgeHTML"]],[/(presto)\/([\w\.]+)/i,/(webkit|trident|netfront|netsurf|amaya|lynx|w3m)\/([\w\.]+)/i,/(khtml|tasman|links)[\/\s]\(?([\w\.]+)/i,/(icab)[\/\s]([23]\.[\d\.]+)/i],[NAME,VERSION],[/rv\:([\w\.]{1,9}).+(gecko)/i],[VERSION,NAME]],os:[[/microsoft\s(windows)\s(vista|xp)/i],[NAME,VERSION],[/(windows)\snt\s6\.2;\s(arm)/i,/(windows\sphone(?:\sos)*)[\s\/]?([\d\.\s\w]*)/i,/(windows\smobile|windows)[\s\/]?([ntce\d\.\s]+\w)/i],[NAME,[VERSION,mapper.str,maps.os.windows.version]],[/(win(?=3|9|n)|win\s9x\s)([nt\d\.]+)/i],[[NAME,"Windows"],[VERSION,mapper.str,maps.os.windows.version]],[/\((bb)(10);/i],[[NAME,"BlackBerry"],VERSION],[/(blackberry)\w*\/?([\w\.]*)/i,/(tizen)[\/\s]([\w\.]+)/i,/(android|webos|palm\sos|qnx|bada|rim\stablet\sos|meego|contiki)[\/\s-]?([\w\.]*)/i,/linux;.+(sailfish);/i],[NAME,VERSION],[/(symbian\s?os|symbos|s60(?=;))[\/\s-]?([\w\.]*)/i],[[NAME,"Symbian"],VERSION],[/\((series40);/i],[NAME],[/mozilla.+\(mobile;.+gecko.+firefox/i],[[NAME,"Firefox OS"],VERSION],[/(nintendo|playstation)\s([wids34portablevu]+)/i,/(mint)[\/\s\(]?(\w*)/i,/(mageia|vectorlinux)[;\s]/i,/(joli|[kxln]?ubuntu|debian|suse|opensuse|gentoo|(?=\s)arch|slackware|fedora|mandriva|centos|pclinuxos|redhat|zenwalk|linpus)[\/\s-]?(?!chrom)([\w\.-]*)/i,/(hurd|linux)\s?([\w\.]*)/i,/(gnu)\s?([\w\.]*)/i],[NAME,VERSION],[/(cros)\s[\w]+\s([\w\.]+\w)/i],[[NAME,"Chromium OS"],VERSION],[/(sunos)\s?([\w\.\d]*)/i],[[NAME,"Solaris"],VERSION],[/\s([frentopc-]{0,4}bsd|dragonfly)\s?([\w\.]*)/i],[NAME,VERSION],[/(haiku)\s(\w+)/i],[NAME,VERSION],[/cfnetwork\/.+darwin/i,/ip[honead]{2,4}(?:.*os\s([\w]+)\slike\smac|;\sopera)/i],[[VERSION,/_/g,"."],[NAME,"iOS"]],[/(mac\sos\sx)\s?([\w\s\.]*)/i,/(macintosh|mac(?=_powerpc)\s)/i],[[NAME,"Mac OS"],[VERSION,/_/g,"."]],[/((?:open)?solaris)[\/\s-]?([\w\.]*)/i,/(aix)\s((\d)(?=\.|\)|\s)[\w\.])*/i,/(plan\s9|minix|beos|os\/2|amigaos|morphos|risc\sos|openvms)/i,/(unix)\s?([\w\.]*)/i],[NAME,VERSION]]};var UAParser=function(uastring,extensions){if(typeof uastring==="object"){extensions=uastring;uastring=undefined}if(!(this instanceof UAParser)){return new UAParser(uastring,extensions).getResult()}var ua=uastring||(window&&window.navigator&&window.navigator.userAgent?window.navigator.userAgent:EMPTY);var rgxmap=extensions?util.extend(regexes,extensions):regexes;this.getBrowser=function(){var browser={name:undefined,version:undefined};mapper.rgx.call(browser,ua,rgxmap.browser);browser.major=util.major(browser.version);return browser};this.getCPU=function(){var cpu={architecture:undefined};mapper.rgx.call(cpu,ua,rgxmap.cpu);return cpu};this.getDevice=function(){var device={vendor:undefined,model:undefined,type:undefined};mapper.rgx.call(device,ua,rgxmap.device);return device};this.getEngine=function(){var engine={name:undefined,version:undefined};mapper.rgx.call(engine,ua,rgxmap.engine);return engine};this.getOS=function(){var os={name:undefined,version:undefined};mapper.rgx.call(os,ua,rgxmap.os);return os};this.getResult=function(){return{ua:this.getUA(),browser:this.getBrowser(),engine:this.getEngine(),os:this.getOS(),device:this.getDevice(),cpu:this.getCPU()}};this.getUA=function(){return ua};this.setUA=function(uastring){ua=uastring;return this};return this};UAParser.VERSION=LIBVERSION;UAParser.BROWSER={NAME:NAME,MAJOR:MAJOR,VERSION:VERSION};UAParser.CPU={ARCHITECTURE:ARCHITECTURE};UAParser.DEVICE={MODEL:MODEL,VENDOR:VENDOR,TYPE:TYPE,CONSOLE:CONSOLE,MOBILE:MOBILE,SMARTTV:SMARTTV,TABLET:TABLET,WEARABLE:WEARABLE,EMBEDDED:EMBEDDED};UAParser.ENGINE={NAME:NAME,VERSION:VERSION};UAParser.OS={NAME:NAME,VERSION:VERSION};if(typeof exports!==UNDEF_TYPE){if(typeof module!==UNDEF_TYPE&&module.exports){exports=module.exports=UAParser}exports.UAParser=UAParser}else{if("function"===FUNC_TYPE&&__webpack_require__(7)){!(__WEBPACK_AMD_DEFINE_RESULT__ = (function(){return UAParser}).call(exports, __webpack_require__, exports, module),
+				__WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__))}else if(window){window.UAParser=UAParser}}var $=window&&(window.jQuery||window.Zepto);if(typeof $!==UNDEF_TYPE){var parser=new UAParser;$.ua=parser.getResult();$.ua.get=function(){return parser.getUA()};$.ua.set=function(uastring){parser.setUA(uastring);var result=parser.getResult();for(var prop in result){$.ua[prop]=result[prop]}}}})(typeof window==="object"?window:this);
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports) {
+
+/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {/* globals __webpack_amd_options__ */
+module.exports = __webpack_amd_options__;
+
+/* WEBPACK VAR INJECTION */}.call(exports, {}))
+
+/***/ }),
+/* 8 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _getUaData = __webpack_require__(0);
+
+var _types = __webpack_require__(2);
+
+var create = _interopRequireWildcard(_types);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+var type = create.checkType(_getUaData.device.type);
+
+exports.default = function () {
+  var isBrowser = type.isBrowser,
+      isMobile = type.isMobile,
+      isTablet = type.isTablet,
+      isSmartTV = type.isSmartTV,
+      isConsole = type.isConsole,
+      isWearable = type.isWearable;
+
+  if (isBrowser) {
+    return create.broPayload(isBrowser, _getUaData.browser, _getUaData.engine, _getUaData.os, _getUaData.ua);
+  }
+
+  if (isSmartTV) {
+    return create.stvPayload(isSmartTV, _getUaData.engine, _getUaData.os, _getUaData.ua);
+  }
+
+  if (isConsole) {
+    return create.consolePayload(isConsole, _getUaData.engine, _getUaData.os, _getUaData.ua);
+  }
+
+  if (isMobile) {
+    return create.mobilePayload(type, _getUaData.device, _getUaData.os, _getUaData.ua);
+  }
+
+  if (isTablet) {
+    return create.mobilePayload(type, _getUaData.device, _getUaData.os, _getUaData.ua);
+  }
+
+  if (isWearable) {
+    return create.wearPayload(isWearable, _getUaData.engine, _getUaData.os, _getUaData.ua);
+  }
+};
+
+/***/ })
+/******/ ]);
+
+/***/ }),
+
+/***/ "./node_modules/react-fade-in/lib/FadeIn.js":
+/*!**************************************************!*\
+  !*** ./node_modules/react-fade-in/lib/FadeIn.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var FadeIn = function (_Component) {
+  _inherits(FadeIn, _Component);
+
+  function FadeIn() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    _classCallCheck(this, FadeIn);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = FadeIn.__proto__ || Object.getPrototypeOf(FadeIn)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
+      maxIsVisible: 0
+    }, _temp), _possibleConstructorReturn(_this, _ret);
+  }
+
+  _createClass(FadeIn, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      var count = _react2.default.Children.count(this.props.children);
+      var i = 0;
+      this.interval = setInterval(function () {
+        i++;
+        if (i > count) clearInterval(_this2.interval);
+
+        _this2.setState({ maxIsVisible: i });
+      }, this.delay);
+    }
+  }, {
+    key: "componentWillUnmount",
+    value: function componentWillUnmount() {
+      clearInterval(this.interval);
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this3 = this;
+
+      var transitionDuration = this.transitionDuration;
+      return _react2.default.createElement(
+        "div",
+        null,
+        _react2.default.Children.map(this.props.children, function (child, i) {
+          return _react2.default.createElement(
+            "div",
+            {
+              style: {
+                transition: "opacity " + transitionDuration + "ms, top " + transitionDuration + "ms",
+                position: "relative",
+                top: _this3.state.maxIsVisible > i ? 0 : 20,
+                opacity: _this3.state.maxIsVisible > i ? 1 : 0
+              }
+            },
+            child
+          );
+        })
+      );
+    }
+  }, {
+    key: "delay",
+    get: function get() {
+      return this.props.delay || 50;
+    }
+  }, {
+    key: "transitionDuration",
+    get: function get() {
+      return this.props.transitionDuration || 400;
+    }
+  }]);
+
+  return FadeIn;
+}(_react.Component);
+
+exports.default = FadeIn;
+
+/***/ }),
+
+/***/ "./node_modules/react-fade-in/lib/index.js":
+/*!*************************************************!*\
+  !*** ./node_modules/react-fade-in/lib/index.js ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _FadeIn = __webpack_require__(/*! ./FadeIn */ "./node_modules/react-fade-in/lib/FadeIn.js");
+
+Object.defineProperty(exports, 'default', {
+  enumerable: true,
+  get: function get() {
+    return _interopRequireDefault(_FadeIn).default;
+  }
+});
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/***/ }),
+
+/***/ "./node_modules/react-on-screen/lib/TrackVisibility.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/react-on-screen/lib/TrackVisibility.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _propTypes = _interopRequireDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
+
+var _lodash = _interopRequireDefault(__webpack_require__(/*! lodash.throttle */ "./node_modules/lodash.throttle/index.js"));
+
+var _shallowequal = _interopRequireDefault(__webpack_require__(/*! shallowequal */ "./node_modules/shallowequal/index.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
+
+var TrackVisibility =
+/*#__PURE__*/
+function (_PureComponent) {
+  _inheritsLoose(TrackVisibility, _PureComponent);
+
+  function TrackVisibility(props) {
+    var _this;
+
+    _this = _PureComponent.call(this, props) || this;
+
+    _this.isVisible = function (_ref, windowWidth, windowHeight) {
+      var top = _ref.top,
+          left = _ref.left,
+          bottom = _ref.bottom,
+          right = _ref.right,
+          width = _ref.width,
+          height = _ref.height;
+      var _this$props = _this.props,
+          offset = _this$props.offset,
+          partialVisibility = _this$props.partialVisibility;
+
+      if (top + right + bottom + left === 0) {
+        return false;
+      }
+
+      var topThreshold = 0 - offset;
+      var leftThreshold = 0 - offset;
+      var widthCheck = windowWidth + offset;
+      var heightCheck = windowHeight + offset;
+      return partialVisibility ? top + height >= topThreshold && left + width >= leftThreshold && bottom - height <= heightCheck && right - width <= widthCheck : top >= topThreshold && left >= leftThreshold && bottom <= heightCheck && right <= widthCheck;
+    };
+
+    _this.isComponentVisible = function () {
+      setTimeout(function () {
+        // isComponentVisible might be called from componentDidMount, before component ref is assigned
+        if (!_this.nodeRef || !_this.nodeRef.getBoundingClientRect) return;
+        var html = document.documentElement;
+        var once = _this.props.once;
+
+        var boundingClientRect = _this.nodeRef.getBoundingClientRect();
+
+        var windowWidth = window.innerWidth || html.clientWidth;
+        var windowHeight = window.innerHeight || html.clientHeight;
+
+        var isVisible = _this.isVisible(boundingClientRect, windowWidth, windowHeight);
+
+        if (isVisible && once) {
+          _this.removeListener();
+        }
+
+        _this.setState({
+          isVisible: isVisible
+        });
+      }, 0);
+    };
+
+    _this.setNodeRef = function (ref) {
+      return _this.nodeRef = ref;
+    };
+
+    _this.ownProps = Object.keys(TrackVisibility.propTypes);
+    _this.state = {
+      isVisible: false
+    };
+    _this.throttleCb = (0, _lodash.default)(_this.isComponentVisible, _this.props.throttleInterval);
+    props.nodeRef && _this.setNodeRef(props.nodeRef);
+    return _this;
+  }
+
+  var _proto = TrackVisibility.prototype;
+
+  _proto.componentDidMount = function componentDidMount() {
+    this.attachListener();
+    this.isComponentVisible();
+  };
+
+  _proto.componentDidUpdate = function componentDidUpdate(prevProps) {
+    if (!(0, _shallowequal.default)(this.getChildProps(this.props), this.getChildProps(prevProps))) {
+      this.isComponentVisible();
+    }
+  };
+
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    this.removeListener();
+  };
+
+  _proto.attachListener = function attachListener() {
+    window.addEventListener('scroll', this.throttleCb);
+    window.addEventListener('resize', this.throttleCb);
+  };
+
+  _proto.removeListener = function removeListener() {
+    window.removeEventListener('scroll', this.throttleCb);
+    window.removeEventListener('resize', this.throttleCb);
+  };
+
+  _proto.getChildProps = function getChildProps(props) {
+    var _this2 = this;
+
+    if (props === void 0) {
+      props = this.props;
+    }
+
+    var childProps = {};
+    Object.keys(props).forEach(function (key) {
+      if (_this2.ownProps.indexOf(key) === -1) {
+        childProps[key] = props[key];
+      }
+    });
+    return childProps;
+  };
+
+  _proto.getChildren = function getChildren() {
+    var _this3 = this;
+
+    if (typeof this.props.children === 'function') {
+      return this.props.children(_extends({}, this.getChildProps(), {
+        isVisible: this.state.isVisible
+      }));
+    }
+
+    return _react.default.Children.map(this.props.children, function (child) {
+      return _react.default.cloneElement(child, _extends({}, _this3.getChildProps(), {
+        isVisible: _this3.state.isVisible
+      }));
+    });
+  };
+
+  _proto.render = function render() {
+    var _this$props2 = this.props,
+        className = _this$props2.className,
+        style = _this$props2.style,
+        nodeRef = _this$props2.nodeRef,
+        Tag = _this$props2.tag;
+
+    var props = _extends({}, className && {
+      className: className
+    }, style && {
+      style: style
+    });
+
+    return _react.default.createElement(Tag, _extends({
+      ref: !nodeRef && this.setNodeRef
+    }, props), this.getChildren());
+  };
+
+  return TrackVisibility;
+}(_react.PureComponent);
+
+exports.default = TrackVisibility;
+TrackVisibility.propTypes = {
+  /**
+   * Define if the visibility need to be tracked once
+   */
+  once: _propTypes.default.bool,
+
+  /**
+   * Tweak the throttle interval
+   * Check https://css-tricks.com/debouncing-throttling-explained-examples/ for more details
+   */
+  throttleInterval: function throttleInterval(props, propName, component) {
+    var currentProp = props[propName];
+
+    if (!Number.isInteger(currentProp) || currentProp < 0) {
+      return new Error("The " + propName + " prop you provided to " + component + " is not a valid integer >= 0.");
+    }
+
+    return null;
+  },
+
+  /**
+   * Pass one or more children to track
+   */
+  children: _propTypes.default.oneOfType([_propTypes.default.func, _propTypes.default.element, _propTypes.default.arrayOf(_propTypes.default.element)]),
+
+  /**
+   * Additional style to apply
+   */
+  style: _propTypes.default.object,
+
+  /**
+   * Additional className to apply
+   */
+  className: _propTypes.default.string,
+
+  /**
+   * Define an offset. Can be useful for lazy loading
+   */
+  offset: _propTypes.default.number,
+
+  /**
+   * Update the visibility state as soon as a part of the tracked component is visible
+   */
+  partialVisibility: _propTypes.default.bool,
+
+  /**
+   * Exposed for testing but allows node other than internal wrapping <div /> to be tracked
+   * for visibility
+   */
+  nodeRef: _propTypes.default.object,
+
+  /**
+   * Define a custom tag
+   */
+  tag: _propTypes.default.string
+};
+TrackVisibility.defaultProps = {
+  once: false,
+  throttleInterval: 150,
+  offset: 0,
+  partialVisibility: false,
+  tag: 'div'
+};
+
+/***/ }),
+
+/***/ "./node_modules/react-on-screen/lib/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/react-on-screen/lib/index.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.__esModule = true;
+exports.default = void 0;
+
+var _TrackVisibility = _interopRequireDefault(__webpack_require__(/*! ./TrackVisibility */ "./node_modules/react-on-screen/lib/TrackVisibility.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/*
+* This file seems a bit useless anyway
+* */
+var _default = _TrackVisibility.default;
+exports.default = _default;
+
+/***/ }),
+
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
   !*** delegated ./node_modules/react/index.js from dll-reference dll_831a3634f66cb1dada0c ***!
@@ -9159,6 +12038,63 @@ if (hadRuntime) {
 
 /***/ }),
 
+/***/ "./node_modules/shallowequal/index.js":
+/*!********************************************!*\
+  !*** ./node_modules/shallowequal/index.js ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+//
+
+module.exports = function shallowEqual(objA, objB, compare, compareContext) {
+  var ret = compare ? compare.call(compareContext, objA, objB) : void 0;
+
+  if (ret !== void 0) {
+    return !!ret;
+  }
+
+  if (objA === objB) {
+    return true;
+  }
+
+  if (typeof objA !== "object" || !objA || typeof objB !== "object" || !objB) {
+    return false;
+  }
+
+  var keysA = Object.keys(objA);
+  var keysB = Object.keys(objB);
+
+  if (keysA.length !== keysB.length) {
+    return false;
+  }
+
+  var bHasOwnProperty = Object.prototype.hasOwnProperty.bind(objB);
+
+  // Test for A's keys different from B.
+  for (var idx = 0; idx < keysA.length; idx++) {
+    var key = keysA[idx];
+
+    if (!bHasOwnProperty(key)) {
+      return false;
+    }
+
+    var valueA = objA[key];
+    var valueB = objB[key];
+
+    ret = compare ? compare.call(compareContext, valueA, valueB, key) : void 0;
+
+    if (ret === false || (ret === void 0 && valueA !== valueB)) {
+      return false;
+    }
+  }
+
+  return true;
+};
+
+
+/***/ }),
+
 /***/ "./node_modules/url/url.js":
 /*!*********************************!*\
   !*** ./node_modules/url/url.js ***!
@@ -9931,6 +12867,80 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/warning/warning.js":
+/*!*****************************************!*\
+  !*** ./node_modules/warning/warning.js ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+
+
+/**
+ * Similar to invariant but only logs a warning if the condition is not met.
+ * This can be used to log issues in development environments in critical
+ * paths. Removing the logging code for production environments will keep the
+ * same logic and follow the same code paths.
+ */
+
+var __DEV__ = "development" !== 'production';
+
+var warning = function() {};
+
+if (__DEV__) {
+  var printWarning = function printWarning(format, args) {
+    var len = arguments.length;
+    args = new Array(len > 2 ? len - 2 : 0);
+    for (var key = 2; key < len; key++) {
+      args[key - 2] = arguments[key];
+    }
+    var argIndex = 0;
+    var message = 'Warning: ' +
+      format.replace(/%s/g, function() {
+        return args[argIndex++];
+      });
+    if (typeof console !== 'undefined') {
+      console.error(message);
+    }
+    try {
+      // --- Welcome to debugging React ---
+      // This error was thrown as a convenience so that you can use this stack
+      // to find the callsite that caused this warning to fire.
+      throw new Error(message);
+    } catch (x) {}
+  }
+
+  warning = function(condition, format, args) {
+    var len = arguments.length;
+    args = new Array(len > 2 ? len - 2 : 0);
+    for (var key = 2; key < len; key++) {
+      args[key - 2] = arguments[key];
+    }
+    if (format === undefined) {
+      throw new Error(
+          '`warning(condition, format, ...args)` requires a warning ' +
+          'message argument'
+      );
+    }
+    if (!condition) {
+      printWarning.apply(null, [format].concat(args));
+    }
+  };
+}
+
+module.exports = warning;
+
+
+/***/ }),
+
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
   !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_831a3634f66cb1dada0c ***!
@@ -10023,7 +13033,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/styles.scss */ "./styles/styles.scss");
 /* harmony import */ var _styles_styles_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_styles_scss__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_HomeHead__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/HomeHead */ "./components/HomeHead.js");
+/* harmony import */ var _components_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Home */ "./components/Home.js");
 var _jsxFileName = "/home/paul/temp/greenscapes-commercial/pages/index.js";
 
 
@@ -10036,7 +13046,7 @@ var Index = function Index() {
       lineNumber: 5
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_HomeHead__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Home__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6
@@ -10068,7 +13078,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 4:
+/***/ 6:
 /*!******************************!*\
   !*** multi ./pages/index.js ***!
   \******************************/
@@ -10093,5 +13103,5 @@ module.exports = dll_831a3634f66cb1dada0c;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]));;
+},[[6,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map
