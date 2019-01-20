@@ -24,7 +24,8 @@
     "react-countup": "^4.0.0",
     "react-device-detect": "^1.6.1",
     "react-fade-in": "^0.1.6",
-    "react-on-screen": "^2.1.1"
+    "react-on-screen": "^2.1.1",
+    "react-dom": "^16.6.3"
   },
   "devDependencies": {
     "bulma": "^0.7.1",
