@@ -406,7 +406,7 @@ var Home = function Home() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column",
+    className: "column is-hidden-mobile",
     style: {
       display: 'flex',
       alignItems: 'center'
@@ -432,7 +432,7 @@ var Home = function Home() {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-1",
+    className: "column is-1 is-hidden-mobile",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 108
@@ -482,29 +482,33 @@ var Level = function Level(_ref) {
   var isVisible = _ref.isVisible;
   var headingStyle = {
     fontSize: '0.75rem',
-    padding: '1.5rem 0'
+    padding: '1rem 0'
+  };
+  var levelStyle = {
+    marginBottom: '3.5rem'
   };
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "level",
     style: {
-      padding: '4rem 1rem'
+      padding: '3rem 1rem'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "level-item has-text-centered",
+    style: levelStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -514,7 +518,7 @@ var Level = function Level(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -522,101 +526,47 @@ var Level = function Level(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 18
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "heading",
     style: headingStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, "Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    start: 1,
-    end: 15,
-    duration: 3,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }), "+"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "level-item has-text-centered",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "Years Experience"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
+  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    start: 1,
+    end: 15,
+    duration: 6,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), "+"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "level-item has-text-centered",
+    style: levelStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    style: {
-      width: '3rem',
-      margin: 'auto'
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/heart.svg",
-    alt: "experienced grounds maintenance",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "heading",
-    style: headingStyle,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25
     },
     __self: this
-  }, "Happy Customers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    className: "title",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    start: 1,
-    end: 250,
-    duration: 3,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }), "+"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "level-item has-text-centered",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
       width: '3rem',
@@ -624,7 +574,7 @@ var Level = function Level(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -632,7 +582,7 @@ var Level = function Level(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 27
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -640,36 +590,37 @@ var Level = function Level(_ref) {
     style: headingStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 29
     },
     __self: this
   }, "Happy Customers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 30
     },
     __self: this
   }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
     start: 1,
     end: 250,
-    duration: 3,
+    duration: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 30
     },
     __self: this
   }), "+"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "level-item has-text-centered",
+    style: levelStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -679,7 +630,7 @@ var Level = function Level(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -687,7 +638,7 @@ var Level = function Level(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 36
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -695,36 +646,37 @@ var Level = function Level(_ref) {
     style: headingStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 38
     },
     __self: this
   }, "G's Baby"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 39
     },
     __self: this
   }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
     start: 1,
     end: 60,
-    duration: 3,
+    duration: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 44
+      lineNumber: 39
     },
     __self: this
   })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "level-item has-text-centered",
+    style: levelStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 42
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 43
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -734,7 +686,7 @@ var Level = function Level(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 44
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -742,7 +694,7 @@ var Level = function Level(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 45
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -750,23 +702,23 @@ var Level = function Level(_ref) {
     style: headingStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 47
     },
     __self: this
   }, "Social Likes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 48
     },
     __self: this
   }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
     start: 1,
     end: 500,
-    duration: 3,
+    duration: 6,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 48
     },
     __self: this
   }), "+"))));
@@ -778,13 +730,13 @@ var VisibleLevel = function VisibleLevel() {
     partialVisibility: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 57
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Level, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 58
     },
     __self: this
   }));

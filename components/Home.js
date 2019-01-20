@@ -100,12 +100,12 @@ const Home = () => {
                 <div style={{ display: 'flex', alignItems: 'center', minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem 0'}}> 
                     <div className='container' style={{minHeight: '60vh'}}>
                         <div className='columns is-centered' style={{padding: '2rem 0.25rem', margin: '0'}}>
-                            <div className='column' style={{display: 'flex', alignItems: 'center'}}>
+                            <div className='column is-hidden-mobile' style={{display: 'flex', alignItems: 'center'}}>
                                 <div className='content' >
                                     <img src="/static/images/gardening.jpg" alt=""/>
                                 </div>                        
                             </div>
-                            <div className='column is-1'></div>
+                            <div className='column is-1 is-hidden-mobile'></div>
                             <div className='column'>
                                 <Services />
                             </div>
