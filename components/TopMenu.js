@@ -1,10 +1,7 @@
-import {isMobile} from 'react-device-detect';
 
 const TopMenu = () => {
     return (
-        <div>  
-            {
-            !isMobile ?                  
+        <div>           
             <div style={{height: '1.5rem', backgroundColor: '#F0F3F3', padding: '1.25rem'}}>
                 <div className='container' style={{height: '100%'}}>
                     <div className='level' style={{height: '100%'}}>
@@ -55,8 +52,7 @@ const TopMenu = () => {
                     </div>
                 </div>
             </div>
-            :
-            <div style={{height: '1.5rem', backgroundColor: '#F0F3F3', padding: '1.25rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
+            {/* <div style={{height: '1.5rem', backgroundColor: '#F0F3F3', padding: '1.25rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center'}}>
                 <a href="" style={{fontSize: '0.75rem'}}>
                     <span style={{marginRight: '0.3rem'}}>
                         <i className='fa fa-phone-square' style={{color: '#339935'}}>
@@ -78,8 +74,7 @@ const TopMenu = () => {
                     </span>
                     Follow
                 </a>
-            </div>
-            }
+            </div> */}            
         </div>
     )
 }

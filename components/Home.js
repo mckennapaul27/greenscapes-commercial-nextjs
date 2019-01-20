@@ -36,11 +36,11 @@ const Home = () => {
                     <div className='container' style={{padding: '2rem 1rem'}}>
                         <div className='has-text-centered'>
                             <FadeIn transitionDuration={1500}>
-                            <h1 className="title is-1" style={{color: '#FCFAFA', padding: '1rem', fontSize: '2.75rem', lineHeight: '3.25rem'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
+                            <h1 className="title is-1" style={{color: '#FCFAFA', fontSize: '2.75rem', lineHeight: '3.25rem'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
                             <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</h2>
                             <div>
                                 <Link href='/contact'>
-                                    <button className={`button is-primary ${!isMobile ? 'is-medium' : ''}`}>
+                                    <button className={`button is-primary`}>
                                         <a style={{color: 'white'}}>
                                             <span>
                                                 <i style={{marginRight: '0.5rem'}} className='fa fa-quote-left'>
@@ -52,7 +52,7 @@ const Home = () => {
                                 </Link>
                                 <span style={{marginLeft: '1rem'}}>
                                 <Link href='/contact'>
-                                    <button className={`button is-primary ${!isMobile ? 'is-medium' : ''} is-outlined`}>
+                                    <button className={`button is-primary is-outlined`}>
                                         <a style={{color: 'white'}}>
                                             <span>
                                                 <i style={{marginRight: '0.5rem'}} className='fa fa-envelope'>

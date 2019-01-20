@@ -101,7 +101,6 @@ var Home = function Home() {
     className: "title is-1",
     style: {
       color: '#FCFAFA',
-      padding: '1rem',
       fontSize: '2.75rem',
       lineHeight: '3.25rem'
     },
@@ -137,7 +136,7 @@ var Home = function Home() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "button is-primary ".concat(!react_device_detect__WEBPACK_IMPORTED_MODULE_3__["isMobile"] ? 'is-medium' : ''),
+    className: "button is-primary",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 43
@@ -185,7 +184,7 @@ var Home = function Home() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
-    className: "button is-primary ".concat(!react_device_detect__WEBPACK_IMPORTED_MODULE_3__["isMobile"] ? 'is-medium' : '', " is-outlined"),
+    className: "button is-primary is-outlined",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 55
@@ -629,7 +628,7 @@ var Level = function Level(_ref) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/coin.svg",
+    src: "/static/images/heart.svg",
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
@@ -644,7 +643,7 @@ var Level = function Level(_ref) {
       lineNumber: 34
     },
     __self: this
-  }, "G's Baby"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "Happy Customers"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
@@ -653,14 +652,14 @@ var Level = function Level(_ref) {
     __self: this
   }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
     start: 1,
-    end: 60,
+    end: 250,
     duration: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), "+"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "level-item has-text-centered",
     __source: {
       fileName: _jsxFileName,
@@ -684,7 +683,7 @@ var Level = function Level(_ref) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/like.svg",
+    src: "/static/images/coin.svg",
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
@@ -699,7 +698,7 @@ var Level = function Level(_ref) {
       lineNumber: 43
     },
     __self: this
-  }, "Social Likes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "G's Baby"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "title",
     __source: {
       fileName: _jsxFileName,
@@ -708,11 +707,66 @@ var Level = function Level(_ref) {
     __self: this
   }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
     start: 1,
-    end: 500,
+    end: 60,
     duration: 3,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
+    },
+    __self: this
+  })))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "level-item has-text-centered",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      width: '3rem',
+      margin: 'auto'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "/static/images/like.svg",
+    alt: "experienced grounds maintenance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "heading",
+    style: headingStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Social Likes"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    className: "title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_countup__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    start: 1,
+    end: 500,
+    duration: 3,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
     },
     __self: this
   }), "+"))));
@@ -721,15 +775,16 @@ var Level = function Level(_ref) {
 var VisibleLevel = function VisibleLevel() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_on_screen__WEBPACK_IMPORTED_MODULE_1___default.a, {
     once: true,
+    partialVisibility: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 62
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Level, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 63
     },
     __self: this
   }));
@@ -757,28 +812,32 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "/home/paul/temp/greenscapes-commercial/components/Services.js";
 
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 var Services = function Services(_ref) {
   var isVisible = _ref.isVisible;
+  console.log(isVisible);
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, isVisible && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_fade_in__WEBPACK_IMPORTED_MODULE_2___default.a, {
     transitionDuration: 1500,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
@@ -787,7 +846,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }, "Services"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
@@ -797,7 +856,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -807,14 +866,14 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -824,7 +883,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -832,7 +891,7 @@ var Services = function Services(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 16
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -844,14 +903,14 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, "Total Grounds Management")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -861,7 +920,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -869,7 +928,7 @@ var Services = function Services(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -881,14 +940,14 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 24
     },
     __self: this
   }, "Landscaping & Planting")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -898,7 +957,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -906,7 +965,7 @@ var Services = function Services(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 28
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -918,7 +977,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 30
     },
     __self: this
   }, "Hedge & Shrub Maintainance"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -928,14 +987,14 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 33
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -945,7 +1004,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 35
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -953,7 +1012,7 @@ var Services = function Services(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 36
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -965,14 +1024,14 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 37
+      lineNumber: 38
     },
     __self: this
   }, "Lawn Care")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 39
+      lineNumber: 40
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -982,7 +1041,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 40
+      lineNumber: 41
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -990,7 +1049,7 @@ var Services = function Services(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 41
+      lineNumber: 42
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -1002,14 +1061,14 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 43
+      lineNumber: 44
     },
     __self: this
   }, "Outdoor Cleaning")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-one-third",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -1019,7 +1078,7 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -1027,7 +1086,7 @@ var Services = function Services(_ref) {
     alt: "experienced grounds maintenance",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
@@ -1039,24 +1098,24 @@ var Services = function Services(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     },
     __self: this
   }, "Vegetation Control"))))));
 };
 
 var VisibleLevel = function VisibleLevel() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_on_screen__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    once: true,
+  var _React$createElement;
+
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_on_screen__WEBPACK_IMPORTED_MODULE_1___default.a, (_React$createElement = {
+    once: true
+  }, _defineProperty(_React$createElement, "once", true), _defineProperty(_React$createElement, "partialVisibility", true), _defineProperty(_React$createElement, "__source", {
+    fileName: _jsxFileName,
+    lineNumber: 62
+  }), _defineProperty(_React$createElement, "__self", this), _React$createElement), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Services, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Services, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
+      lineNumber: 63
     },
     __self: this
   }));

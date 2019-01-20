@@ -29,6 +29,15 @@ const Level = ({isVisible}) => {
             <div className="level-item has-text-centered">
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
+                        <img src="/static/images/heart.svg" alt="experienced grounds maintenance" />
+                    </div>
+                    <p className="heading" style={headingStyle}>Happy Customers</p>
+                    <p className="title">{isVisible && <CountUp start={1} end={250} duration={3} />}+</p>
+                </div>
+            </div>
+            <div className="level-item has-text-centered">
+                <div>
+                    <div style={{width: '3rem', margin: 'auto'}}>
                         <img src="/static/images/coin.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>G's Baby</p>
@@ -50,7 +59,7 @@ const Level = ({isVisible}) => {
 
 const VisibleLevel = () => {
     return (
-        <TrackVisibility once>
+        <TrackVisibility once partialVisibility>
             <Level />
         </TrackVisibility>
     )    

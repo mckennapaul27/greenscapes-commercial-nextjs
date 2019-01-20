@@ -30,22 +30,16 @@ export default class Layout extends Component {
         let l;
         return (
             <div>
-                <Loader loading={this.state.loading} />
-                {
-                    isMobile ?
-                    <div>
-                        <TopMenu />
-                        <NavBarMobile />                        
-                    </div>                    
-                    :
-                    <div>
-                        <TopMenu />
-                        <NavBar />
-                    </div>
-                    
-                }                
-                {this.props.children}
+            <Loader loading={this.state.loading} />
+            <div className='is-hidden-desktop is-hidden-widescreen'>
+                <NavBarMobile />
             </div>
+            <div className='is-hidden-touch'>
+                <TopMenu />
+                <NavBar />
+            </div>   
+                {this.props.children}
+        </div>
         )
     }
 }

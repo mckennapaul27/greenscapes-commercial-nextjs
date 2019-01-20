@@ -2,6 +2,7 @@ import TrackVisibility from 'react-on-screen';
 import FadeIn from 'react-fade-in';
 
 const Services = ({isVisible}) => {
+    console.log(isVisible)
     return (
         <div>
         {isVisible && 
@@ -58,7 +59,7 @@ const Services = ({isVisible}) => {
 
 const VisibleLevel = () => {
     return (
-        <TrackVisibility once>
+        <TrackVisibility once  once partialVisibility>
             <Services />
         </TrackVisibility>
     )    

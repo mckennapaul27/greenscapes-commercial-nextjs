@@ -77,7 +77,7 @@ export default class NavBarMobile extends Component {
                                 <a style={linkStyle} onClick={this.toggleClass}>
                                     <span>
                                         <i style={{marginRight: '0.3rem'}} className='fa fa-home'></i>
-                                    </span>Homes
+                                    </span>Home
                                 </a>
                                 </Link>                                
                             </li>  
