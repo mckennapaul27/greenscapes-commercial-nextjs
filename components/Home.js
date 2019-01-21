@@ -3,6 +3,7 @@ import FadeIn from 'react-fade-in';
 import {isMobile} from 'react-device-detect';
 import Level from './Level';
 import Services from './Services';
+import Testimonial from './Testimonial';
 
 const Home = () => {
     
@@ -11,7 +12,7 @@ const Home = () => {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
-        minHeight: '90vh'
+        minHeight: '85vh'
     }
 
     const servicesStyle = {
@@ -32,15 +33,16 @@ const Home = () => {
         <div>
             {/* Header */}
             <div style={contentStyle}>
-                <div style={{ display: 'flex', alignItems: 'center', minHeight: '90vh', background: 'rgba(16,46,16, 0.8)'}}>
+                <div style={{ display: 'flex', alignItems: 'center', minHeight: '85vh', background: 'rgba(16,46,16, 0.8)'}}>
                     <div className='container' style={{padding: '2rem 1rem'}}>
                         <div className='has-text-centered'>
                             <FadeIn transitionDuration={1500}>
-                            <h1 className="title is-1" style={{color: '#FCFAFA', fontSize: '2.75rem', lineHeight: '3.25rem'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
-                            <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</h2>
+                            <h1 className="title is-3" style={{color: '#FCFAFA'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
+                            <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</h2>
+                            <h3 className='subtitle is-5 is-hidden-mobile' style={{color: '#FCFAFA', padding: '0 0 3rem 0', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</h3>
                             <div>
                                 <Link href='/contact'>
-                                    <button className={`button is-primary`}>
+                                    <button className={`button is-primary is-medium`}>
                                         <a style={{color: 'white'}}>
                                             <span>
                                                 <i style={{marginRight: '0.5rem'}} className='fa fa-quote-left'>
@@ -52,7 +54,7 @@ const Home = () => {
                                 </Link>
                                 <span style={{marginLeft: '1rem'}}>
                                 <Link href='/contact'>
-                                    <button className={`button is-primary is-outlined`}>
+                                    <button className={`button is-primary is-outlined is-medium is-hidden-mobile`}>
                                         <a style={{color: 'white'}}>
                                             <span>
                                                 <i style={{marginRight: '0.5rem'}} className='fa fa-envelope'>
@@ -70,7 +72,7 @@ const Home = () => {
                 </div> 
             </div>
             {/* Middle upper */}
-            <div className='container' style={{minHeight: '100vh'}}>
+            <div className='container' style={{minHeight: '90vh'}}>
                 <div className='columns is-centered' style={{padding: '2rem 1rem', margin: '0'}}>
                     <div className='column' style={{display: 'flex', alignItems: 'center'}}>
                         <div className='content' style={{height: '90%'}}>
@@ -113,6 +115,7 @@ const Home = () => {
                     </div>      
                 </div> 
             </div>
+            <Testimonial />
         </div>
     )
 }

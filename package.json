@@ -26,7 +26,8 @@
     "react-dom": "^16.6.3",
     "react-fade-in": "^0.1.6",
     "react-no-ssr": "^1.1.0",
-    "react-on-screen": "^2.1.1"
+    "react-on-screen": "^2.1.1",
+    "react-responsive-carousel": "^3.1.45"
   },
   "devDependencies": {
     "bulma": "^0.7.1",

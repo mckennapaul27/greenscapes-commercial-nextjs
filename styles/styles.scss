@@ -24,5 +24,7 @@ $primary: $wageningengreen;
 $success: $wildblueyonder;
 // 3. Import the rest of Bulma;
 @import '../node_modules/bulma/bulma';
+@import "../node_modules/react-responsive-carousel/lib/styles/carousel.min.css";
+
 
 

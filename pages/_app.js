@@ -1,6 +1,7 @@
 import React from 'react';
 import App, { Container } from 'next/app';
 import Layout from '../components/Layout';
+import Footer from '../components/Footer';
 import NProgress from 'nprogress'
 import Router from 'next/router'
 
@@ -27,6 +28,7 @@ export default class MyApp extends App {
       <Container>        
         <Layout />
         <Component {...pageProps} />
+        <Footer />
       </Container>
     );
   }

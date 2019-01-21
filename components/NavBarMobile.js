@@ -4,13 +4,9 @@ import Link from 'next/link';
 export default class NavBarMobile extends Component {
 
     state = {
-        active: true,
-        skrill: false,
-        neteller: false,
-        ecopayz: false,
+        active: true,       
         menu: false,
         icon: true,
-        loggedIn: ''
     }
 
     
@@ -33,14 +29,14 @@ export default class NavBarMobile extends Component {
         const linkStyle = {
             backgroundColor: '#1C541D', 
             color: 'white',
-            textAlign: 'center'
+            textAlign: 'left'
         }       
 
         const services = ['Grounds mManagement', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];        
 
         return (
             <div 
-                className='navbar'
+                className='navbar'               
                 >
                 <div 
                     className='navbar-brand' 
@@ -65,10 +61,49 @@ export default class NavBarMobile extends Component {
                     </div>          
                 </div> 
                 <div 
-                    className={this.state.active ? 'navbar-menu': 'navbar-menu is-active'}>
+                    className={this.state.active ? 'navbar-menu': 'navbar-menu is-active'} style={{padding: 0}}>
                     <div className='container' style={{padding: '1rem', backgroundColor: '#1C541D'}}>
+                        <div style={{padding: '1rem 0'}}>
+                            <Link href='/contact'>
+                                <button className={`button is-primary`}>
+                                    <a style={{color: 'white'}}>
+                                        <span>
+                                            <i style={{marginRight: '0.5rem'}} className='fa fa-phone'>
+                                            </i>
+                                        </span>
+                                        Call
+                                    </a>
+                                </button>
+                            </Link>
+                            <span style={{marginLeft: '1rem'}}>
+                            <Link href='/contact'>
+                                <button className={`button is-primary is-outlined`}>
+                                    <a style={{color: 'white'}}>
+                                        <span>
+                                            <i style={{marginRight: '0.5rem'}} className='fa fa-envelope'>
+                                            </i>
+                                        </span>
+                                        Email
+                                    </a>
+                                </button>
+                            </Link>
+                            </span>
+                            <span style={{marginLeft: '1rem'}}>
+                            <Link href='/contact'>
+                                <button className={`button`} style={{backgroundColor: '#3b5998'}}>
+                                    <a style={{color: 'white'}}>
+                                        <span>
+                                            <i style={{marginRight: '0.5rem'}} className='fa fa-facebook'>
+                                            </i>
+                                        </span>
+                                        Follow
+                                    </a>
+                                </button>
+                            </Link>
+                            </span>
+                        </div>
                         <aside className="menu">
-                        <p className="menu-label" style={{color: 'white', textAlign: 'center'}}>
+                        <p className="menu-label" style={{color: 'white', textAlign: 'left'}}>
                             General
                         </p>
                         <ul className="menu-list"> 
@@ -116,7 +151,7 @@ export default class NavBarMobile extends Component {
                             </li> 
                         </ul> 
 
-                        <p className="menu-label" style={{color: 'white', textAlign: 'center'}}>
+                        <p className="menu-label" style={{color: 'white', textAlign: 'left'}}>
                             Get in touch
                         </p>
                         <ul className="menu-list">                            
