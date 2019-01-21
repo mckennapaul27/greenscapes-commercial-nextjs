@@ -116,12 +116,13 @@ var _jsxFileName = "/home/paul/temp/greenscapes-commercial/components/Footer.js"
 
 
 var linkStyle = {
-  color: '#CCDBDC',
+  color: 'white',
   textDecoration: 'none'
 };
 var titleStyle = {
   color: 'white',
-  marginBottom: '1rem'
+  marginBottom: '1rem',
+  fontWeight: 'bold'
 };
 var contentStyle = {
   fontSize: '1rem'
@@ -138,21 +139,21 @@ var Footer = function Footer() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 20
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 21
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -160,93 +161,74 @@ var Footer = function Footer() {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h4", {
     style: titleStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "About greenscapes-commercial.com"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    style: contentStyle,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
-  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, "ABOUT GREENSCAPES COMMERCIAL"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: contentStyle,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
     },
     __self: this
-  }), " ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+  }, "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
-  }), "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    style: contentStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, "Fusce vel dolor eget tellus volutpat luctus quis sed ipsum. Donec fermentum fermentum fermentum. Sed commodo lacinia neque ac imperdiet. Curabitur non semper lectus.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "column is-6 is-mobile-12 has-text-centered",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "columns is-mobile",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-5 has-text-centered",
-    style: linkStyle,
+    className: "columns is-mobile",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-8 has-text-centered",
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
     style: titleStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, "eWallets"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    style: contentStyle,
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 31
     },
     __self: this
+  }, "LOCATION"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    style: contentStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/skrill/cashback",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }, "Skrill cashback"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/neteller/cashback",
+    href: "/",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 33
@@ -255,160 +237,47 @@ var Footer = function Footer() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, "Neteller cashback"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/ecopayz/cashback",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 34
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "Ecopayz cashback"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/skrill/review",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 35
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35
-    },
-    __self: this
-  }, "Skrill review"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/neteller/review",
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 36
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-map-marker",
+    style: {
+      color: 'white',
+      marginRight: '0.5rem'
     },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, "Neteller review"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/ecopayz/review",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 37
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, "Ecopayz review"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-3 has-text-centered",
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 40
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
-    style: titleStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41
-    },
-    __self: this
-  }, "Connect"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    style: contentStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/contact",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, "Contact us"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "https://twitter.com/eWalletBooster",
+  }, "139 Seal Rd, Bramhall, Stockport SK7 2LL")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    className: "is-hidden-mobile",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 44
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    href: "https://twitter.com/eWalletBooster",
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "Twitter"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
@@ -418,156 +287,279 @@ var Footer = function Footer() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "Help"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 46
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-    style: linkStyle,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 48
     },
     __self: this
-  }, "Blog"))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "column is-4 has-text-centered",
-    style: linkStyle,
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-phone",
+    style: {
+      color: 'white',
+      marginRight: '0.5rem'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 49
     },
     __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "07772 656034")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 56
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-phone",
+    style: {
+      color: 'white',
+      marginRight: '0.5rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, "0161 217 2125")))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", {
+    className: "is-hidden-mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+    className: "fa fa-envelope",
+    style: {
+      color: 'white',
+      marginRight: '0.5rem'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, "info@greenscapes-commercial.com")))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "column is-4 has-text-centered",
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 81
+    },
+    __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h6", {
     style: titleStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 82
     },
     __self: this
-  }, "Useful links"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "is-hidden-mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 82
+    },
+    __self: this
+  }, "QUICK "), "LINKS"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     style: contentStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 83
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 84
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 52
+      lineNumber: 84
     },
     __self: this
   }, "Home"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/register",
+    href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 85
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 85
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 53
+      lineNumber: 85
     },
     __self: this
-  }, "Register"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/terms-conditions",
+  }, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 86
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 86
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
+      lineNumber: 86
     },
     __self: this
-  }, "T&C's"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/privacy-policy",
+  }, "Services"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 87
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 87
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 55
+      lineNumber: 87
     },
     __self: this
-  }, "Privacy policy"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    href: "/sitemap",
+  }, "Blog"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 88
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     style: linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 88
+    },
+    __self: this
+  }, "Contact"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
+    href: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    style: linkStyle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
     },
     __self: this
   }, "Sitemap"))))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -577,36 +569,31 @@ var Footer = function Footer() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63
+      lineNumber: 96
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-    style: linkStyle,
+    style: {
+      fontSize: '0.75rem',
+      color: 'white'
+    },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 97
     },
     __self: this
   }, "Copyright ", moment__WEBPACK_IMPORTED_MODULE_1___default()().format('YYYY'), " | ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/images/logo_dark.svg",
-    alt: "eWalletBooster logo",
     style: {
-      maxWidth: '5rem',
-      marginBottom: '-0.5rem'
+      fontSize: '0.75rem',
+      color: 'white'
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 64
+      lineNumber: 97
     },
     __self: this
-  })), " | All Rights Reserved.")));
+  }, "www.greenscapes-commercial.com"), " | All Rights Reserved.")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);

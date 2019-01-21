@@ -438,7 +438,7 @@ var Home = function Home() {
       lineNumber: 91
     },
     __self: this
-  }, "We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings. We offer garden maintenance contracts to ensure that your business looks at its best for your visitors and Clients First Impressions count!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+  }, "We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 92
@@ -493,7 +493,7 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     style: {
-      minHeight: '60vh'
+      minHeight: '75vh'
     },
     __source: {
       fileName: _jsxFileName,
@@ -602,7 +602,8 @@ var Level = function Level(_ref) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "level",
     style: {
-      padding: '3rem 1rem'
+      padding: '3rem 1rem',
+      minHeight: '50vh'
     },
     __source: {
       fileName: _jsxFileName,
@@ -898,7 +899,7 @@ var Services = function Services(_ref) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_fade_in__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    transitionDuration: 1500,
+    transitionDuration: 1000,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
@@ -1243,7 +1244,8 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         style: {
-          marginTop: '3rem'
+          marginTop: '3rem',
+          minHeight: '80vh'
         },
         __source: {
           fileName: _jsxFileName,
@@ -1333,7 +1335,8 @@ var Testimonial = function Testimonial(props) {
     class: "notification is-white",
     style: {
       height: '100%',
-      marginBottom: '4rem'
+      marginBottom: '4rem',
+      padding: '2rem'
     },
     __source: {
       fileName: _jsxFileName,

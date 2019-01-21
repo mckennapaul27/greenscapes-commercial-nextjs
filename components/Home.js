@@ -88,7 +88,7 @@ const Home = () => {
                             <h2>Domestic Garden Design and Maintenance</h2>
                             <p>We specialize in garden design, landscaped gardens, Hedge trimming, lawn maintenance, turfing and planting. We take your garden design ideas and turn them into reality from start to finish leaving you with a specific tailored garden designed and built to your specific requirements. We also offer garden maintenance services so you get time to relax and enjoy your free time.</p>
                             <h2>Commercial Ground Maintenance</h2>
-                            <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings. We offer garden maintenance contracts to ensure that your business looks at its best for your visitors and Clients First Impressions count!</p>
+                            <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
                             <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
                         </div>
                     </div>
@@ -100,7 +100,7 @@ const Home = () => {
             <Level /> 
             <div style={servicesStyle}>
                 <div style={{ display: 'flex', alignItems: 'center', minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem 0'}}> 
-                    <div className='container' style={{minHeight: '60vh'}}>
+                    <div className='container' style={{minHeight: '75vh'}}>
                         <div className='columns is-centered' style={{padding: '2rem 0.25rem', margin: '0'}}>
                             <div className='column is-hidden-mobile' style={{display: 'flex', alignItems: 'center'}}>
                                 <div className='content' >

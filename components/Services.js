@@ -7,7 +7,7 @@ const Services = ({isVisible}) => {
         <div>
         {isVisible && 
         <div className='content'>
-            <FadeIn transitionDuration={1500}>
+            <FadeIn transitionDuration={1000}>
             <h2 style={{color: 'white'}}>Services</h2>  
             <hr style={{border: '3px solid #339935', width: '5rem'}} />  
             <div className="columns is-mobile" style={{padding: '1.5rem 0'}}>

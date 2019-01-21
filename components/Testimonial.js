@@ -4,7 +4,7 @@ import {Component} from 'react';
 export default class Carousel extends Component {
     render() {
         return (
-            <div style={{marginTop: '3rem'}}>
+            <div style={{marginTop: '3rem', minHeight: '80vh'}}>
                 <div style={{display: 'flex', justifyContent: 'center', marginTop: '6rem'}}>
                     <div>
                         <h3 className='title is-3'>Testimonials</h3>
@@ -23,7 +23,7 @@ export default class Carousel extends Component {
 
 const Testimonial = (props) => {
     return (
-        <div class="notification is-white" style={{height: '100%', marginBottom: '4rem'}}>
+        <div class="notification is-white" style={{height: '100%', marginBottom: '4rem', padding: '2rem'}}>
             <div className='content'>
                 <div className='columns'>
                     <div className='column'>                        

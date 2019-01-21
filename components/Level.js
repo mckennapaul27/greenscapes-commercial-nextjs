@@ -11,7 +11,7 @@ const Level = ({isVisible}) => {
         marginBottom: '3.5rem'
     }
     return (
-        <div className="level" style={{padding: '3rem 1rem'}} >
+        <div className="level" style={{padding: '3rem 1rem', minHeight: '50vh'}} >
             <div className="level-item has-text-centered" style={levelStyle}>
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
