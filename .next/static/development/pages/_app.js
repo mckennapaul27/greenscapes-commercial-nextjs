@@ -798,8 +798,8 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/static/images/logo.png",
-        alt: "eWalletBooster",
+        src: "/static/images/logos.png",
+        alt: "greenscapes logo",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 33
@@ -1239,8 +1239,8 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "/static/images/logo.png",
-        alt: "eWalletBooster logo",
+        src: "/static/images/logos.png",
+        alt: "greenscapes logo",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47

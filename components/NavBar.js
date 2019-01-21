@@ -30,7 +30,7 @@ export default withRouter(class NavBar extends Component {
                         style={{display: 'flex', alignItems: 'bottom', padding: '0.5rem'}}
                         >                    
                         <a href="/" style={{maxWidth: '160px'}}>
-                            <img src="/static/images/logo.png" alt="eWalletBooster" />
+                            <img src="/static/images/logos.png" alt="greenscapes logo" />
                         </a>                    
                     </div>
                     <div className='navbar-menu'> 
