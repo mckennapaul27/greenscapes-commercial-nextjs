@@ -106,7 +106,7 @@ var Home = function Home() {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_fade_in__WEBPACK_IMPORTED_MODULE_2___default.a, {
-    transitionDuration: 2000,
+    transitionDuration: 2500,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 52
@@ -122,7 +122,14 @@ var Home = function Home() {
       lineNumber: 53
     },
     __self: this
-  }, "Established And Trustworthy Commercial Garden & Grounds Maintenance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    className: "is-hidden-mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, "Established And Trustworthy"), " Commercial Garden & Grounds Maintenance"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", {
     className: "subtitle is-4",
     style: {
       color: '#FCFAFA',
@@ -135,7 +142,7 @@ var Home = function Home() {
       lineNumber: 54
     },
     __self: this
-  }, "Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+  }, "Welcome to Greenscapes Commercial. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
     className: "subtitle is-5 is-hidden-mobile",
     style: {
       color: '#FCFAFA',
@@ -1235,7 +1242,8 @@ function (_Component) {
         useKeyboardArrows: true,
         showStatus: false,
         emulateTouch: true,
-        autoplay: true,
+        autoPlay: true,
+        infiniteLoop: true,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 15

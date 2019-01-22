@@ -72,7 +72,7 @@ export default class NavBarMobile extends Component {
                                             <i style={{marginRight: '0.5rem'}} className='fa fa-phone'>
                                             </i>
                                         </span>
-                                        Call Us
+                                        Call
                                     </a>
                                 </button>
                             </Link>

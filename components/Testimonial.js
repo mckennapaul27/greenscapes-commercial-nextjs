@@ -12,7 +12,7 @@ export default class Carousel extends Component {
                     </div>
                 </div>
                                     
-                <CarouselSlider showThumbs={false} useKeyboardArrows={true} showStatus={false} emulateTouch={true} autoplay={true}>
+                <CarouselSlider showThumbs={false} useKeyboardArrows={true} showStatus={false} emulateTouch={true} autoPlay={true} infiniteLoop={true}>
                     <Testimonial messageOne={`Simon and his team have been looking after our garden for about 3 years now and have done a fantastic job. They offer a professional and reliable service with great results. Highly recommend them.`} messageTwo={`I'm a pensioner and Simon has been ripping me off for approx 4 years now. I pay him £20 per week and I never see him. I only ever see this young scrote from Brinny who clears some leaves and is gone within 10 minutes.`} authorOne={'Zoe'} authorTwo={'Lynne McKenna'} locationOne={'Bramhall'} locationTwo={'Poynton'}/>
                     <Testimonial messageOne={`Very impressed by the professionalism and standard of work at a very reasonable and competitive price. Would be very happy to recommend Simon and his team to anyone.`} messageTwo={`Simon and his team have just finished completely transforming my very old looking and neglected garden. They cleared everything out and started from scratch. I can't believe the transformation, I have to keep reminding myself that it's my garden! `} authorOne={'Zoe'} authorTwo={'Shaun Serridge'} locationOne={'Cheadle'} locationTwo={'Stockport'} />
                 </CarouselSlider>

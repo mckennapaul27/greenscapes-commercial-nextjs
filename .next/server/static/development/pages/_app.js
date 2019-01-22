@@ -567,7 +567,7 @@ var Footer = function Footer() {
   }, "Sitemap")))))))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("hr", {
     style: {
       height: '0.06rem',
-      background: 'F0F3F3'
+      background: 'gray'
     },
     __source: {
       fileName: _jsxFileName,
@@ -1458,7 +1458,7 @@ function (_Component) {
           lineNumber: 72
         },
         __self: this
-      })), "Call Us"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      })), "Call"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           marginLeft: '1rem'
         },

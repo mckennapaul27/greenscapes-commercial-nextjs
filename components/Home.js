@@ -49,9 +49,9 @@ const Home = () => {
                 <div style={{ display: 'flex', alignItems: 'center', minHeight: '80vh'}}>
                     <div className='container' style={{padding: '1rem'}}>
                         <div className='has-text-centered' style={{background: 'rgba(16,46,16, 0.7)', padding: '3rem 0'}}>
-                            <FadeIn transitionDuration={2000}>
-                            <h1 className="title is-3" style={{color: '#FCFAFA'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
-                            <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</h2>
+                            <FadeIn transitionDuration={2500}>
+                            <h1 className="title is-3" style={{color: '#FCFAFA'}}><span className='is-hidden-mobile'>Established And Trustworthy</span> Commercial Garden &amp; Grounds Maintenance</h1>
+                            <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Commercial. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</h2>
                             <h3 className='subtitle is-5 is-hidden-mobile' style={{color: '#FCFAFA', padding: '0 0 3rem 0', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</h3>
                             <div>
                                 <Link href='/contact'>

@@ -93,7 +93,7 @@ const Footer = () => (
                     </div>    
                 </div>                      
             </div>
-            <hr style={{height: '0.06rem', background: 'F0F3F3'}} />
+            <hr style={{height: '0.06rem', background: 'gray'}} />
         </div>   
         <div className='container has-text-centered' style={{marginTop: '0.5rem'}}>
             <p style={{fontSize: '0.75rem', color: 'white'}}>Copyright {moment().format('YYYY')} | <a href="/" style={{fontSize: '0.75rem', color: 'white'}}>www.greenscapes-commercial.com</a> | All Rights Reserved.</p>
