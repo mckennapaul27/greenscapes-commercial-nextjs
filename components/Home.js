@@ -35,8 +35,8 @@ const Home = () => {
             <div style={contentStyle}>
                 <div style={{ display: 'flex', alignItems: 'center', minHeight: '80vh'}}>
                     <div className='container' style={{padding: '1rem'}}>
-                        <div className='has-text-centered' style={{background: 'rgba(16,46,16, 0.9)', padding: '3rem 0'}}>
-                            <FadeIn transitionDuration={1500}>
+                        <div className='has-text-centered' style={{background: 'rgba(16,46,16, 0.9)', padding: '5rem 2rem'}}>
+                            <FadeIn transitionDuration={2000}>
                             <h1 className="title is-3" style={{color: '#FCFAFA'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
                             <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</h2>
                             <h3 className='subtitle is-5 is-hidden-mobile' style={{color: '#FCFAFA', padding: '0 0 3rem 0', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</h3>
@@ -74,8 +74,8 @@ const Home = () => {
             {/* Middle upper */}
             <div className='container' style={{minHeight: '90vh'}}>
                 <div className='columns is-centered' style={{padding: '2rem 1rem', margin: '0'}}>
-                    <div className='column' style={{display: 'flex', alignItems: 'center'}}>
-                        <div className='content' style={{height: '90%'}}>
+                    <div className='column' style={{display: 'flex', alignItems: 'center', background: 'rgba(16,46,16, 0.05)'}}> 
+                        <div className='content'>
                             <img src="/static/images/garden3.jpg" alt=""/>
                         </div>                        
                     </div>
@@ -90,6 +90,7 @@ const Home = () => {
                             <h2>Commercial Ground Maintenance</h2>
                             <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
                             <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
                         </div>
                     </div>
                 </div>
