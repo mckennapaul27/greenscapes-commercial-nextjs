@@ -35,7 +35,7 @@ var Home = function Home() {
     backgroundRepeat: 'no-repeat',
     backgroundPosition: 'center center',
     backgroundSize: 'cover',
-    minHeight: '85vh'
+    minHeight: '80vh'
   };
   var servicesStyle = {
     backgroundImage: "url('/static/images/mower.jpg')",
@@ -67,8 +67,7 @@ var Home = function Home() {
     style: {
       display: 'flex',
       alignItems: 'center',
-      minHeight: '85vh',
-      background: 'rgba(16,46,16, 0.8)'
+      minHeight: '80vh'
     },
     __source: {
       fileName: _jsxFileName,
@@ -78,7 +77,7 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "container",
     style: {
-      padding: '2rem 1rem'
+      padding: '1rem'
     },
     __source: {
       fileName: _jsxFileName,
@@ -87,6 +86,10 @@ var Home = function Home() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "has-text-centered",
+    style: {
+      background: 'rgba(16,46,16, 0.9)',
+      padding: '3rem 0'
+    },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
@@ -1239,7 +1242,7 @@ function (_Component) {
 
 var Testimonial = function Testimonial(props) {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "notification is-white",
+    className: "notification is-white",
     style: {
       height: '100%',
       marginBottom: '4rem',
@@ -1272,7 +1275,7 @@ var Testimonial = function Testimonial(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "notification is-light",
+    className: "notification is-light",
     style: {
       height: '100%'
     },
@@ -1301,7 +1304,7 @@ var Testimonial = function Testimonial(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "fa fa-quote-left",
+    className: "fa fa-quote-left",
     style: {
       fontSize: '3rem',
       color: '#339935'
@@ -1358,7 +1361,7 @@ var Testimonial = function Testimonial(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    class: "notification is-light",
+    className: "notification is-light",
     style: {
       height: '100%'
     },
@@ -1387,7 +1390,7 @@ var Testimonial = function Testimonial(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
-    class: "fa fa-quote-left",
+    className: "fa fa-quote-left",
     style: {
       fontSize: '3rem',
       color: '#339935'

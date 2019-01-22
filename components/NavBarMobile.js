@@ -29,7 +29,8 @@ export default class NavBarMobile extends Component {
         const linkStyle = {
             backgroundColor: '#1C541D', 
             color: 'white',
-            textAlign: 'left'
+            textAlign: 'left',
+            padding: '0.65rem 0'
         }       
 
         const services = ['Grounds mManagement', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];        

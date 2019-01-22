@@ -23,20 +23,20 @@ export default class Carousel extends Component {
 
 const Testimonial = (props) => {
     return (
-        <div class="notification is-white" style={{height: '100%', marginBottom: '4rem', padding: '2rem'}}>
+        <div className="notification is-white" style={{height: '100%', marginBottom: '4rem', padding: '2rem'}}>
             <div className='content'>
                 <div className='columns'>
                     <div className='column'>                        
-                        <div class="notification is-light" style={{height: '100%'}}>
-                            <p style={{textAlign: 'center', padding: '1.5rem 1.5rem 0 1.5rem'}}><span style={{paddingRight: '1rem'}}><i class="fa fa-quote-left" style={{fontSize: '3rem', color: '#339935'}}></i></span>{props.messageOne}</p>
+                        <div className="notification is-light" style={{height: '100%'}}>
+                            <p style={{textAlign: 'center', padding: '1.5rem 1.5rem 0 1.5rem'}}><span style={{paddingRight: '1rem'}}><i className="fa fa-quote-left" style={{fontSize: '3rem', color: '#339935'}}></i></span>{props.messageOne}</p>
                             <p style={{marginBottom: '0.25rem'}}><strong>{props.authorOne}</strong></p>
                             <p style={{marginBottom: '0.25rem'}}>{props.locationOne}</p>
                             <p style={{color: '#339935'}}><strong>Customer</strong></p>
                         </div>
                     </div>
                     <div className='column'>
-                        <div class="notification is-light" style={{height: '100%'}}>
-                            <p style={{textAlign: 'center', padding: '1.5rem 1.5rem 0 1.5rem'}}><span style={{paddingRight: '1rem'}}><i class="fa fa-quote-left" style={{fontSize: '3rem', color: '#339935'}}></i></span>{props.messageTwo}</p>
+                        <div className="notification is-light" style={{height: '100%'}}>
+                            <p style={{textAlign: 'center', padding: '1.5rem 1.5rem 0 1.5rem'}}><span style={{paddingRight: '1rem'}}><i className="fa fa-quote-left" style={{fontSize: '3rem', color: '#339935'}}></i></span>{props.messageTwo}</p>
                             <p style={{marginBottom: '0.25rem'}}><strong>{props.authorTwo}</strong></p>
                             <p style={{marginBottom: '0.25rem'}}>{props.locationTwo}</p>
                             <p style={{color: '#339935'}}><strong>Customer</strong></p>

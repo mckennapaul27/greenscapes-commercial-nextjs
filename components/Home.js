@@ -12,7 +12,7 @@ const Home = () => {
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
-        minHeight: '85vh'
+        minHeight: '80vh'
     }
 
     const servicesStyle = {
@@ -33,9 +33,9 @@ const Home = () => {
         <div>
             {/* Header */}
             <div style={contentStyle}>
-                <div style={{ display: 'flex', alignItems: 'center', minHeight: '85vh', background: 'rgba(16,46,16, 0.8)'}}>
-                    <div className='container' style={{padding: '2rem 1rem'}}>
-                        <div className='has-text-centered'>
+                <div style={{ display: 'flex', alignItems: 'center', minHeight: '80vh'}}>
+                    <div className='container' style={{padding: '1rem'}}>
+                        <div className='has-text-centered' style={{background: 'rgba(16,46,16, 0.9)', padding: '3rem 0'}}>
                             <FadeIn transitionDuration={1500}>
                             <h1 className="title is-3" style={{color: '#FCFAFA'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
                             <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</h2>
