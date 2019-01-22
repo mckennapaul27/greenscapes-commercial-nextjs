@@ -13,24 +13,6 @@
     "/_error": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/service": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/css/static/development/pages/index.js.chunk.css",
-      "static/runtime/main.js"
-    ],
-    "/": [
-      "static/runtime/webpack.js",
-      "static/css/styles.chunk.css",
-      "static/chunks/styles.js",
-      "static/css/static/development/pages/index.js.chunk.css",
-      "static/runtime/main.js"
     ]
   }
 }
