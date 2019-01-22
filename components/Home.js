@@ -115,7 +115,7 @@ const Home = () => {
             <div style={servicesStyle}>
                 <div style={{ display: 'flex', alignItems: 'center', minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem 0'}}> 
                     <div className='container' style={{minHeight: '75vh', display: 'flex', alignItems: 'center'}}>
-                        <div className='columns is-centered' style={{padding: '2rem 0.25rem'}}>
+                        <div className='columns is-centered' style={{padding: '2rem 0.25rem', margin: '0'}}>
                             <div className='column is-hidden-mobile' style={{display: 'flex', alignItems: 'center'}}>
                                 <div className='content' >
                                     <ImageGallery items={images} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} />

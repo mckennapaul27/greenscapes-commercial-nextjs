@@ -522,7 +522,8 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "columns is-centered",
     style: {
-      padding: '2rem 0.25rem'
+      padding: '2rem 0.25rem',
+      margin: '0'
     },
     __source: {
       fileName: _jsxFileName,
