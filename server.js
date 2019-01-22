@@ -23,10 +23,10 @@ app.prepare()
       return handle(req, res);
     })
 
-    server.listen(3000, (err) => {
+    server.listen(port, (err) => {
       if (err) throw err;
-      console.log(`Listening on port ${port}...`)
-    })  
+      console.log(`Listening on port ${port}...`);
+    });
 })
 .catch((ex) => {
     console.log(ex.stack);
