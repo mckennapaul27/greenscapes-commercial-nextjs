@@ -25,9 +25,11 @@
     "react-device-detect": "^1.6.1",
     "react-dom": "^16.6.3",
     "react-fade-in": "^0.1.6",
+    "react-image-gallery": "^0.8.12",
     "react-no-ssr": "^1.1.0",
     "react-on-screen": "^2.1.1",
-    "react-responsive-carousel": "^3.1.45"
+    "react-responsive-carousel": "^3.1.45",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "bulma": "^0.7.1",

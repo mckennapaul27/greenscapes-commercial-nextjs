@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import FadeIn from 'react-fade-in';
-import {isMobile} from 'react-device-detect';
 import Level from './Level';
 import Services from './Services';
 import Testimonial from './Testimonial';
+import { Carousel as CarouselSlider } from 'react-responsive-carousel';
+import ImageGallery from 'react-image-gallery';
 
 const Home = () => {
     
@@ -29,13 +30,25 @@ const Home = () => {
         backgroundSize: 'cover'
     }
 
+    const images = [
+        {
+            original: '/static/images/gardening.jpg'
+        },
+        {
+            original: '/static/images/gardening.jpg'
+        },        
+        {
+            original: '/static/images/gardening.jpg'
+        }
+    ]
+
     return (
         <div>
             {/* Header */}
             <div style={contentStyle}>
                 <div style={{ display: 'flex', alignItems: 'center', minHeight: '80vh'}}>
                     <div className='container' style={{padding: '1rem'}}>
-                        <div className='has-text-centered' style={{background: 'rgba(16,46,16, 0.9)', padding: '5rem 2rem'}}>
+                        <div className='has-text-centered' style={{background: 'rgba(16,46,16, 0.7)', padding: '5rem 2rem'}}>
                             <FadeIn transitionDuration={2000}>
                             <h1 className="title is-3" style={{color: '#FCFAFA'}}>Established And Trustworthy Commercial Garden &amp; Grounds Maintenance</h1>
                             <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</h2>
@@ -101,11 +114,11 @@ const Home = () => {
             <Level /> 
             <div style={servicesStyle}>
                 <div style={{ display: 'flex', alignItems: 'center', minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem 0'}}> 
-                    <div className='container' style={{minHeight: '75vh'}}>
-                        <div className='columns is-centered' style={{padding: '2rem 0.25rem', margin: '0'}}>
+                    <div className='container' style={{minHeight: '75vh', display: 'flex', alignItems: 'center'}}>
+                        <div className='columns is-centered' style={{padding: '2rem 0.25rem'}}>
                             <div className='column is-hidden-mobile' style={{display: 'flex', alignItems: 'center'}}>
                                 <div className='content' >
-                                    <img src="/static/images/gardening.jpg" alt=""/>
+                                    <ImageGallery items={images} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} />
                                 </div>                        
                             </div>
                             <div className='column is-1 is-hidden-mobile'></div>

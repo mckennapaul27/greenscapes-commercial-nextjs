@@ -2,14 +2,17 @@ import TrackVisibility from 'react-on-screen';
 import FadeIn from 'react-fade-in';
 
 const Services = ({isVisible}) => {
-    console.log(isVisible)
     return (
         <div>
         {isVisible && 
-        <div className='content'>
-            <FadeIn transitionDuration={1000}>
-            <h2 style={{color: 'white'}}>Services</h2>  
-            <hr style={{border: '3px solid #339935', width: '5rem'}} />  
+        <div className='content has-text-centered'>
+           <div style={{display: 'flex', justifyContent: 'center'}}>
+                <div>
+                    <h3 className='title is-3' style={{color: 'white'}}>Services</h3>
+                    <hr style={{border: '3px solid #339935', width: '5rem'}} />
+                </div>
+            </div>
+            <FadeIn transitionDuration={500}> 
             <div className="columns is-mobile" style={{padding: '1.5rem 0'}}>
                 <div className="column is-one-third">
                     <div style={{width: '3rem', margin: 'auto'}}>

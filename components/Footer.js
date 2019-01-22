@@ -9,16 +9,17 @@ const linkStyle = {
 const titleStyle = {
     color: 'white',
     marginBottom: '1rem',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    fontSize: '1.25rem'
 }
 const contentStyle = {
     fontSize: '1rem',
 }
 
 const Footer = () => (       
-    <footer className="footer" style={{backgroundColor: '#1C541D', bottom: 0, paddingBottom: '4rem',position: 'relative'}}>
+    <footer className="footer" style={{backgroundColor: '#1C541D', padding: '3rem 1rem 2rem 1rem'}}>
         <div className='container'>
-            <div className='columns'>
+            <div className='columns' style={{padding: '3rem 1rem'}}>
                 <div className='column is-6 is-mobile-12 has-text-centered' style={linkStyle}>                    
                     <h4 style={titleStyle}>ABOUT GREENSCAPES COMMERCIAL</h4>
                     <p style={contentStyle}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>  
@@ -92,8 +93,9 @@ const Footer = () => (
                     </div>    
                 </div>                      
             </div>
+            <hr style={{height: '0.06rem', background: 'F0F3F3'}} />
         </div>   
-        <div className='container has-text-centered' style={{marginTop: '2.5rem'}}>
+        <div className='container has-text-centered' style={{marginTop: '0.5rem'}}>
             <p style={{fontSize: '0.75rem', color: 'white'}}>Copyright {moment().format('YYYY')} | <a href="/" style={{fontSize: '0.75rem', color: 'white'}}>www.greenscapes-commercial.com</a> | All Rights Reserved.</p>
         </div>
     </footer>
