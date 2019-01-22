@@ -9,7 +9,7 @@
     "dev": "node server.js",
     "build": "next build",
     "start": "node server.js -p $PORT",
-    "heroku-postbuild": "npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "author": "",
   "license": "ISC",
