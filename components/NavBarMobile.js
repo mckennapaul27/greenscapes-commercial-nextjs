@@ -37,7 +37,7 @@ export default class NavBarMobile extends Component {
 
         return (
             <div 
-                className='navbar'               
+                className='navbar'                               
                 >
                 <div 
                     className='navbar-brand' 
@@ -72,7 +72,7 @@ export default class NavBarMobile extends Component {
                                             <i style={{marginRight: '0.5rem'}} className='fa fa-phone'>
                                             </i>
                                         </span>
-                                        Call
+                                        Call Us
                                     </a>
                                 </button>
                             </Link>

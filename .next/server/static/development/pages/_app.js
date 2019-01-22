@@ -1458,7 +1458,7 @@ function (_Component) {
           lineNumber: 72
         },
         __self: this
-      })), "Call"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+      })), "Call Us"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
         style: {
           marginLeft: '1rem'
         },

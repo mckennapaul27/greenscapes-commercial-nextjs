@@ -191,7 +191,7 @@ var Home = function Home() {
     className: "has-text-centered",
     style: {
       background: 'rgba(16,46,16, 0.7)',
-      padding: '5rem 2rem'
+      padding: '3rem 0'
     },
     __source: {
       fileName: _jsxFileName,
