@@ -27,16 +27,16 @@ export default withRouter(class NavBar extends Component {
                     <div className='navbar-brand' 
                         role="navigation" 
                         aria-label="main navigation"
-                        style={{display: 'flex', alignItems: 'bottom', padding: '0.5rem'}}
+                        style={{display: 'flex', alignItems: 'center', padding: '0.5rem'}}
                         >                    
                         <a href="/" style={{maxWidth: '160px'}}>
-                            <img src="/static/images/logos.png" alt="greenscapes logo" />
+                            <img src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png" alt="greenscapes logo" />
                         </a>                    
                     </div>
                     <div className='navbar-menu'> 
                         <div className='navbar-end'>
                             <div className='navbar-item'>                                
-                                <Link href={`/skrill/cashback`}>
+                                <Link href={`/`}>
                                     <a className='navbar-item' style={linkStyle}>
                                         <span>
                                             <i style={{marginRight: '0.5rem', color: '#339935'}} className='fa fa-home'></i>
@@ -45,7 +45,7 @@ export default withRouter(class NavBar extends Component {
                                 </Link>                                
                             </div> 
                             <div className='navbar-item'>                                
-                                <Link href={`/skrill/cashback`}>
+                                <Link href={`/about-us`}>
                                     <a className='navbar-item' style={linkStyle}>
                                         <span>
                                             <i style={{marginRight: '0.5rem', color: '#339935'}} className='fa fa-user'></i>
@@ -54,17 +54,17 @@ export default withRouter(class NavBar extends Component {
                                 </Link>                                
                             </div>    
                             <div className='navbar-item has-dropdown is-hoverable'>                                
-                                <Link href={`/neteller/cashback`}>
+                                <Link href={`/services-overview`}>
                                     <a className='navbar-link' style={linkStyle}>
                                         <span>
                                             <i style={{marginRight: '0.5rem', color: '#339935'}} className='fa fa-cogs'></i>
                                         </span>Services
                                     </a>
                                 </Link>
-                                <DropDownItems brand={'Neteller'} link={'neteller'} color={'#83ba3b'}/>
+                                <DropDownItems/>
                             </div>  
                             <div className='navbar-item'>                                
-                                <Link href={`/skrill/cashback`}>
+                                <Link href={`/reviews`}>
                                     <a className='navbar-item' style={linkStyle}>
                                         <span>
                                             <i style={{marginRight: '0.5rem', color: '#339935'}} className='fa fa-comments'></i>
@@ -73,7 +73,7 @@ export default withRouter(class NavBar extends Component {
                                 </Link>                                
                             </div>    
                             <div className='navbar-item'>                                
-                                <Link href={`/skrill/cashback`}>
+                                <Link href={`/areas`}>
                                     <a className='navbar-item' style={linkStyle}>
                                         <span>
                                             <i style={{marginRight: '0.5rem', color: '#339935'}} className='fa fa-map'></i>
@@ -92,26 +92,37 @@ export default withRouter(class NavBar extends Component {
     }
 })
 
+const PostLink = (props) => { 
+    return (
+        <Link as={`/services/${props.id}`} href={`/service?title=${props.title}`}>
+            <a className="navbar-item">{props.title}</a>
+        </Link>
+    )    
+}
+
 
 const DropDownItems = () => {   
 
     const services = ['Grounds Management', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];
-
+    
     return (
         <div className="navbar-dropdown">
             {
                 services.map((service, index) => {
-                    const url = `/${service.split(' ').join('-').toLowerCase().replace('-&', '')}`;
-                    return <Link key={index} href={url}><a className="navbar-item">{service}</a></Link>
+                    const url = `${service.split(' ').join('-').toLowerCase().replace('-&', '')}`;
+                    return <PostLink key={index} id={url} title={service} />
                 })
             }            
             <hr className="navbar-divider" />
             <a className="navbar-item">
             Sevices overview
-            </a>
+            </a>            
         </div>
     ) 
 }
+
+
+
 
 
 

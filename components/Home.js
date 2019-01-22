@@ -3,7 +3,6 @@ import FadeIn from 'react-fade-in';
 import Level from './Level';
 import Services from './Services';
 import Testimonial from './Testimonial';
-import { Carousel as CarouselSlider } from 'react-responsive-carousel';
 import ImageGallery from 'react-image-gallery';
 
 const Home = () => {

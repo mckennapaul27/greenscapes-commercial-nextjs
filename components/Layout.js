@@ -4,7 +4,6 @@ import NavBarMobile from './NavBarMobile';
 import TopMenu from './TopMenu';
 import '../styles/styles.scss'
 import Router from 'next/router';
-import {isMobile} from 'react-device-detect';
 
 const Loader = ({ loading }) => <div className={loading ? 'loading-show' : ''} id="loader-bar" />;
 
@@ -27,7 +26,6 @@ export default class Layout extends Component {
 
 
     render () {
-        let l;
         return (
             <div>
             <Loader loading={this.state.loading} />

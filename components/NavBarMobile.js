@@ -45,8 +45,8 @@ export default class NavBarMobile extends Component {
                     aria-label="main navigation"                    
                     >                    
                      <a href="/" style={{maxWidth: '150px', height: '100%', padding: '1.5rem 0 0.5rem 0.5rem'}}>
-                            <img src='/static/images/logos.png' alt="greenscapes logo"/>
-                        </a>    
+                        <img src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png" alt="greenscapes logo" />
+                    </a>    
                     <div 
                         role="button" 
                         className={this.state.active ? 'navbar-burger' : 'navbar-burger is-active'} 
