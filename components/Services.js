@@ -1,10 +1,9 @@
 import TrackVisibility from 'react-on-screen';
 import FadeIn from 'react-fade-in';
 
-const Services = ({isVisible}) => {
+const Services = () => {
     return (
         <div>
-        {isVisible && 
         <div className='content has-text-centered'>
            <div style={{display: 'flex', justifyContent: 'center'}}>
                 <div>
@@ -12,7 +11,6 @@ const Services = ({isVisible}) => {
                     <hr style={{border: '3px solid #339935', width: '5rem'}} />
                 </div>
             </div>
-            <FadeIn transitionDuration={500}> 
             <div className="columns is-mobile" style={{padding: '1.5rem 0'}}>
                 <div className="column is-one-third">
                     <div style={{width: '3rem', margin: 'auto'}}>
@@ -53,8 +51,7 @@ const Services = ({isVisible}) => {
                     <p className="title is-6" style={{textAlign: 'center', color: 'white', marginTop: '1rem'}}>Vegetation Control</p>
                 </div>
             </div>
-            </FadeIn>
-        </div>}
+        </div>
         </div>       
     )
 }
@@ -68,4 +65,4 @@ const VisibleLevel = () => {
     )    
 }
 
-export default VisibleLevel;
+export default Services;

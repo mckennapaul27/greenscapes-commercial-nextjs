@@ -86,15 +86,17 @@ const Home = () => {
             {/* Middle upper */}
             <div className='container' style={{minHeight: '90vh'}}>
                 <div className='columns is-centered' style={{padding: '2rem 1rem', margin: '0'}}>
-                    <div className='column' style={{display: 'flex', alignItems: 'center', background: "linear-gradient(#e98a00, #f5aa2f)" }}> 
+                    <div className='column'> 
                         <img src="/static/images/garden3.jpg" alt=""/>
                     </div>
                     <div className='column is-1'></div>
                     <div className='column'>
                         <div className='content'>
-                            <div>
-                                <h3 className='title is-3'>About Us</h3>
-                                <hr style={{border: '3px solid #339935', width: '5rem'}} />
+                            <div style={{display: 'flex', justifyContent: 'flex-start'}}>
+                                <div>
+                                    <h3 className='title is-3'>About Us</h3>
+                                    <hr style={{border: '3px solid #339935', width: '5rem'}} />
+                                </div>
                             </div>
                             <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>
                             <h2>Domestic Garden Design and Maintenance</h2>
