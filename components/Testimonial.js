@@ -5,10 +5,12 @@ export default class Carousel extends Component {
     render() {
         return (
             <div style={{marginTop: '3rem', minHeight: '80vh'}}>
-                <div style={{display: 'flex', justifyContent: 'center', marginTop: '6rem'}}>
-                    <div>
-                        <h3 className='title is-3'>Testimonials</h3>
-                        <hr style={{border: '3px solid #339935', width: '5rem'}} />
+                <div style={{textAlign: 'center'}}>
+                    <div style={{display: 'inline-block'}}>
+                        <h3 className='title is-3' style={{width: '100%'}}>Testimonials</h3>
+                        <div>
+                            <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0'}} />
+                        </div>
                     </div>
                 </div>
                                     

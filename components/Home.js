@@ -3,7 +3,6 @@ import FadeIn from 'react-fade-in';
 import Level from './Level';
 import Services from './Services';
 import Testimonial from './Testimonial';
-import ImageGallery from 'react-image-gallery';
 
 const Home = () => {
     
@@ -92,8 +91,14 @@ const Home = () => {
                     <div className='column is-1'></div>
                     <div className='column'>
                         <div className='content'>                            
-                            <h3 className='title is-3'>About Us</h3>
-                            <hr style={{border: '3px solid #339935', width: '5rem'}} />                                
+                            <div style={{textAlign: 'left'}}>
+                                <div style={{display: 'inline-block', paddingBottom: '1rem'}}>
+                                    <h2>Home</h2>
+                                    <div>
+                                        <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0'}} />
+                                    </div>
+                                </div>
+                            </div>                               
                             <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>
                             <h2>Domestic Garden Design and Maintenance</h2>
                             <p>We specialize in garden design, landscaped gardens, Hedge trimming, lawn maintenance, turfing and planting. We take your garden design ideas and turn them into reality from start to finish leaving you with a specific tailored garden designed and built to your specific requirements. We also offer garden maintenance services so you get time to relax and enjoy your free time.</p>
@@ -111,18 +116,8 @@ const Home = () => {
             <Level /> 
             <div style={servicesStyle}>
                 <div style={{ display: 'flex', alignItems: 'center', minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem 0'}}> 
-                    <div className='container' style={{minHeight: '75vh', display: 'flex', alignItems: 'center'}}>
-                        <div className='columns is-centered' style={{padding: '2rem 0.25rem', margin: '0'}}>
-                            <div className='column is-hidden-mobile' style={{display: 'flex', alignItems: 'center'}}>
-                                <div className='content' >
-                                    <ImageGallery items={images} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} />
-                                </div>                        
-                            </div>
-                            <div className='column is-1 is-hidden-mobile'></div>
-                            <div className='column'>
-                                <Services />
-                            </div>
-                        </div>                                 
+                    <div className='container' style={{minHeight: '75vh', display: 'flex', alignItems: 'center'}}> 
+                        <Services />         
                     </div>      
                 </div> 
             </div>
