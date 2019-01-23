@@ -22,16 +22,15 @@ export default withRouter(class NavBar extends Component {
         }
 
         return (
-           <div className='navbar' style={{height: '85px'}}>
+           <div className='navbar' style={{height: '95px', backgroundColor: 'white'}}>
                 <div className='container' >
                     <div className='navbar-brand' 
                         role="navigation" 
                         aria-label="main navigation"
                         style={{display: 'flex', alignItems: 'center', padding: '0.5rem'}}
                         >                    
-                        <a href="/" style={{maxWidth: '160px'}}>
-                            <img src="https://placeholder.com/wp-content/uploads/2018/10/placeholder.com-logo1.png" alt="greenscapes logo" />
-                        </a>                    
+                        <a href="/" style={{maxWidth: '130px'}}>
+                            <img src="/static/images/logo.png" alt="greenscapes logo" /></a>                    
                     </div>
                     <div className='navbar-menu'> 
                         <div className='navbar-end'>
