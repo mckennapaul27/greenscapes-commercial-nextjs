@@ -115,10 +115,8 @@ const Home = () => {
             </div>
             <Level /> 
             <div style={servicesStyle}>
-                <div style={{ display: 'flex', alignItems: 'center', minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem 0'}}> 
-                    <div className='container' style={{minHeight: '75vh', display: 'flex', alignItems: 'center'}}> 
-                        <Services />         
-                    </div>      
+                <div style={{minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem'}}> 
+                    <Services />         
                 </div> 
             </div>
             <Testimonial />
