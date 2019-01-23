@@ -91,13 +91,9 @@ const Home = () => {
                     </div>
                     <div className='column is-1'></div>
                     <div className='column'>
-                        <div className='content'>
-                            <div style={{display: 'flex', justifyContent: 'flex-start'}}>
-                                <div>
-                                    <h3 className='title is-3'>About Us</h3>
-                                    <hr style={{border: '3px solid #339935', width: '5rem'}} />
-                                </div>
-                            </div>
+                        <div className='content'>                            
+                            <h3 className='title is-3'>About Us</h3>
+                            <hr style={{border: '3px solid #339935', width: '5rem'}} />                                
                             <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>
                             <h2>Domestic Garden Design and Maintenance</h2>
                             <p>We specialize in garden design, landscaped gardens, Hedge trimming, lawn maintenance, turfing and planting. We take your garden design ideas and turn them into reality from start to finish leaving you with a specific tailored garden designed and built to your specific requirements. We also offer garden maintenance services so you get time to relax and enjoy your free time.</p>
