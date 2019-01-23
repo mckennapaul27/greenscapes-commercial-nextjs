@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ],
   "scripts": {
     "build-css": "node-sass-chokidar / -o /",
     "watch-css": "npm run build-css && node-sass-chokidar / -o / --watch --recursive",
@@ -15,7 +19,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@zeit/next-bundle-analyzer": "^0.1.2",
     "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.4.6",
     "bulma": "^0.7.2",
     "express": "^4.16.4",
     "font-awesome": "^4.7.0",
