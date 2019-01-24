@@ -7,11 +7,11 @@ const About = () => {
                         <div style={{textAlign: 'left'}}>
                             <div style={{display: 'inline-block', paddingBottom: '1rem'}}>
                                 <h2>Contact Us</h2>
-                                <div>
-                                    <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0'}} />
+                                <div style={{textAlign: 'left'}}>
+                                    <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0', display: 'inline-block'}} />
                                 </div>
                             </div>
-                        </div>  
+                        </div> 
                         <p>Greenscapes Commercial are actively looking for new commercial relationships and we'd love to hear from you. Please get in touch by giving us a call or by using the form below.</p>                             
                         <div class="field is-horizontal" style={{padding: '1rem 0'}}>
                             <div class="field-label is-normal">

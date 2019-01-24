@@ -9,8 +9,8 @@ const Areas = () => {
                         <div style={{textAlign: 'left'}}>
                             <div style={{display: 'inline-block', paddingBottom: '1rem'}}>
                                 <h2>Serviced Areas</h2>
-                                <div>
-                                    <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0'}} />
+                                <div style={{textAlign: 'left'}}>
+                                    <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0', display: 'inline-block'}} />
                                 </div>
                             </div>
                         </div>                               

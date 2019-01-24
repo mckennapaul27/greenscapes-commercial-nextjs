@@ -170,11 +170,11 @@ const ServiceLayout = (props) => (
                 <div style={{textAlign: 'left'}}>
                     <div style={{display: 'inline-block', paddingBottom: '1rem'}}>
                         <h2>{props.title}</h2>
-                        <div>
-                            <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0'}} />
+                        <div style={{textAlign: 'left'}}>
+                            <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0', display: 'inline-block'}} />
                         </div>
                     </div>
-                </div>                               
+                </div>                              
                 {props.children}
                 <hr style={{border: '1px solid #F0F3F3', width: '100%'}} />
                 <ServiceFooter img={props.img} imgAlt={props.imgAlt}/> 
