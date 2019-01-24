@@ -73,7 +73,7 @@ export default withRouter(class NavBar extends Component {
                                 </Link>                                
                             </div>    
                             <div className='navbar-item'>                                
-                                <Link href={`/areas`}>
+                                <Link href={`/serviced-areas`}>
                                     <a className='navbar-item' style={linkStyle}>
                                         <span>
                                             <i style={{marginRight: '0.5rem', color: '#339935'}} className='fa fa-map'></i>

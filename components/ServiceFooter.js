@@ -12,7 +12,7 @@ const ServiceFooter = (props) => (
             <p>We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>
             <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
             <p>Please feel free to get in contact with Greenscapes Commercial so we can discuss your requirements in further detail.</p>
-            <div style={{padding: '1rem 0'}} style={{textAlign: 'center'}}>
+            <div style={{padding: '2rem 0',textAlign: 'center'}}>
                 <Link href='/contact'>
                     <button className={`button is-primary`}>
                         <a style={{color: 'white'}}>

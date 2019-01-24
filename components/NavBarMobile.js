@@ -2,13 +2,7 @@ import React, {Component} from 'react';
 import Link from 'next/link';
 import {services} from '../data/services';
 
-const PostLink = (props) => { 
-    return (
-        <Link as={`/services/${props.id}`} href={`/service?id=${props.id}`}>
-            <a className="navbar-item">{props.title}</a>
-        </Link>
-    )    
-}
+
 
 export default class NavBarMobile extends Component {
 
@@ -144,7 +138,7 @@ export default class NavBarMobile extends Component {
                                 </Link>                                
                             </li> 
                             <li>
-                                <Link href='/'>
+                                <Link href='/serviced-areas'>
                                 <a style={linkStyle} onClick={this.toggleClass}>
                                     <span>
                                         <i style={{marginRight: '0.3rem'}} className='fa fa-map'></i>
@@ -182,7 +176,7 @@ export default class NavBarMobile extends Component {
                                 </Link>                                
                             </li>  
                             <li>
-                                <Link href='/contact'>
+                                <Link href='/reviews'>
                                 <a style={linkStyle} onClick={this.toggleClass}>
                                     <span>
                                         <i style={{marginRight: '0.3rem'}} className='fa fa-comments'></i>
@@ -191,7 +185,7 @@ export default class NavBarMobile extends Component {
                                 </Link>                                
                             </li>
                             <li>
-                                <Link href='/contact'>
+                                <Link href='https://www.facebook.com/greenscapesgardeners'>
                                 <a style={linkStyle} onClick={this.toggleClass}>
                                     <span>
                                         <i style={{marginRight: '0.3rem'}} className='fa fa-facebook'></i>

@@ -40,7 +40,7 @@ const ServiceSelected = (service) => {
             </div>                    
         )
     }
-    else if (service === 'hedge-shrub maintenance') {
+    else if (service === 'hedge-shrub-maintenance') {
         return (
             <div>
                 <ServiceLayout title={'Hedge & Shrub Maintenance'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Hedge & Shrub Maintenance'} >
@@ -66,7 +66,7 @@ const ServiceSelected = (service) => {
             </div>                    
         )
     }
-    else if (service === 'interior-plant displays') {
+    else if (service === 'interior-plant-displays') {
         return (
             <div>
                 <ServiceLayout title={'Interior Plant Displays'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Interior Plant Displays'} >
@@ -105,7 +105,7 @@ const ServiceSelected = (service) => {
             </div>                    
         )
     }
-    else if (service === 'spraying-vegetation control') {
+    else if (service === 'spraying-vegetation-control') {
         return (
             <div>
                 <ServiceLayout title={'Spraying & Vegetation Control'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Spraying & Vegetation Control'} >
@@ -131,7 +131,7 @@ const ServiceSelected = (service) => {
             </div>                    
         )
     }
-    else if (service === 'jet-pressure washing') {
+    else if (service === 'jet-pressure-washing') {
         return (
             <div>
                 <ServiceLayout title={'Jet & Pressure Washing'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Jet & Pressure Washing'} >
@@ -169,7 +169,7 @@ const ServiceLayout = (props) => (
             <div className='content'>                            
                 <div style={{textAlign: 'left'}}>
                     <div style={{display: 'inline-block', paddingBottom: '1rem'}}>
-                        <h1>{props.title}</h1>
+                        <h2>{props.title}</h2>
                         <div>
                             <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0'}} />
                         </div>

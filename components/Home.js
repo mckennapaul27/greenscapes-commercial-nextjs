@@ -28,18 +28,7 @@ const Home = () => {
         backgroundSize: 'cover'
     }
 
-    const images = [
-        {
-            original: '/static/images/gardening.jpg'
-        },
-        {
-            original: '/static/images/gardening.jpg'
-        },        
-        {
-            original: '/static/images/gardening.jpg'
-        }
-    ]
-
+    
     return (
         <div>
             {/* Header */}

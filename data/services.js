@@ -12,7 +12,7 @@ export const services = [
         name: 'School Maintenance'                  
     },
     {        
-        id: 'hedge-shrub maintenance',
+        id: 'hedge-shrub-maintenance',
         name: 'Hedge & Shrub Maintenance' 
     },
     {       
@@ -20,7 +20,7 @@ export const services = [
         name: 'Landscaping & Planting'                  
     },        
     {       
-        id: 'interior-plant displays',
+        id: 'interior-plant-displays',
         name: 'Interior Plant Displays'                  
     },
     {        
@@ -32,7 +32,7 @@ export const services = [
         name: 'Outdoor Cleaning'                  
     },
     {        
-        id: 'spraying-vegetation control',
+        id: 'spraying-vegetation-control',
         name: 'Spraying & Vegetation Control' 
     },
     {       
@@ -44,7 +44,7 @@ export const services = [
         name: 'Graffiti Removal' 
     },
     {       
-        id: 'jet-pressure washing',
+        id: 'jet-pressure-washing',
         name: 'Jet & Pressure Washing'                  
     }
 ];
