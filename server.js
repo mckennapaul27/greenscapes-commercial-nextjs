@@ -12,12 +12,10 @@ app.prepare()
 
     server.get('/services/:id', (req, res) => {
       const actualPage = '/service';
-      const queryParams = {title: req.params.id}
-      console.log('1',actualPage)
-      console.log('2',queryParams)
+      const queryParams = {id: req.params.id}
 
       app.render(req, res, actualPage, queryParams)
-    })
+    })   
 
     server.get('*', (req, res) => {
       return handle(req, res);

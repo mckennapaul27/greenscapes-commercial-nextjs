@@ -1,5 +1,14 @@
 import React, {Component} from 'react';
 import Link from 'next/link';
+import {services} from '../data/services';
+
+const PostLink = (props) => { 
+    return (
+        <Link as={`/services/${props.id}`} href={`/service?id=${props.id}`}>
+            <a className="navbar-item">{props.title}</a>
+        </Link>
+    )    
+}
 
 export default class NavBarMobile extends Component {
 
@@ -33,11 +42,19 @@ export default class NavBarMobile extends Component {
             padding: '0.65rem 0'
         }       
 
-        const services = ['Grounds mManagement', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];        
+        const PostLink = (props) => { 
+            return (
+                <Link as={`/services/${props.id}`} href={`/service?id=${props.id}`}>
+                    <a style={linkStyle} onClick={this.toggleClass}>{props.title}</a>
+                </Link>
+            )    
+        }
+        
 
         return (
             <div 
-                className='navbar'                               
+                className='navbar'   
+                style={{backgroundColor: 'white'}}                            
                 >
                 <div 
                     className='navbar-brand' 
@@ -118,7 +135,7 @@ export default class NavBarMobile extends Component {
                                 </Link>                                
                             </li>  
                             <li>
-                                <Link href='/'>
+                                <Link href='/about-us'>
                                 <a style={linkStyle} onClick={this.toggleClass}>
                                     <span>
                                         <i style={{marginRight: '0.3rem'}} className='fa fa-user'></i>
@@ -142,12 +159,11 @@ export default class NavBarMobile extends Component {
                             </li>  
                             <li>
                             <div style={{display: this.state.menu ? 'block' : 'none'}}>
-                                {
-                                    services.map((service, index) => {
-                                        const url = `/${service.split(' ').join('-').toLowerCase().replace('-&', '')}`;
-                                        return  <Link key={index} href={url}><a style={linkStyle}>{service}</a></Link>
-                                    })
-                                } 
+                            {
+                                services.map((service, index) => {
+                                    return <PostLink key={index} id={service.id} title={service.name} />
+                                })
+                            }   
                             </div>
                             </li> 
                         </ul> 

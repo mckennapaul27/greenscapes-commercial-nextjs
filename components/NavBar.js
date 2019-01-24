@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Link from 'next/link';
 import {withRouter} from 'next/router';
+import {services} from '../data/services';
 
 export default withRouter(class NavBar extends Component {
 
@@ -93,23 +94,20 @@ export default withRouter(class NavBar extends Component {
 
 const PostLink = (props) => { 
     return (
-        <Link as={`/services/${props.id}`} href={`/service?title=${props.title}`}>
+        <Link as={`/services/${props.id}`} href={`/service?id=${props.id}`}>
             <a className="navbar-item">{props.title}</a>
         </Link>
     )    
 }
 
 
-const DropDownItems = () => {   
-
-    const services = ['Grounds Management', 'Business & Retail Maintenance', 'School Maintenance', 'Hedge & Shrub Maintenance', 'Landscaping & Planting', 'Interior Plant Displays', 'Lawn Care', 'Outdoor Cleaning', 'Spraying & Vegetation Control', 'Tree Surgery', 'Graffiti Removal', 'Jet & Pressure Washing'];
+const DropDownItems = () => {
     
     return (
         <div className="navbar-dropdown">
             {
                 services.map((service, index) => {
-                    const url = `${service.split(' ').join('-').toLowerCase().replace('-&', '')}`;
-                    return <PostLink key={index} id={url} title={service} />
+                    return <PostLink key={index} id={service.id} title={service.name} />
                 })
             }            
             <hr className="navbar-divider" />
@@ -119,6 +117,7 @@ const DropDownItems = () => {
         </div>
     ) 
 }
+
 
 
 
