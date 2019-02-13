@@ -9,6 +9,7 @@ const contactSubmit = pug.compileFile(process.cwd() + '/email-templates/contact.
 
 function sendContactForm (req, res, next) {
     const { name, email, phone, interest, message } = req.body;
+    console.log(req.body)
     const date = moment().format('MMM Do YYYY');
     const mailOptions = {
         from: nodeMailerUser, 
