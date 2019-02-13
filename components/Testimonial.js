@@ -28,7 +28,7 @@ export default class Carousel extends Component {
                     </CarouselSlider>
                 </div> 
                 <div className='is-hidden-desktop is-hidden-widescreen is-hidden-fullhd'>
-                    <CarouselSlider showThumbs={false} useKeyboardArrows={true} showStatus={false} emulateTouch={true} >
+                    <CarouselSlider showThumbs={false} useKeyboardArrows={true} showStatus={false} emulateTouch={true} infiniteLoop={true} autoPlay={true}>
                         <TestimonialMobile 
                         messageOne={`Greenscapes have been looking after our gardens for over 5 years, they
                         are always professional, reliable and polite, taking care to ensure our gardens look their best and
