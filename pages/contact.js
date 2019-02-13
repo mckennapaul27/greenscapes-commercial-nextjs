@@ -31,16 +31,12 @@ export default class Contact extends Component {
         phone = '0' + phone;     
         axios.post(`/api/contact`, {name, email, phone, interest, subject, message})
         .then((res) => {
-            console.log(res)
             if (res.data.success) {
                 this.setState({
                     submitted: true
                 })
             }            
-        })
-        .catch(err => {
-            console.log(err)
-        })
+        })        
     }
 
 
