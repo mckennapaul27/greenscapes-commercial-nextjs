@@ -39,13 +39,11 @@ app.prepare()
       app.render(req, res, actualPage, queryParams)
     })   
 
+    server.post('/api/contact', sendContactForm)
+
     server.get('*', (req, res) => {
       return handle(req, res);
     })
-
-    server.post('/api/contact', sendContactForm)
-    
-
     server.listen(port, (err) => {
       if (err) throw err;
       console.log(`Listening on port ${port}...`);

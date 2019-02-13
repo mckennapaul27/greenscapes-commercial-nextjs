@@ -21,7 +21,7 @@ function sendContactForm (req, res, next) {
     const transporter = nodemailer.createTransport({
         host: 'smtp.office365.com',
         port: 587,
-        secureConnection: true,
+        secureConnection: false,
         auth: {
             user: nodeMailerUser,
             pass: nodeMailerPass
