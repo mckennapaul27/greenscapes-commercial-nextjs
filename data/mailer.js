@@ -22,13 +22,14 @@ function sendContactForm (req, res, next) {
         host: 'smtp.office365.com',
         port: 587,
         secure: false,
+        requireTLS: true,
         auth: {
             user: nodeMailerUser,
             pass: nodeMailerPass
         },
         tls: { 
             ciphers: 'SSLv3' 
-        }
+        },
     });
     transporter.sendMail(mailOptions)
     .then((email) => {
