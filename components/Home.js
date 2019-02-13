@@ -38,23 +38,11 @@ const Home = () => {
                         <div className='has-text-centered' style={{background: 'rgba(16,46,16, 0.7)', padding: '3rem 0'}}>
                             <FadeIn transitionDuration={2500}>
                             <h1 className="title is-3" style={{color: '#FCFAFA'}}><span className='is-hidden-mobile'>Established And Trustworthy</span> Commercial Garden &amp; Grounds Maintenance</h1>
-                            <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Commercial. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</h2>
-                            <h3 className='subtitle is-5 is-hidden-mobile' style={{color: '#FCFAFA', padding: '0 0 3rem 0', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</h3>
+                            <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem 1rem 0 1rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Commercial Garden and Grounds Services. We provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and surrounding areas.</h2>
+                            <h3 className='subtitle is-5' style={{color: '#FCFAFA', padding: '1rem 1rem 2rem 1rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>We can help you to promote your corporate image by having well maintained gardens and grounds.</h3>
                             <div>
                                 <Link href='/contact'>
                                     <button className={`button is-primary is-medium`}>
-                                        <a style={{color: 'white'}}>
-                                            <span>
-                                                <i style={{marginRight: '0.5rem'}} className='fa fa-quote-left'>
-                                                </i>
-                                            </span>
-                                            Free Quotation
-                                        </a>
-                                    </button>
-                                </Link>
-                                <span style={{marginLeft: '1rem'}}>
-                                <Link href='/contact'>
-                                    <button className={`button is-primary is-outlined is-medium is-hidden-mobile`}>
                                         <a style={{color: 'white'}}>
                                             <span>
                                                 <i style={{marginRight: '0.5rem'}} className='fa fa-envelope'>
@@ -64,6 +52,16 @@ const Home = () => {
                                         </a>
                                     </button>
                                 </Link>
+                                <span style={{marginLeft: '1rem'}}>
+                                    <button className={`button is-primary is-outlined is-medium is-hidden-mobile`}>
+                                        <a style={{color: 'white'}} href='tel:07772 656034'>
+                                            <span>
+                                                <i style={{marginRight: '0.5rem'}} className='fa fa-phone'>
+                                                </i>
+                                            </span>
+                                            Call Us
+                                        </a>
+                                    </button>
                                 </span>
                             </div>
                             </FadeIn>
@@ -88,12 +86,22 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>                               
-                            <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
+                            <p>We provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and surrounding areas.</p>                            
                             <h2>Commercial Ground Maintenance</h2>
-                            <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                            <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+                            <p>We offer commercial garden and grounds maintenance to a range of
+                            services including: </p>
+                            <ul>
+                                <li>Care Homes</li>
+                                <li>Retirement Living Complexes</li>
+                                <li>Nurseries</li>
+                                <li>Schools</li>
+                                <li>Industrial
+                                Grounds</li>
+                                <li>Housing Trusts</li>
+                                <li>Letting Agent</li>
+                            </ul>
+                            <p>Our qualified maintenance teams provide a range of services to ensure that your premises
+                            continue to look their best throughout the year.</p>                            
                         </div>
                     </div>
                 </div>

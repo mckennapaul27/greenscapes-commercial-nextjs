@@ -1,7 +1,16 @@
+import Link from 'next/link';
+import Head from 'next/head';
+
 const About = () => {
     return (
-        <div className='container' style={{minHeight: '90vh'}}>
-            <div className='columns is-centered' style={{padding: '2rem 1rem', margin: '0'}}>                
+        <div className='container' style={{minHeight: '50vh'}}>
+            <Head>
+            <meta charSet="utf-8" />
+            <title>About Us | Greenscapes Commercial Maintenance</title>
+            <meta name="description" content="Greenscapes is a Commercial Garden and Grounds Maintenance company established since 2012. We have an experienced and qualified team that provide a quality service." />
+            <link rel="canonical" href="https://www.greenscapes-commercial.co.uk/about-us" />
+            </Head>
+            <div className='columns' style={{padding: '2rem 0', margin: '0'}}>                
                 <div className='column'>
                     <div className='content'>                            
                         <div style={{textAlign: 'left'}}>
@@ -12,15 +21,37 @@ const About = () => {
                                 </div>
                             </div>
                         </div>                               
-                        <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                        <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                        <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                        <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                        <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+                        <p>Greenscapes is a Commercial Garden and Grounds Maintenance company established since
+                        2012. We have an experienced and qualified team that provide a quality service.</p> 
+                        <p>We pride ourselves on our professional and reliable approach to our work and ensuring our
+                        customers are fully satisfied with the work we provide.</p>  
+                        <p>We pride ourselves on our professional and reliable approach to our work and ensuring our
+                        customers are fully satisfied with the work we provide.</p>                      
                     </div>
+                    <div style={{padding: '1rem 0',textAlign: 'left'}}>
+                        <button className={`button is-primary`}>
+                            <a style={{color: 'white'}} href='tel:07772656034'>
+                                <span>
+                                    <i style={{marginRight: '0.5rem'}} className='fa fa-phone'>
+                                    </i>
+                                </span>
+                                Call Us
+                            </a>
+                        </button>
+                        <span style={{marginLeft: '1rem'}}>
+                        <Link href='/contact'>
+                            <button className={`button is-primary is-outlined`}>                        
+                                <span>
+                                    <i style={{marginRight: '0.5rem'}} className='fa fa-envelope'>
+                                    </i>
+                                </span>
+                                Email                        
+                            </button>
+                        </Link>
+                        </span>                
+                    </div>        
                 </div>
-            </div>                         
+            </div>        
         </div>
     )
 }

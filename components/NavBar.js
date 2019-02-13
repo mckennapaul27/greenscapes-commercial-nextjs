@@ -13,9 +13,7 @@ export default withRouter(class NavBar extends Component {
         this.setState({
             active: !this.state.active
         })
-    }    
-    
-    
+    }   
     render () { 
 
         const linkStyle = {
@@ -62,16 +60,7 @@ export default withRouter(class NavBar extends Component {
                                     </a>
                                 </Link>
                                 <DropDownItems/>
-                            </div>  
-                            <div className='navbar-item'>                                
-                                <Link href={`/reviews`}>
-                                    <a className='navbar-item' style={linkStyle}>
-                                        <span>
-                                            <i style={{marginRight: '0.5rem', color: '#339935'}} className='fa fa-comments'></i>
-                                        </span>Reviews
-                                    </a>
-                                </Link>                                
-                            </div>    
+                            </div> 
                             <div className='navbar-item'>                                
                                 <Link href={`/serviced-areas`}>
                                     <a className='navbar-item' style={linkStyle}>
@@ -110,10 +99,12 @@ const DropDownItems = () => {
                     return <PostLink key={index} id={service.id} title={service.name} />
                 })
             }            
-            <hr className="navbar-divider" />
-            <a className="navbar-item">
-            Sevices overview
-            </a>            
+            <hr className="navbar-divider" />            
+            <Link href='/services-overview'>
+                <a className="navbar-item">
+                    Services Overview
+                </a>
+            </Link>                  
         </div>
     ) 
 }

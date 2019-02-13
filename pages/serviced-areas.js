@@ -1,9 +1,16 @@
 import GoogleMaps from '../components/GoogleMap';
+import Head from 'next/head';
 
 const Areas = () => {
     return (
         <div className='container' style={{minHeight: '90vh'}}>
-            <div className='columns is-centered' style={{padding: '2rem 1rem', margin: '0'}}>                
+            <Head>
+            <meta charSet="utf-8" />
+            <title>Serviced Areas &amp; Coverage | Greenscapes Commercial Maintenance</title>
+            <meta name="description" content="Greenscapes Commercial Garden and Grounds Services provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and surrounding areas." />
+            <link rel="canonical" href="https://www.greenscapes-commercial.co.uk/serviced-areas" />
+            </Head>
+            <div className='columns is-centered' style={{padding: '2rem 0', margin: '0'}}>                
                 <div className='column'>
                     <div className='content'>                            
                         <div style={{textAlign: 'left'}}>
@@ -14,9 +21,19 @@ const Areas = () => {
                                 </div>
                             </div>
                         </div>                               
-                        <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                        <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                        <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
+                        <p>Greenscapes Commercial Garden and Grounds Services provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and surrounding areas.</p>                            
+                        <p>Our qualified maintenance teams provide a range of services to ensure that your premises continue to look their best throughout the year.</p> 
+                        <ul>
+                            <li>Care Homes</li>
+                            <li>Retirement Living Complexes</li>
+                            <li>Nurseries</li>
+                            <li>Schools</li>
+                            <li>Industrial
+                            Grounds</li>
+                            <li>Housing Trusts</li>
+                            <li>Letting Agent</li>
+                            <li>All types of commercial buildings</li>
+                        </ul>                     
                         <GoogleMaps />
                     </div>
                 </div>

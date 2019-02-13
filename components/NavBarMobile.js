@@ -100,19 +100,6 @@ export default class NavBarMobile extends Component {
                                 </button>
                             </Link>
                             </span>
-                            <span style={{marginLeft: '1rem'}}>
-                            <Link href='/contact'>
-                                <button className={`button`} style={{backgroundColor: '#3b5998'}}>
-                                    <a style={{color: 'white'}}>
-                                        <span>
-                                            <i style={{marginRight: '0.5rem'}} className='fa fa-facebook'>
-                                            </i>
-                                        </span>
-                                        Follow
-                                    </a>
-                                </button>
-                            </Link>
-                            </span>
                         </div>
                         <aside className="menu">
                         <p className="menu-label" style={{color: 'white', textAlign: 'left'}}>
@@ -174,25 +161,7 @@ export default class NavBarMobile extends Component {
                                     </span>Contact
                                 </a>
                                 </Link>                                
-                            </li>  
-                            <li>
-                                <Link href='/reviews'>
-                                <a style={linkStyle} onClick={this.toggleClass}>
-                                    <span>
-                                        <i style={{marginRight: '0.3rem'}} className='fa fa-comments'></i>
-                                    </span>Reviews
-                                </a>
-                                </Link>                                
-                            </li>
-                            <li>
-                                <Link href='https://www.facebook.com/greenscapesgardeners'>
-                                <a style={linkStyle} onClick={this.toggleClass}>
-                                    <span>
-                                        <i style={{marginRight: '0.3rem'}} className='fa fa-facebook'></i>
-                                    </span>Facebook
-                                </a>
-                                </Link>                                
-                            </li>
+                            </li> 
                         </ul>  
                         </aside>
                     </div>

@@ -21,73 +21,64 @@ const Footer = () => (
         <div className='container'>
             <div className='columns' style={{padding: '3rem 1rem'}}>
                 <div className='column is-6 is-mobile-12 has-text-centered' style={linkStyle}>                    
-                    <h4 style={titleStyle}>ABOUT GREENSCAPES COMMERCIAL</h4>
-                    <p style={contentStyle}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>  
+                    <h4 style={titleStyle}>About Greenscapes Commercial Garden and Grounds Services</h4>
+                    <p style={contentStyle}>We provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and surrounding areas.</p>  
                     <br/>
-                    <p style={contentStyle}>Fusce vel dolor eget tellus volutpat luctus quis sed ipsum. Donec fermentum fermentum fermentum. Sed commodo lacinia neque ac imperdiet. Curabitur non semper lectus.</p>                                    
+                    <p style={contentStyle}>Our qualified maintenance teams provide a range of services to ensure that your premises continue to look their best throughout the year.</p>                                    
                 </div>
                 <div className='column is-6 is-mobile-12 has-text-centered'>
                     <div className='columns is-mobile'>
                         <div className='column is-8 has-text-centered' style={linkStyle}>
                             <h6 style={titleStyle}>LOCATION</h6>
                             <ul style={contentStyle}>                                
-                                <Link href='/'>
+                                <Link href='/serviced-areas'>
                                     <li>
-                                        <p>
-                                            <span>
-                                                <i className='fa fa-map-marker' style={{color: 'white', marginRight: '0.5rem'}}>
-                                                </i>
-                                            </span>
-                                            <a style={linkStyle}>139 Seal Rd, Bramhall, Stockport SK7 2LL</a>
-                                        </p>                                        
-                                    </li>
-                                </Link>
-                                <br className='is-hidden-mobile'/>
-                                <Link href='/'>
-                                    <li>
-                                        <p>
-                                            <span>
-                                                <i className='fa fa-phone' style={{color: 'white', marginRight: '0.5rem'}}>
-                                                </i>
-                                            </span>
-                                            <a style={linkStyle}>07772 656034</a>
-                                        </p>                                        
-                                    </li>
-                                </Link>
-                                <Link href='/'>
-                                    <li>
-                                        <p>
-                                            <span>
-                                                <i className='fa fa-phone' style={{color: 'white', marginRight: '0.5rem'}}>
-                                                </i>
-                                            </span>
-                                            <a style={linkStyle}>0161 217 2125</a>
-                                        </p>                                        
-                                    </li>
-                                </Link>
-                                <br className='is-hidden-mobile'/>
-                                <Link href='/'>
-                                    <li>
-                                        <p>
-                                            <span>
-                                                <i className='fa fa-envelope' style={{color: 'white', marginRight: '0.5rem'}}>
-                                                </i>
-                                            </span>
-                                            <a style={linkStyle}>info@greenscapes-commercial.com</a>
-                                        </p>                                        
-                                    </li>
-                                </Link>
+                                        <a style={linkStyle}>
+                                        <span>
+                                            <i className='fa fa-map-marker' style={{color: 'white', marginRight: '0.5rem'}}>
+                                            </i>
+                                        </span>
+                                        Seal Rd, Stockport
+                                        </a>
+                                    </li>                                   
+                                </Link>                                                                
+                                <li>
+                                    <a style={linkStyle} href='tel:07772656034'>
+                                        <span>
+                                            <i className='fa fa-phone' style={{color: 'white', marginRight: '0.5rem'}}>
+                                            </i>
+                                        </span>
+                                        07772 656034
+                                    </a>
+                                </li>  
+                            
+                                <li>
+                                    <a style={linkStyle} href='tel:01612172125'>
+                                        <span>
+                                            <i className='fa fa-phone' style={{color: 'white', marginRight: '0.5rem'}}>
+                                            </i>
+                                        </span>
+                                        0161 217 2125
+                                    </a> 
+                                </li>  
+                                <li>
+                                    <a style={linkStyle} href="mailto: info@greenscapes-commercial.com">
+                                        <span>
+                                            <i className='fa fa-envelope' style={{color: 'white', marginRight: '0.5rem'}}>
+                                            </i>
+                                        </span>
+                                        info@greenscapes-commercial.com
+                                    </a>       
+                                </li>  
                             </ul>         
                         </div> 
                         <div className='column is-4 has-text-centered' style={linkStyle}>
                             <h6 style={titleStyle}><span className='is-hidden-mobile'>QUICK </span>LINKS</h6>
                             <ul style={contentStyle}>
                                 <Link href='/'><li><a style={linkStyle}>Home</a></li></Link>
-                                <Link href='/'><li><a style={linkStyle}>About</a></li></Link>
-                                <Link href='/'><li><a style={linkStyle}>Services</a></li></Link>
-                                <Link href='/'><li><a style={linkStyle}>Blog</a></li></Link>
-                                <Link href='/'><li><a style={linkStyle}>Contact</a></li></Link>
-                                <Link href='/'><li><a style={linkStyle}>Sitemap</a></li></Link>  
+                                <Link href='/about-us'><li><a style={linkStyle}>About</a></li></Link>
+                                <Link href='/services-overview'><li><a style={linkStyle}>Services</a></li></Link>
+                                <Link href='/contact'><li><a style={linkStyle}>Contact</a></li></Link>
                             </ul>     
                         </div>  
                     </div>    

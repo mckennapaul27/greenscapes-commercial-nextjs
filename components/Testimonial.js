@@ -13,11 +13,36 @@ export default class Carousel extends Component {
                         </div>
                     </div>
                 </div>
-                                    
-                <CarouselSlider showThumbs={false} useKeyboardArrows={true} showStatus={false} emulateTouch={true} autoPlay={true} infiniteLoop={true}>
-                    <Testimonial messageOne={`Simon and his team have been looking after our garden for about 3 years now and have done a fantastic job. They offer a professional and reliable service with great results. Highly recommend them.`} messageTwo={`I'm a pensioner and Simon has been ripping me off for approx 4 years now. I pay him £20 per week and I never see him. I only ever see this young scrote from Brinny who clears some leaves and is gone within 10 minutes.`} authorOne={'Zoe'} authorTwo={'Lynne McKenna'} locationOne={'Bramhall'} locationTwo={'Poynton'}/>
-                    <Testimonial messageOne={`Very impressed by the professionalism and standard of work at a very reasonable and competitive price. Would be very happy to recommend Simon and his team to anyone.`} messageTwo={`Simon and his team have just finished completely transforming my very old looking and neglected garden. They cleared everything out and started from scratch. I can't believe the transformation, I have to keep reminding myself that it's my garden! `} authorOne={'Zoe'} authorTwo={'Shaun Serridge'} locationOne={'Cheadle'} locationTwo={'Stockport'} />
-                </CarouselSlider>
+                <div className='is-hidden-mobile'>
+                    <CarouselSlider showThumbs={false} useKeyboardArrows={true} showStatus={false} emulateTouch={true} autoPlay={true} infiniteLoop={true}>
+                        <Testimonial 
+                        messageOne={`Greenscapes have been looking after our gardens for over 5 years, they
+                        are always professional, reliable and polite, taking care to ensure our gardens look their best and
+                        are a great space for our children to explore.`} 
+                        messageTwo={`Excellent grounds maintenance all year round, always reliable and they keep
+                        our grounds in top condition for all our customers.`} 
+                        authorOne={'Nursery Rhymes Nursery'} 
+                        authorTwo={'Energi Leisure Park'} 
+                        locationOne={'Cheadle'} 
+                        locationTwo={'Wilmslow'}/>                    
+                    </CarouselSlider>
+                </div> 
+                <div className='is-hidden-desktop is-hidden-widescreen is-hidden-fullhd'>
+                    <CarouselSlider showThumbs={false} useKeyboardArrows={true} showStatus={false} emulateTouch={true} >
+                        <TestimonialMobile 
+                        messageOne={`Greenscapes have been looking after our gardens for over 5 years, they
+                        are always professional, reliable and polite, taking care to ensure our gardens look their best and
+                        are a great space for our children to explore.`}                         
+                        authorOne={'Nursery Rhymes Nursery'} 
+                        locationOne={'Cheadle'} 
+                        /> 
+                        <TestimonialMobile
+                        messageOne={`Excellent grounds maintenance all year round, always reliable and they keep
+                        our grounds in top condition for all our customers.`}
+                        authorOne={'Energi Leisure Park'}
+                        locationOne={'Wilmslow'}/>                    
+                    </CarouselSlider>
+                </div> 
             </div>            
         );
     }
@@ -49,5 +74,25 @@ const Testimonial = (props) => {
         </div>
     )    
 }
+
+const TestimonialMobile = (props) => {
+    return (
+        <div className="notification is-white" style={{height: '100%', marginBottom: '4rem', padding: '2rem'}}>
+            <div className='content' style={{height: '100%'}}>
+                <div className='columns' style={{height: '100%'}}>
+                    <div className='column' style={{height: '100%'}}>                        
+                        <div className="notification is-light" style={{height: '100%'}}>
+                            <p style={{textAlign: 'center', padding: '1.5rem 1.5rem 0 1.5rem'}}><span style={{paddingRight: '0.5rem'}}><i className="fa fa-quote-left" style={{fontSize: '3rem', color: '#339935'}}></i></span>{props.messageOne}</p>
+                            <p style={{marginBottom: '0.25rem'}}><strong>{props.authorOne}</strong></p>
+                            <p style={{marginBottom: '0.25rem'}}>{props.locationOne}</p>
+                            <p style={{color: '#339935'}}><strong>Customer</strong></p>
+                        </div>
+                    </div>                        
+                </div>         
+            </div>               
+        </div>
+    )    
+}
+
 
 

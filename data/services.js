@@ -18,11 +18,7 @@ export const services = [
     {       
         id: 'landscaping-planting',
         name: 'Landscaping & Planting'                  
-    },        
-    {       
-        id: 'interior-plant-displays',
-        name: 'Interior Plant Displays'                  
-    },
+    }, 
     {        
         id: 'lawn-care',
         name: 'Lawn Care' 

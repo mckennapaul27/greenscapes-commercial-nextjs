@@ -1,3 +1,4 @@
+import Link from 'next/link';
 
 const TopMenu = () => {
     return (
@@ -11,7 +12,7 @@ const TopMenu = () => {
                                     <span style={{marginRight: '0.5rem'}}>
                                         <i className='fa fa-envelope' style={{color: '#339935'}}></i>
                                     </span>
-                                    <a href="mailto: info@greenscapes-commercial.com">info@greenscapes-commercial.com</a>
+                                    <a href="mailto: info@greenscapes-commercial.com"><strong>info@greenscapes-commercial.com</strong></a>
                                 </p>
                             </div>
                             <div className='level-item'>
@@ -19,7 +20,7 @@ const TopMenu = () => {
                                     <span style={{marginRight: '0.5rem'}}>
                                         <i className='fa fa-map-marker' style={{color: '#339935'}}></i>
                                     </span>
-                                    <a>139 Seal Rd, Bramhall, Stockport SK7 2LL</a>                       
+                                    <Link href='/serviced-areas'><a><strong>Seal Rd, Stockport SK7 2LL</strong></a></Link> 
                                 </p>    
                             </div> 
                         </div>
@@ -29,7 +30,7 @@ const TopMenu = () => {
                                     <span style={{marginRight: '0.5rem'}}>
                                         <i className='fa fa-phone' style={{color: '#339935'}}></i>
                                     </span>
-                                    <a>07772 656034</a>                       
+                                    <Link href='tel:07772 656034'><a><strong>07772 656034</strong></a></Link> 
                                 </p>                              
                             </div> 
                             <div className='level-item'>
@@ -37,17 +38,9 @@ const TopMenu = () => {
                                     <span style={{marginRight: '0.5rem'}}>
                                         <i className='fa fa-phone-square' style={{color: '#339935'}}></i>
                                     </span>
-                                    <a>0161 217 2125</a>                       
+                                    <Link href='tel:0161 217 2125'><a><strong>0161 217 2125</strong></a></Link> 
                                 </p>  
-                            </div> 
-                            <div className='level-item'>
-                                <p style={{fontSize: '0.85rem', color: '#003249'}}>
-                                    <span style={{marginRight: '0.5rem'}}>
-                                        <i className='fa fa-facebook' style={{color: '#3b5998'}}></i>
-                                    </span>
-                                    <a href='https://www.facebook.com/greenscapesgardeners/'>Follow us on Facebook</a>
-                                </p>
-                            </div>                    
+                            </div>                                           
                         </div>
                     </div>
                 </div>

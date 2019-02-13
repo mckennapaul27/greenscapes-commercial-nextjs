@@ -24,28 +24,28 @@ const Level = ({isVisible}) => {
             <div className="level-item has-text-centered" style={levelStyle}>
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
-                        <img src="/static/images/heart.svg" alt="experienced grounds maintenance" />
+                        <img src="/static/images/edit.svg" alt="experienced grounds maintenance" />
                     </div>
-                    <p className="heading" style={headingStyle}>Happy Customers</p>
-                    <p className="title">{isVisible && <CountUp start={1} end={250} duration={6} />}+</p>
+                    <p className="heading" style={headingStyle}>Commercial Contracts</p>
+                    <p className="title">{isVisible && <CountUp start={1} end={25} duration={6} />}+</p>
                 </div>
             </div>            
             <div className="level-item has-text-centered" style={levelStyle}>
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
-                        <img src="/static/images/coin.svg" alt="experienced grounds maintenance" />
+                        <img src="/static/images/team.svg" alt="experienced grounds maintenance" />
                     </div>
-                    <p className="heading" style={headingStyle}>G's Baby</p>
-                    <p className="title">{isVisible && <CountUp start={1} end={60} duration={6} />}</p>
+                    <p className="heading" style={headingStyle}>Team Members</p>
+                    <p className="title">{isVisible && <CountUp start={1} end={6} duration={6} />}</p>
                 </div>
             </div>
             <div className="level-item has-text-centered" style={levelStyle}>
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
-                        <img src="/static/images/like.svg" alt="experienced grounds maintenance" />
+                        <img src="/static/images/services.svg" alt="experienced grounds maintenance" />
                     </div>
-                    <p className="heading" style={headingStyle}>Social Likes</p>
-                    <p className="title">{isVisible && <CountUp start={1} end={500} duration={6} />}+</p>
+                    <p className="heading" style={headingStyle}>Services</p>
+                    <p className="title">{isVisible && <CountUp start={1} end={15} duration={6} />}+</p>
                 </div>
             </div>
         </div> 

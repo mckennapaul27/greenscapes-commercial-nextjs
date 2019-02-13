@@ -1,7 +1,14 @@
+import Head from 'next/head';
 const About = () => {
     return (
         <div className='container' style={{minHeight: '90vh'}}>
-            <div className='columns is-centered' style={{padding: '2rem 1rem', margin: '0'}}>                
+            <Head>
+            <meta charSet="utf-8" />
+            <title>Contact Us | Greenscapes Commercial Maintenance</title>
+            <meta name="description" content="Contact us at Greenscapes Commercial for a free no-obligation quote to see if we can assist you with your requirements" />
+            <link rel="canonical" href="https://www.greenscapes-commercial.co.uk/contact" />
+            </Head>
+            <div className='columns is-centered' style={{padding: '2rem 0', margin: '0'}}>                
                 <div className='column'>
                     <div className='content'>                            
                         <div style={{textAlign: 'left'}}>

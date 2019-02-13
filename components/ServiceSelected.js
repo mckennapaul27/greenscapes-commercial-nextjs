@@ -1,15 +1,20 @@
 import ServiceFooter from './ServiceFooter';
+import Head from 'next/head';
 
 const ServiceSelected = (service) => {
     if (service === 'grounds-management') {
         return (
-            <div>            
-                <ServiceLayout title={'Grounds Management'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Grounds Management'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+            <div>   
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Grounds Management | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="We cover various types of grounds maintenance, including care homes, retirement living complexes, nurseries, schools, industrial grounds, housing trusts, letting agents and many more" />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>         
+                <ServiceLayout title={'Grounds Management'} >
+                    <p>We have over 15 years combined experience in providing a great service to our clients. </p> 
+                    <p>Our teams of highly trained operatives use only the latest machinery leaving your grounds looking at their best all year round. Our grounds services can be tailor made to suit any specific needs you may have.</p>                    
+                    <p>We cover various types of grounds maintenance, including care homes, retirement living complexes, nurseries, schools, industrial grounds, housing trusts, letting agents and many more.</p> 
                 </ServiceLayout>  
             </div>
         )
@@ -17,12 +22,15 @@ const ServiceSelected = (service) => {
     else if (service === 'business-retail-maintenance') {
         return (
             <div>
-                <ServiceLayout title={'Business Retail Management'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Business Retail Management'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Business Retail Grounds Management | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="From business parks to shopping centres and retail parks, at Greenscapes Commercial Garden and Grounds Services, we can provide you with a top class maintenance service to keep your external areas clean and make sure that they are well maintained." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>    
+                <ServiceLayout title={'Business Retail Management'} >
+                    <p>From business parks to shopping centres and retail parks, at Greenscapes Commercial Garden and Grounds Services, we can provide you with a top class maintenance service to keep your external areas clean and make sure that they are well maintained. Our services cover litter picking and pavement sweeping of hard surfaces as well as jet washing of car parks and walkways to remove leaves, debris, moss and other dirt and keep your external surfaces looking great.</p>
+                    <p>It's not just hard surfaces where we can help as we’ll also be happy to manage all elements of your grounds maintenance including landscaping, planting, lawn care, hedging, and shrub maintenance. Our regular maintenance visits can help you make the right first impression and help you promote a positive corporate image. </p>
                 </ServiceLayout>  
             </div>                    
         )
@@ -30,12 +38,23 @@ const ServiceSelected = (service) => {
     else if (service === 'school-maintenance') {
         return (
             <div>
-                <ServiceLayout title={'School Maintenance'} img={'/static/images/industry_grass.jpeg'} imgAlt={'School Maintenance'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>School Grounds Maintenance | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="Greenscapes Commercial Garden and Grounds Services, we can provide a full range of exterior maintenance and grounds maintenance services for schools, colleges and universities throughout the North West" />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'School Maintenance'} >
+                    <p>The daily upkeep and maintenance of a school plays an important part in making sure the school is safe and that it creates the right impression. At Greenscapes Commercial Garden and Grounds Services, we can provide a full range of exterior maintenance and grounds maintenance services for schools, colleges and universities throughout the North West. From hard paved areas such as walkways and patios to car parks and signage, we can undertake all types of external maintenance and grounds maintenance for schools.</p>
+                    <p>As well as exterior maintenance for schools we also offer a full spectrum of grounds maintenance services which includes:</p>
+                    <ul>
+                        <li>Landscaping and planting</li>
+                        <li>Lawn care</li>
+                        <li>Tree surgery</li>
+                        <li>Hedge and shrub maintenance</li>
+                        <li>Planting schemes</li>
+                        <li>Spraying and vegetation control</li>
+                    </ul>
                 </ServiceLayout>  
             </div>                    
         )
@@ -43,12 +62,15 @@ const ServiceSelected = (service) => {
     else if (service === 'hedge-shrub-maintenance') {
         return (
             <div>
-                <ServiceLayout title={'Hedge & Shrub Maintenance'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Hedge & Shrub Maintenance'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Hedge &amp; Shrub Maintenance | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="We have various contracts for cutting hedges alone through managing agents, commercial property companies, schools/colleges, hospitals and many more." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'Hedge & Shrub Maintenance'} >
+                    <p>Tackling hedges that have grown wild can be a hassle and awkward to correct. We offer a one off service or regular maintenance to trim hedges down to the client's required size.</p>
+                    <p>We have various contracts for cutting hedges alone through managing agents, commercial property companies, schools/colleges, hospitals and many more.</p>
                 </ServiceLayout>  
             </div>                    
         )
@@ -56,38 +78,40 @@ const ServiceSelected = (service) => {
     else if (service === 'landscaping-planting') {
         return (
             <div>
-                <ServiceLayout title={'Landscaping & Planting'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Landscaping & Planting'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Landscaping &amp; Planting | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="We offer hard and soft landscaping services tailored to our client's needs. Planting can really boost the appearance of any property and if planned properly, can be very cost effective. We can deliver planting schemes in keeping with the surroundings or totally re-plan the area." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'Landscaping & Planting'}>
+                    <p>We offer hard and soft landscaping services tailored to our client's needs. Planting can really boost the appearance of any property and if planned properly, can be very cost effective. We can deliver planting schemes in keeping with the surroundings or totally re-plan the area.</p>
+                    <p>We offer hard and soft landscaping services across the North West. Some of the landscaping services we offer include:</p>
+                    <ul>
+                        <li>Block Paving</li>
+                        <li>Flag laying / Re-laying </li>
+                        <li>Turfing</li>
+                        <li>Artificial Grass</li>
+                        <li>Planting</li>
+                        <li>Complete design</li>
+                    </ul>
                 </ServiceLayout>  
             </div>                    
         )
     }
-    else if (service === 'interior-plant-displays') {
-        return (
-            <div>
-                <ServiceLayout title={'Interior Plant Displays'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Interior Plant Displays'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
-                </ServiceLayout>  
-            </div>                    
-        )
-    }
+   
     else if (service === 'lawn-care') {
         return (
             <div>
-                <ServiceLayout title={'Lawn Care'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Lawn Care'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Lawn Care | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="We have been providing lawn care for many years and know the exact timings for treatments to gain the best outcome for your lawns. The best weed &amp; feed solution will be applied by our trained staff allowing the weeds to curl and the grass to finally get back in control." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'Lawn Care'}>
+                    <p>Nothing enhances your corporate location better than a healhy, green, weed free lawn. We offer a full lawn care service including, clearing and applying weed killers and feed &amp; fertilisers to bring your lawn back to life and looking at it's very best.</p>
+                    <p>We have been providing lawn care for many years and know the exact timings for treatments to gain the best outcome for your lawns. The best weed &amp; feed solution will be applied by our trained staff allowing the weeds to curl and the grass to finally get back in control. </p>
                 </ServiceLayout>  
             </div>                    
         )
@@ -95,12 +119,16 @@ const ServiceSelected = (service) => {
     else if (service === 'outdoor-cleaning') {
         return (
             <div>
-                <ServiceLayout title={'Outdoor Cleaning'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Outdoor Cleaning'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Outdoor Cleaning | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="For Retail or Leisure facilities litter can cause a real problem and needs to be managed properly to maintain your corporate image. We work with a number of clients in providing spotless spaces to boost image and reduce risk of pests." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'Outdoor Cleaning'}>
+                    <p>For Retail or Leisure facilities litter can cause a real problem and needs to be managed properly to maintain your corporate image. We work with a number of clients in providing spotless spaces to boost image and reduce risk of pests.</p>
+                    <p>We offer daily, weekly and monthly services to shops, retail parks, shopping centres, office blocks and many more. Litter picking is carried out to the highest standard and disposed of appropriately. All our services can be tailored to specific sites/clients.</p>
+                    <p>With Health &amp; Safety in mind, a slippery walk way or car park can be a potential hazard. We offer leaf clearances and moss removal during the winter months. This can be a one off clearance of your car park or regular maintenance.</p>
                 </ServiceLayout>  
             </div>                    
         )
@@ -108,12 +136,16 @@ const ServiceSelected = (service) => {
     else if (service === 'spraying-vegetation-control') {
         return (
             <div>
-                <ServiceLayout title={'Spraying & Vegetation Control'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Spraying & Vegetation Control'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Spraying &amp; Vegetation Control | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="We offer a range of responsible approaches to all areas of vegetation management. Our team are qualified and can improve your property with efficient and cost effective methods." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'Spraying & Vegetation Control'}>
+                    <p>We offer a range of responsible approaches to all areas of vegetation management. Our team are qualified and can improve your property with efficient and cost effective methods.</p>
+                    <p>Japanese Knotweed is a highly invasive plant and can damage your building, car parks and any other structure. We are highly trained to deal with this pesky species and have all the relevant qualifications to perform surveys, reports, management plans, advice and treatment options</p>
+                    <p>We often work with commercial clients wanting to extend their buildings, residential clients that have let it get out of control. All our waste is taken off-site and disposed of appropriately. </p>
                 </ServiceLayout>  
             </div>                    
         )
@@ -121,12 +153,16 @@ const ServiceSelected = (service) => {
     else if (service === 'tree-surgery') {
         return (
             <div>
-                <ServiceLayout title={'Tree Surgery'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Tree Surgery'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Tree Surgery | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="All aspects of professional tree care are catered for, from removing the smallest of branches to felling large trees which are carried out by qualified staff." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'Tree Surgery'}>
+                    <p>All aspects of professional tree care are catered for, from removing the smallest of branches to felling large trees which are carried out by qualified staff.</p>
+                    <p>Our services include tree pruning, thinning, felling and processing</p>
+                    <p>All our waste is taken off-site and disposed of appropriately.</p>
                 </ServiceLayout>  
             </div>                    
         )
@@ -134,12 +170,22 @@ const ServiceSelected = (service) => {
     else if (service === 'jet-pressure-washing') {
         return (
             <div>
-                <ServiceLayout title={'Jet & Pressure Washing'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Jet & Pressure Washing'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Jet &amp; Pressure Washing | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="Using high power, industrial pressure washers our team are able to clean a wide range of surfaces including car parks, sports courts, hard landscaped areas, hospitals, housing association premises, patios, driveways and much more." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'Jet & Pressure Washing'}>
+                    <p>Because first impressions matter, let Greenscapes Commercial Garden and Grounds Services help to keep your walls, paving and hard areas clean by jet washing the dirt away. Using high power, industrial pressure washers our team are able to clean a wide range of surfaces including car parks, sports courts, hard landscaped areas, hospitals, housing association premises, patios, driveways and much more.</p>
+                    <p>Greenscapes Commercial Garden and Grounds Services provide a professional, cost-effective and effective pressure washing service for commercial and residential customers in Cheshire, SOuth Manchester and throughout the North West. Using the latest equipment we can clean a wide range of areas without the need for an external water supply. </p>
+                    <p>Some examples of our commercial pressure washing service include:</p>
+                    <ul>
+                        <li>Restaurant paving maintenance</li>
+                        <li>Hospital paving maintenance</li>
+                        <li>Retail car park maintenance</li>
+                        <li>University &amp; school campuses</li>
+                    </ul>
                 </ServiceLayout>  
             </div>                    
         )
@@ -147,12 +193,16 @@ const ServiceSelected = (service) => {
     else if (service === 'graffiti-removal') {
         return (
             <div>
-                <ServiceLayout title={'Graffiti Removal'} img={'/static/images/industry_grass.jpeg'} imgAlt={'Graffiti Removal'} >
-                    <p>Welcome to Greenscapes Gardening Bramhall. We provide domestic and commercial gardening maintenance and design services in South Manchester and Cheshire.</p>                            
-                    <p>We also offer commercial ground maintenance services for Schools, Housing trusts, Companies and all types of commercial buildings.</p>
-                    <p>Vivamus eget malesuada ligula. Vivamus id leo convallis nisi dignissim cursus. Pellentesque quis urna fermentum, iaculis magna id, feugiat libero. Phasellus nisi velit, mattis sit amet tellus vel, rutrum congue dolor. In est ante, vehicula id nulla sed, tincidunt sagittis velit. Duis nec gravida nibh. In suscipit odio velit, vitae blandit ipsum ullamcorper eget.</p>
-                    <p>We cover South Manchester, Bramhall, Cheadle, Cheadle Hulme, Wilmslow, Alderley Edge, Bollington, Prestbury, Handforth, Mobberly, Woodford and Poynton</p>
-                    <p>In non augue in risus faucibus pulvinar. Aliquam ultrices interdum nulla, sit amet pharetra turpis. Ut posuere, est vitae rutrum congue, libero sapien semper sem, vel bibendum quam metus id tortor. Aenean tristique nisi et mi porta suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer finibus sed augue pulvinar viverra. In hac habitasse platea dictumst.</p>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Graffiti Removal | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="We offer graffiti removal services across the North West to retail parks, shop owners, councils, housing associations, commercial clients and anybody who may be on the receiving end of this vandalism." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                </Head>  
+                <ServiceLayout title={'Graffiti Removal'}>
+                    <p>Graffiti can look unsightly and appears overnight. Our effective methods can help remove graffiti quickly and completely. </p>
+                    <p>We offer graffiti removal services across the North West to retail parks, shop owners, councils, housing associations, commercial clients and anybody who may be on the receiving end of this vandalism. </p>
+                    <p>We have contracts with a lot of commercial companies to remove any graffiti that comes their way. We provide this service by providing cost effective solutions and by always being able to meet their timescale.</p>
                 </ServiceLayout>  
             </div>                    
         )
