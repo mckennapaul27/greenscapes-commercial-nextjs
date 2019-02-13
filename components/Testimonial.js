@@ -13,7 +13,7 @@ export default class Carousel extends Component {
                         </div>
                     </div>
                 </div>
-                <div className='is-hidden-mobile'>
+                <div className='is-hidden-touch'>
                     <CarouselSlider showThumbs={false} useKeyboardArrows={true} showStatus={false} emulateTouch={true} autoPlay={true} infiniteLoop={true}>
                         <Testimonial 
                         messageOne={`Greenscapes have been looking after our gardens for over 5 years, they
