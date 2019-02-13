@@ -38,8 +38,9 @@ const Home = () => {
                         <div className='has-text-centered' style={{background: 'rgba(16,46,16, 0.7)', padding: '3rem 0'}}>
                             <FadeIn transitionDuration={2500}>
                             <h1 className="title is-3" style={{color: '#FCFAFA'}}><span className='is-hidden-mobile'>Established And Trustworthy</span> Commercial Garden &amp; Grounds Maintenance</h1>
-                            <h2 className="subtitle is-4" style={{color: '#FCFAFA', padding: '2rem 1rem 0 1rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Commercial Garden and Grounds Services. We provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and surrounding areas.</h2>
-                            <h3 className='subtitle is-5' style={{color: '#FCFAFA', padding: '1rem 1rem 2rem 1rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>We can help you to promote your corporate image by having well maintained gardens and grounds.</h3>
+                            <h2 className="subtitle is-3" style={{color: '#FCFAFA', padding: '2rem 1rem 0 1rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>Welcome to Greenscapes Commercial Garden and Grounds Services. </h2>
+                            <p className="subtitle is-3" style={{color: '#FCFAFA', padding: '1rem 1rem 0 1rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>We provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and surrounding areas.</p>
+                            <h3 className='subtitle is-3' style={{color: '#FCFAFA', padding: '1rem 1rem 2rem 1rem', fontSize: '1.1rem', lineHeight: '1.95rem'}}>We can help you to promote your corporate image by having well maintained gardens and grounds.</h3>
                             <div>
                                 <Link href='/contact'>
                                     <button className={`button is-primary is-medium`}>
@@ -70,12 +71,11 @@ const Home = () => {
                 </div> 
             </div>
             {/* Middle upper */}
-            <div className='container' style={{minHeight: '90vh'}}>
-                <div className='columns is-centered' style={{padding: '2rem 1rem', margin: '0'}}>
-                    <div className='column'> 
-                        <img src="/static/images/garden4.jpeg" alt=""/>
+            <div className='container' style={{minHeight: '50vh'}}>
+                <div className='columns is-centered' style={{padding: '2rem 1rem 1rem 1rem', margin: '0'}}>
+                    <div className='column' > 
+                        <img src="/static/images/garden4.jpeg" alt="" style={{maxHeight: '75%'}}/>
                     </div>
-                    <div className='column is-1'></div>
                     <div className='column'>
                         <div className='content'>                            
                             <div style={{textAlign: 'left'}}>

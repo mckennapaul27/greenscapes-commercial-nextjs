@@ -4,7 +4,7 @@ import {Component} from 'react';
 export default class Carousel extends Component {
     render() {
         return (
-            <div style={{marginTop: '3rem', minHeight: '80vh'}}>
+            <div style={{marginTop: '3rem', minHeight: '60vh'}}>
                 <div style={{textAlign: 'center'}}>
                     <div style={{display: 'inline-block'}}>
                         <h3 className='title is-3' style={{width: '100%'}}>Testimonials</h3>

@@ -22,11 +22,12 @@ const About = () => {
                             </div>
                         </div>                               
                         <p>Greenscapes is a Commercial Garden and Grounds Maintenance company established since
-                        2012. We have an experienced and qualified team that provide a quality service.</p> 
+                        2012. We have an experienced and qualified team that provide a quality service.</p>
+                        <p>We provide professional garden & grounds maintenance in Cheshire, South Manchester and surrounding areas.</p> 
                         <p>We pride ourselves on our professional and reliable approach to our work and ensuring our
-                        customers are fully satisfied with the work we provide.</p>  
-                        <p>We pride ourselves on our professional and reliable approach to our work and ensuring our
-                        customers are fully satisfied with the work we provide.</p>                      
+                        customers are fully satisfied with the work we provide.</p> 
+                        <p>Our qualified maintenance teams provide a range of services to ensure that your premises continue to look their best throughout the year.</p>
+                        <p>Please feel free to get in contact with Greenscapes Commercial Garden and Grounds Services so we can discuss your requirements in further detail.</p>
                     </div>
                     <div style={{padding: '1rem 0',textAlign: 'left'}}>
                         <button className={`button is-primary`}>
