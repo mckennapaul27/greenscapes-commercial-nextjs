@@ -38,9 +38,5 @@ export const services = [
     {        
         id: 'graffiti-removal',
         name: 'Graffiti Removal' 
-    },
-    {       
-        id: 'jet-pressure-washing',
-        name: 'Jet & Pressure Washing'                  
     }
 ];

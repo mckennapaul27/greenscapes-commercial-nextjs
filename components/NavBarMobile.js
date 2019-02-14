@@ -34,7 +34,12 @@ export default class NavBarMobile extends Component {
             color: 'white',
             textAlign: 'left',
             padding: '0.65rem 0'
-        }       
+        }  
+        
+        const tabsLinkStyle = {
+            backgroundColor: '#1C541D', 
+            color: 'white'            
+        }  
 
         const PostLink = (props) => { 
             return (
@@ -46,6 +51,7 @@ export default class NavBarMobile extends Component {
         
 
         return (
+            <div>
             <div 
                 className='navbar'   
                 style={{backgroundColor: 'white'}}                            
@@ -166,6 +172,39 @@ export default class NavBarMobile extends Component {
                         </aside>
                     </div>
                 </div>
+            </div>
+            <div class="tabs is-info">
+                <ul>
+                    <li>
+                        <a href="mailto: info@greenscapes-commercial.com" style={tabsLinkStyle}>
+                            <span>
+                                <i className='fa fa-envelope' style={{marginRight: '0.25rem'}}>
+                                </i>
+                            </span>
+                            info@greenscapes-commercial.com
+                        </a>       
+                    </li>      
+                    <li>
+                        <a href='tel:07772656034' style={tabsLinkStyle}>
+                            <span>
+                                <i className='fa fa-phone' style={{marginRight: '0.25rem'}}>
+                                </i>
+                            </span>
+                            07772 656034
+                        </a>
+                    </li> 
+                
+                    <li>
+                        <a href='tel:01612172125' style={tabsLinkStyle}>
+                            <span>
+                                <i className='fa fa-phone' style={{marginRight: '0.25rem'}}>
+                                </i>
+                            </span>
+                            0161 217 2125
+                        </a> 
+                    </li>       
+                </ul>
+            </div>
             </div>
         )
     }

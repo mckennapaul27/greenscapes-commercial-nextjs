@@ -71,7 +71,7 @@ const Home = () => {
                 </div> 
             </div>
             {/* Middle upper */}
-            <div className='container' style={{minHeight: '50vh'}}>
+            <div className='container' style={{minHeight: '40vh'}}>
                 <div className='columns is-centered' style={{padding: '2rem 1rem 1rem 1rem', margin: '0'}}>
                     <div className='column' > 
                         <img src="/static/images/garden4.jpeg" alt="" style={{maxHeight: '75%'}}/>
@@ -98,7 +98,7 @@ const Home = () => {
                                 <li>Industrial
                                 Grounds</li>
                                 <li>Housing Trusts</li>
-                                <li>Letting Agent</li>
+                                <li>Letting Agents</li>
                             </ul>
                             <p>Our qualified maintenance teams provide a range of services to ensure that your premises
                             continue to look their best throughout the year.</p>                            

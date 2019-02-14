@@ -47,7 +47,6 @@ const ServicesOverview = () => {
                             <li>Spraying &amp; Vegetation Control</li>
                             <li>Tree Surgery</li>
                             <li>Graffiti Removal</li>
-                            <li>Jet &amp; Pressure Washing</li>
                         </ul>        
                         <p>However, our services are not only limited to the list above. Please do not hesiate to <Link href='/contact'><span><strong>contact us</strong></span></Link> to see whether we can assist you.</p>          
                     </div>
