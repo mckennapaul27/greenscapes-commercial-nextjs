@@ -77,7 +77,7 @@ const Footer = () => (
                             <ul style={contentStyle}>
                                 <Link href='/'><li><a style={linkStyle}>Home</a></li></Link>
                                 <Link href='/about-us'><li><a style={linkStyle}>About</a></li></Link>
-                                <Link href='/services-overview'><li><a style={linkStyle}>Services</a></li></Link>
+                                <Link href='/services'><li><a style={linkStyle}>Services</a></li></Link>
                                 <Link href='/contact'><li><a style={linkStyle}>Contact</a></li></Link>
                             </ul>     
                         </div>  
