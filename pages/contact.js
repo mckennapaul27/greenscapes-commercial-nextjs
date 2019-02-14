@@ -55,6 +55,12 @@ export default class Contact extends Component {
             </Head>
             <div className='columns is-centered' style={{padding: '2rem 0', margin: '0'}}>                
                 <div className='column'>
+                <nav class="breadcrumb" aria-label="breadcrumbs">
+                    <ul>
+                        <li><a href="/">Home</a></li>                                    
+                        <li class="is-active"><a href="contact" aria-current="page">Contact us</a></li>
+                    </ul>
+                </nav>
                     <div className='content'>                            
                         <div style={{textAlign: 'left'}}>
                             <div style={{display: 'inline-block', paddingBottom: '1rem'}}>

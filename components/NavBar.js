@@ -52,7 +52,7 @@ export default withRouter(class NavBar extends Component {
                                 </Link>                                
                             </div>    
                             <div className='navbar-item has-dropdown is-hoverable'>                                
-                                <Link href={`/services-overview`}>
+                                <Link href={`/services`}>
                                     <a className='navbar-link' style={linkStyle}>
                                         <span>
                                             <i style={{marginRight: '0.5rem', color: '#339935'}} className='fa fa-cogs'></i>
@@ -100,7 +100,7 @@ const DropDownItems = () => {
                 })
             }            
             <hr className="navbar-divider" />            
-            <Link href='/services-overview'>
+            <Link href='/services'>
                 <a className="navbar-item">
                     Services Overview
                 </a>

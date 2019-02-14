@@ -216,6 +216,13 @@ const ServiceSelected = (service) => {
 const ServiceLayout = (props) => (    
     <div className='container'>
         <div className='column' style={{padding: '3rem 1rem'}}>
+            <nav class="breadcrumb" aria-label="breadcrumbs">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/services">Services</a></li>                    
+                    <li class="is-active"><a href="#" aria-current="page">{props.title}</a></li>
+                </ul>
+            </nav>
             <div className='content'>                            
                 <div style={{textAlign: 'left'}}>
                     <div style={{display: 'inline-block', paddingBottom: '1rem'}}>
