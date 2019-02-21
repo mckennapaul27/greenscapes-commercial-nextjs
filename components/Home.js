@@ -15,7 +15,7 @@ const Home = () => {
     }
 
     const servicesStyle = {
-        backgroundImage: "url('/static/images/mower.jpg')",
+        backgroundImage: "url('/static/images/commercial.jpg')",
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
