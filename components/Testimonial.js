@@ -24,7 +24,16 @@ export default class Carousel extends Component {
                         authorOne={'Nursery Rhymes Nursery'} 
                         authorTwo={'Energi Leisure Park'} 
                         locationOne={'Cheadle'} 
-                        locationTwo={'Wilmslow'}/>                    
+                        locationTwo={'Wilmslow'}/>  
+                         <Testimonial 
+                        messageOne={`The Greenscapes team look after Bupa Care. They do a fantastic job and arrive on time every week. The staff are very polite and can’t do enough for you. All the guests and visitors comment on how lovely our grounds look. Thank you Greenscapes!`} 
+                        messageTwo={`Greenscapes have been looking after our gardens for over 5 years, they
+                        are always professional, reliable and polite, taking care to ensure our gardens look their best and
+                        are a great space for our children to explore.`} 
+                        authorOne={'Bupa Care'} 
+                        authorTwo={'Nursery Rhymes Nursery'} 
+                        locationOne={'Wilmslow'} 
+                        locationTwo={'Cheadle'}/>                    
                     </CarouselSlider>
                 </div> 
                 <div className='is-hidden-desktop is-hidden-widescreen is-hidden-fullhd'>
@@ -40,7 +49,11 @@ export default class Carousel extends Component {
                         messageOne={`Excellent grounds maintenance all year round, always reliable and they keep
                         our grounds in top condition for all our customers.`}
                         authorOne={'Energi Leisure Park'}
-                        locationOne={'Wilmslow'}/>                    
+                        locationOne={'Wilmslow'}/>    
+                        <TestimonialMobile
+                        messageOne={`The Greenscapes team look after Bupa Care. They do a fantastic job and arrive on time every week. The staff are very polite and can’t do enough for you. All the guests and visitors comment on how lovely our grounds look. Thank you Greenscapes!`}
+                        authorOne={'Bupa Care'}
+                        locationOne={'Wilmslow'}/>                  
                     </CarouselSlider>
                 </div> 
             </div>            
