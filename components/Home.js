@@ -30,15 +30,15 @@ const Home = () => {
     // 'goldenlane.png',
 
     const images = [
-        'booles.png',
-        'bupa.png',
         'emerson.jpg',
+        'mcgoff.png',
+        'bupa.png',
         'energi.png',
         'fairhurst.jpg',
         'headset.jpg',
-        'mcgoff.png',
         'ninas.jpg',
         'nursery-rhymes.png',
+        'booles.png',
         'olea.jpg'
     ]
 
