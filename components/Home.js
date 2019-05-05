@@ -27,6 +27,20 @@ const Home = () => {
         backgroundPosition: 'center center',
         backgroundSize: 'cover'
     }
+    // 'goldenlane.png',
+
+    const images = [
+        'booles.png',
+        'bupa.png',
+        'emerson.jpg',
+        'energi.png',
+        'fairhurst.jpg',
+        'headset.jpg',
+        'mcgoff.png',
+        'ninas.jpg',
+        'nursery-rhymes.png',
+        'olea.jpg'
+    ]
 
     
     return (
@@ -114,6 +128,29 @@ const Home = () => {
                 <div style={{minHeight: '60vh', background: 'rgba(16,46,16, 0.8)', padding: '2rem'}}> 
                     <Services />         
                 </div> 
+            </div>
+            <div style={{textAlign: 'center', marginTop: '3rem'}}>
+                <div style={{display: 'inline-block'}}>
+                    <h3 className='title is-3' style={{width: '100%'}}>Our Clients</h3>
+                    <div>
+                        <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0'}} />
+                    </div>
+                </div>
+            </div>            
+            <div className="columns is-centered is-multiline" style={{padding: '3rem 1rem', margin: '0'}}>
+                {
+                    images.map(image => {
+                        return (
+                            <div className="column is-one-fifth" style={{padding: '2rem'}}>
+                                <div>
+                                    <div style={{maxWidth: '7.5rem', margin: 'auto'}}>
+                                        <img src={`/static/images/${image}`} alt={image} />
+                                    </div>                        
+                                </div>
+                            </div>
+                        )
+                    })
+                }                
             </div>
             <Testimonial />
         </div>
