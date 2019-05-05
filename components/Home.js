@@ -136,21 +136,23 @@ const Home = () => {
                         <hr style={{border: '3px solid #339935', width: '5rem', padding: '0', margin: '0'}} />
                     </div>
                 </div>
-            </div>            
-            <div className="columns is-centered is-multiline" style={{padding: '3rem 1rem', margin: '0'}}>
-                {
-                    images.map(image => {
-                        return (
-                            <div className="column is-one-fifth" style={{padding: '2rem'}}>
-                                <div>
-                                    <div style={{maxWidth: '7.5rem', margin: 'auto'}}>
-                                        <img src={`/static/images/${image}`} alt={image} />
-                                    </div>                        
+            </div>      
+            <div className='container'>      
+                <div className="columns is-centered is-multiline" style={{padding: '3rem 1rem', margin: '0'}}>
+                    {
+                        images.map(image => {
+                            return (
+                                <div className="column is-one-fifth" style={{padding: '2rem'}}>
+                                    <div>
+                                        <div style={{maxWidth: '7.5rem', margin: 'auto'}}>
+                                            <img src={`/static/images/${image}`} alt={image} />
+                                        </div>                        
+                                    </div>
                                 </div>
-                            </div>
-                        )
-                    })
-                }                
+                            )
+                        })
+                    }                
+                </div>
             </div>
             <Testimonial />
         </div>
