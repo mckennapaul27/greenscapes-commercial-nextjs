@@ -176,12 +176,12 @@ export default class NavBarMobile extends Component {
             <div class="tabs is-info is-hidden-tablet">
                 <ul>
                     <li>
-                        <a href="mailto: info@greenscapes-commercial.com" style={tabsLinkStyle}>
+                        <a href="mailto: info@greenscapes-commercial.co.uk" style={tabsLinkStyle}>
                             <span>
                                 <i className='fa fa-envelope' style={{marginRight: '0.25rem'}}>
                                 </i>
                             </span>
-                            info@greenscapes-commercial.com
+                            info@greenscapes-commercial.co.uk
                         </a>       
                     </li>      
                     <li>

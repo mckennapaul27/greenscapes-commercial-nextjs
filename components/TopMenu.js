@@ -12,7 +12,7 @@ const TopMenu = () => {
                                     <span style={{marginRight: '0.5rem'}}>
                                         <i className='fa fa-envelope' style={{color: '#339935'}}></i>
                                     </span>
-                                    <a href="mailto: info@greenscapes-commercial.com"><strong>info@greenscapes-commercial.com</strong></a>
+                                    <a href="mailto: info@greenscapes-commercial.co.uk"><strong>info@greenscapes-commercial.co.uk</strong></a>
                                 </p>
                             </div>
                             <div className='level-item'>
@@ -53,12 +53,12 @@ const TopMenu = () => {
                     </span>
                     07772 656034
                 </a>
-                <a href="mailto: info@greenscapes-commercial.com" style={{fontSize: '0.75rem'}}>
+                <a href="mailto: info@greenscapes-commercial.co.uk" style={{fontSize: '0.75rem'}}>
                     <span style={{marginRight: '0.3rem'}}>
                         <i className='fa fa-envelope' style={{color: '#339935'}}>
                         </i>
                     </span>
-                    info@greenscapes-commercial.com
+                    info@greenscapes-commercial.co.uk
                 </a>
                 <a href="https://www.facebook.com/greenscapesgardeners/" style={{fontSize: '0.75rem'}}>
                     <span style={{marginRight: '0.3rem'}}>

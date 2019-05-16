@@ -62,12 +62,12 @@ const Footer = () => (
                                     </a> 
                                 </li>  
                                 <li>
-                                    <a style={linkStyle} href="mailto: info@greenscapes-commercial.com">
+                                    <a style={linkStyle} href="mailto: info@greenscapes-commercial.co.uk">
                                         <span>
                                             <i className='fa fa-envelope' style={{color: 'white', marginRight: '0.5rem'}}>
                                             </i>
                                         </span>
-                                        info@greenscapes-commercial.com
+                                        info@greenscapes-commercial.co.uk
                                     </a>       
                                 </li>  
                             </ul>         
@@ -87,7 +87,7 @@ const Footer = () => (
             <hr style={{height: '0.06rem', background: 'gray'}} />
         </div>   
         <div className='container has-text-centered' style={{marginTop: '0.5rem'}}>
-            <p style={{fontSize: '0.75rem', color: 'white'}}>Copyright {moment().format('YYYY')} | <a href="/" style={{fontSize: '0.75rem', color: 'white'}}>www.greenscapes-commercial.com</a> | All Rights Reserved.</p>
+            <p style={{fontSize: '0.75rem', color: 'white'}}>Copyright {moment().format('YYYY')} | <a href="/" style={{fontSize: '0.75rem', color: 'white'}}>www.greenscapes-commercial.co.uk</a> | All Rights Reserved.</p>
         </div>
     </footer>
 )  
