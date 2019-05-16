@@ -26,9 +26,9 @@ const Footer = () => (
                     <br/>
                     <p style={contentStyle}>Our qualified maintenance teams provide a range of services to ensure that your premises continue to look their best throughout the year.</p>                                    
                 </div>
-                <div className='column is-6 is-mobile-12 has-text-centered'>
+                <div className='column is-4 is-mobile-12 has-text-centered'>
                     <div className='columns is-mobile'>
-                        <div className='column is-8 has-text-centered' style={linkStyle}>
+                        <div className='column is-6 has-text-centered' style={linkStyle}>
                             <h6 style={titleStyle}>LOCATION</h6>
                             <ul style={contentStyle}>                                
                                 <Link href='/serviced-areas'>
@@ -72,7 +72,7 @@ const Footer = () => (
                                 </li>  
                             </ul>         
                         </div> 
-                        <div className='column is-4 has-text-centered' style={linkStyle}>
+                        <div className='column is-6 has-text-centered' style={linkStyle}>
                             <h6 style={titleStyle}><span className='is-hidden-mobile'>QUICK </span>LINKS</h6>
                             <ul style={contentStyle}>
                                 <Link href='/'><li><a style={linkStyle}>Home</a></li></Link>
@@ -80,10 +80,14 @@ const Footer = () => (
                                 <Link href='/services'><li><a style={linkStyle}>Services</a></li></Link>
                                 <Link href='/contact'><li><a style={linkStyle}>Contact</a></li></Link>
                             </ul>     
-                        </div>  
+                        </div> 
                     </div>    
-                </div>                      
-            </div>
+                </div>  
+                <div className='column is-2 is-mobile-12 has-text-centered'>
+                    <h6 style={titleStyle}><span className='is-hidden-mobile'></span>ACCREDITATIONS</h6>
+                    <img src="/static/images/certified.jpeg" alt="" style={{maxWidth: '125px'}}/>
+                </div>                    
+            </div>            
             <hr style={{height: '0.06rem', background: 'gray'}} />
         </div>   
         <div className='container has-text-centered' style={{marginTop: '0.5rem'}}>
