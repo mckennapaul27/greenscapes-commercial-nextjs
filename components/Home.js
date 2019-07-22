@@ -35,7 +35,7 @@ const Home = () => {
         'bupa.png',
         'energi.png',
         'fairhurst.jpg',
-        'headset.jpg',
+        'mccarthy.jpeg',
         'ninas.jpg',
         'nursery-rhymes.png',
         'booles.png',
