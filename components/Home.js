@@ -113,6 +113,7 @@ const Home = () => {
                                 Grounds</li>
                                 <li>Housing Trusts</li>
                                 <li>Letting Agents</li>
+                                <li>Block Management Companies</li>
                             </ul>
                             <p>Our qualified maintenance teams provide a range of services to ensure that your premises
                             continue to look their best throughout the year.</p>                            
