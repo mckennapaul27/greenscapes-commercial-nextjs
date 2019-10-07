@@ -195,12 +195,12 @@ export default class NavBarMobile extends Component {
                     </li> 
                 
                     <li>
-                        <a href='tel:01612172125' style={tabsLinkStyle}>
+                        <a href='tel:01613763050' style={tabsLinkStyle}>
                             <span>
                                 <i className='fa fa-phone' style={{marginRight: '0.25rem'}}>
                                 </i>
                             </span>
-                            0161 217 2125
+                            0161 376 3050
                         </a> 
                     </li>       
                 </ul>

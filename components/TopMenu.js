@@ -38,7 +38,7 @@ const TopMenu = () => {
                                     <span style={{marginRight: '0.5rem'}}>
                                         <i className='fa fa-phone-square' style={{color: '#339935'}}></i>
                                     </span>
-                                    <Link href='tel:0161 217 2125'><a><strong>0161 217 2125</strong></a></Link> 
+                                    <Link href='tel:01613763050'><a><strong>0161 376 3050</strong></a></Link> 
                                 </p>  
                             </div>                                           
                         </div>
