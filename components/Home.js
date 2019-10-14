@@ -56,6 +56,7 @@ const Home = () => {
                                     <div className='columns'>
                                         <div className='column'>
                                             <img src="/static/images/logo-x.png" alt="greenscapes logo" style={{ maxWidth: '155px' }} />
+                                            {/* <img src="/static/images/logo.png" alt="greenscapes logo" style={{ maxWidth: '155px' }} /> */}
                                         </div>
                                     </div>
                                     <p>We provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and the North West.</p>
@@ -96,7 +97,7 @@ const Home = () => {
                 <div className='container' style={{ border: '1px solid #1C541D' }}>
                     <div className='content'>
                         <h3><em>"Promote your corporate image by having well maintained gardens and grounds."</em></h3>
-                        <hr/>
+                        <hr className='is-hidden-mobile'/>
                         <Link href='/services'>
                             <button className={`button is-primary is-medium`}>
                                 <a style={{color: 'white'}}>
