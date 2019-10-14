@@ -36,7 +36,7 @@ const Level = ({isVisible}) => {
                         <img src="/static/images/team.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>Team Members</p>
-                    <p className="title">{isVisible && <CountUp start={1} end={9} duration={6} />}</p>
+                    <p className="title">{isVisible && <CountUp start={1} end={12} duration={6} />}</p>
                 </div>
             </div>
             <div className="level-item has-text-centered" style={levelStyle}>

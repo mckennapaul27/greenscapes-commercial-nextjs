@@ -27,7 +27,7 @@ const Areas = () => {
                                 </div>
                             </div>
                         </div>                               
-                        <p>Greenscapes Commercial Garden and Grounds Services provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and surrounding areas.</p>                            
+                        <p>Greenscapes Commercial Garden and Grounds Services provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and the whole of the North West.</p>                            
                         <p>Our qualified maintenance teams provide a range of services to ensure that your premises continue to look their best throughout the year.</p> 
                         <ul>
                             <li>Care Homes</li>

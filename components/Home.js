@@ -3,6 +3,7 @@ import FadeIn from 'react-fade-in';
 import Level from './Level';
 import Services from './Services';
 import Testimonial from './Testimonial';
+import Contact from './Contact';
 
 const Home = () => {
     
@@ -59,31 +60,8 @@ const Home = () => {
                                             {/* <img src="/static/images/logo.png" alt="greenscapes logo" style={{ maxWidth: '155px' }} /> */}
                                         </div>
                                     </div>
-                                    <p>We provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and the North West.</p>
-                                    <div>
-                                        <Link href='/contact'>
-                                            <button className={`button is-primary is-medium is-hidden-mobile`}>
-                                                <a style={{color: 'white'}}>
-                                                    <span>
-                                                        <i style={{marginRight: '0.5rem'}} className='fa fa-envelope'>
-                                                        </i>
-                                                    </span>
-                                                    Contact Us
-                                                </a>
-                                            </button>
-                                        </Link>
-                                        <span style={{marginLeft: '1rem'}}>
-                                            <button className={`button is-primary is-outlined is-medium`}>
-                                                <a style={{color: 'white'}} href='tel:07772 656034'>
-                                                    <span>
-                                                        <i style={{marginRight: '0.5rem'}} className='fa fa-phone'>
-                                                        </i>
-                                                    </span>
-                                                    Call Us
-                                                </a>
-                                            </button>
-                                        </span>
-                                    </div>
+                                    <p>Based in South Manchester, we provide professional garden &amp; grounds maintenance over the whole of the North West.</p>
+                                    <Contact />
                                 </div>
                             </div>
                         </div>
@@ -133,7 +111,7 @@ const Home = () => {
                                     </div>
                                 </div>
                             </div>                               
-                            <p>We provide professional garden &amp; grounds maintenance in Cheshire, South Manchester and the North West</p>                            
+                            <p>Based in South Manchester, we provide professional garden &amp; grounds maintenance over the whole of the North West.</p>                            
                             <h2>Commercial Ground Maintenance</h2>
                             <p>We offer commercial garden and grounds maintenance to a range of
                             services including: </p>
@@ -164,7 +142,7 @@ const Home = () => {
                                 </Link>
                                 <span style={{marginLeft: '1rem'}}>
                                     <button className={`button is-primary is-outlined is-medium  is-hidden-mobile`}>
-                                        <a style={{color: 'black'}} href='tel:07772 656034'>
+                                        <a style={{color: '#339935'}} href='tel:07772 656034'>
                                             <span>
                                                 <i style={{marginRight: '0.5rem'}} className='fa fa-phone'>
                                                 </i>
