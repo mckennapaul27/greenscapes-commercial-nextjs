@@ -53,12 +53,12 @@ const Footer = () => (
                                 </li>  
                             
                                 <li>
-                                    <a style={linkStyle} href='tel:01613763050'>
+                                    <a style={linkStyle} href='tel:01614250035'>
                                         <span>
                                             <i className='fa fa-phone' style={{color: 'white', marginRight: '0.5rem'}}>
                                             </i>
                                         </span>
-                                        0161 376 3050
+                                        0161 4250035
                                     </a> 
                                 </li>  
                                 <li>
