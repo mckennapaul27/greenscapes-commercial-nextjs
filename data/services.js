@@ -4,6 +4,10 @@ export const services = [
         name: 'Grounds Management'                  
     },
     {        
+        id: 'commercial-landscaping',
+        name: 'Commercial Landscaping' 
+    },
+    {        
         id: 'business-retail-maintenance',
         name: 'Business & Retail Maintenance' 
     },

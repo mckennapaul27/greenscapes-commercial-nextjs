@@ -1,5 +1,6 @@
 import ServiceFooter from './ServiceFooter';
 import Head from 'next/head';
+import Link from 'next/link';
 
 const ServiceSelected = (service) => {
     if (service === 'grounds-management') {
@@ -9,7 +10,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Grounds Management | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="We cover various types of grounds maintenance, including care homes, retirement living complexes, nurseries, schools, industrial grounds, housing trusts, letting agents and many more" />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>         
                 <ServiceLayout title={'Grounds Management'} >
                     <p>We have over 15 years combined experience in providing a great service to our clients. </p> 
@@ -26,11 +27,59 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Business Retail Grounds Management | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="From business parks to shopping centres and retail parks, at Greenscapes Commercial Garden and Grounds Services, we can provide you with a top class maintenance service to keep your external areas clean and make sure that they are well maintained." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>    
                 <ServiceLayout title={'Business Retail Management'} >
                     <p>From business parks to shopping centres and retail parks, at Greenscapes Commercial Garden and Grounds Services, we can provide you with a top class maintenance service to keep your external areas clean and make sure that they are well maintained. Our services cover litter picking and pavement sweeping of hard surfaces as well as jet washing of car parks and walkways to remove leaves, debris, moss and other dirt and keep your external surfaces looking great.</p>
                     <p>It's not just hard surfaces where we can help as we’ll also be happy to manage all elements of your grounds maintenance including landscaping, planting, lawn care, hedging, and shrub maintenance. Our regular maintenance visits can help you make the right first impression and help you promote a positive corporate image. </p>
+                </ServiceLayout>  
+            </div>                    
+        )
+    }
+    else if (service === 'commercial-landscaping') {
+        return (
+            <div>
+                <Head>
+                <meta charSet="utf-8" />
+                <title>Commercial Landscaping | Greenscapes Commercial Maintenance</title>
+                <meta name="description" content="From business parks to shopping centres and retail parks, at Greenscapes Commercial Garden and Grounds Services, we can provide you with a top class maintenance service to keep your external areas clean and make sure that they are well maintained." />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
+                </Head>    
+                <ServiceLayout title={'Commercial Landscaping'} >
+                    <p>Our staff have a wide range of talents, meaning that we can carry out most work in-house. We also have expert sub-contractors who form part of our wider team and who we can call on for specialist tasks. Greenscapes Commercial is the contractor of choice for many household name businesses, construction companies and public sector projects. </p>
+                    <p>Existing clients have engaged us to provide landscaping and construction services at sites as diverse as supermarkets, hospitals, company headquarters, residential homes.</p>
+                    <div className='columns'>
+                        <div className='column'>
+                            <h4>Hard landscaping</h4>
+                            <img src='/static/images/corporate-landscaping.jpg' alt='landscaping'/>
+                            <p>Hard landscaping provides the structure of the scheme, creating a framework for the planting and a pathway to guide the eye and the feet through the scene.</p><p>We can construct walkways, bridges, decking, paving and fencing using top quality materials and workmanship, for durability and continued good looks.</p>
+                        </div>
+                        <div className='column'>
+                            <h4>Soft Landscaping</h4>
+                            <img src='/static/images/soft.jpg' alt='landscaping'/>
+                            <p>By choosing top quality plants and trees, we can ensure that the finished project will look good immediately and continue to thrive in the years to come. We know the best plants for particular soils and topography, and can advise on varieties suitable for formal or informal settings.</p><p>We carry out groundworks and irrigation with due regard to both the ecology of the local environment and health and safety.</p>
+                            <div class="field is-grouped">
+                                <p class="control">
+                                    <button className={`button is-primary`}>
+                                        <a href='tel:07772656034' style={{color: 'white'}}>
+                                            <span>
+                                                <i className='fa fa-phone'>
+                                                </i> Call
+                                            </span>
+                                        </a>                 
+                                    </button>
+                                </p>
+                                <Link href='/contact'>
+                                    <button className={`button is-primary is-outlined`}>                        
+                                        <span>
+                                            <i className='fa fa-envelope'>
+                                            </i> Email  
+                                        </span>              
+                                    </button>
+                                </Link>
+                            </div>
+                        </div>
+                    </div>
                 </ServiceLayout>  
             </div>                    
         )
@@ -42,7 +91,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>School Grounds Maintenance | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="Greenscapes Commercial Garden and Grounds Services, we can provide a full range of exterior maintenance and grounds maintenance services for schools, colleges and universities throughout the North West" />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'School Maintenance'} >
                     <p>The daily upkeep and maintenance of a school plays an important part in making sure the school is safe and that it creates the right impression. At Greenscapes Commercial Garden and Grounds Services, we can provide a full range of exterior maintenance and grounds maintenance services for schools, colleges and universities throughout the North West. From hard paved areas such as walkways and patios to car parks and signage, we can undertake all types of external maintenance and grounds maintenance for schools.</p>
@@ -66,7 +115,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Hedge &amp; Shrub Maintenance | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="We have various contracts for cutting hedges alone through managing agents, commercial property companies, schools/colleges, hospitals and many more." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'Hedge & Shrub Maintenance'} >
                     <p>Tackling hedges that have grown wild can be a hassle and awkward to correct. We offer a one off service or regular maintenance to trim hedges down to the client's required size.</p>
@@ -82,7 +131,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Landscaping &amp; Planting | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="We offer hard and soft landscaping services tailored to our client's needs. Planting can really boost the appearance of any property and if planned properly, can be very cost effective. We can deliver planting schemes in keeping with the surroundings or totally re-plan the area." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'Landscaping & Planting'}>
                     <p>We offer hard and soft landscaping services tailored to our client's needs. Planting can really boost the appearance of any property and if planned properly, can be very cost effective. We can deliver planting schemes in keeping with the surroundings or totally re-plan the area.</p>
@@ -107,7 +156,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Lawn Care | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="We have been providing lawn care for many years and know the exact timings for treatments to gain the best outcome for your lawns. The best weed &amp; feed solution will be applied by our trained staff allowing the weeds to curl and the grass to finally get back in control." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'Lawn Care'}>
                     <p>Nothing enhances your corporate location better than a healhy, green, weed free lawn. We offer a full lawn care service including, clearing and applying weed killers and feed &amp; fertilisers to bring your lawn back to life and looking at it's very best.</p>
@@ -123,7 +172,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Outdoor Cleaning | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="For Retail or Leisure facilities litter can cause a real problem and needs to be managed properly to maintain your corporate image. We work with a number of clients in providing spotless spaces to boost image and reduce risk of pests." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'Outdoor Cleaning'}>
                     <p>For Retail or Leisure facilities litter can cause a real problem and needs to be managed properly to maintain your corporate image. We work with a number of clients in providing spotless spaces to boost image and reduce risk of pests.</p>
@@ -140,7 +189,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Spraying &amp; Vegetation Control | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="We offer a range of responsible approaches to all areas of vegetation management. Our team are qualified and can improve your property with efficient and cost effective methods." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'Spraying & Vegetation Control'}>
                     <p>We offer a range of responsible approaches to all areas of vegetation management. Our team are qualified and can improve your property with efficient and cost effective methods.</p>
@@ -157,7 +206,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Tree Surgery | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="All aspects of professional tree care are catered for, from removing the smallest of branches to felling large trees which are carried out by qualified staff." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'Tree Surgery'}>
                     <p>All aspects of professional tree care are catered for, from removing the smallest of branches to felling large trees which are carried out by qualified staff.</p>
@@ -174,7 +223,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Jet &amp; Pressure Washing | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="Using high power, industrial pressure washers our team are able to clean a wide range of surfaces including car parks, sports courts, hard landscaped areas, hospitals, housing association premises, patios, driveways and much more." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'Jet & Pressure Washing'}>
                     <p>Because first impressions matter, let Greenscapes Commercial Garden and Grounds Services help to keep your walls, paving and hard areas clean by jet washing the dirt away. Using high power, industrial pressure washers our team are able to clean a wide range of surfaces including car parks, sports courts, hard landscaped areas, hospitals, housing association premises, patios, driveways and much more.</p>
@@ -197,7 +246,7 @@ const ServiceSelected = (service) => {
                 <meta charSet="utf-8" />
                 <title>Graffiti Removal | Greenscapes Commercial Maintenance</title>
                 <meta name="description" content="We offer graffiti removal services across the North West to retail parks, shop owners, councils, housing associations, commercial clients and anybody who may be on the receiving end of this vandalism." />
-                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/${service}`} />
+                <link rel="canonical" href={`https://www.greenscapes-commercial.co.uk/services/${service}`} />
                 </Head>  
                 <ServiceLayout title={'Graffiti Removal'}>
                     <p>Graffiti can look unsightly and appears overnight. Our effective methods can help remove graffiti quickly and completely. </p>
