@@ -35,9 +35,9 @@ const Home = () => {
         'mcgoff.png',
         'bupa.png',
         'energi.png',
-        'fairhurst.jpg',
+        // 'fairhurst.jpg',
         'mccarthy.jpeg',
-        'ninas.jpg',
+        // 'ninas.jpg',
         'nursery-rhymes.png',
         'booles.png',
         'olea.jpg'
@@ -178,7 +178,7 @@ const Home = () => {
                     {
                         images.map(image => {
                             return (
-                                <div className="column is-one-fifth" style={{padding: '2rem'}} key={image}>
+                                <div className="column is-one-quarter" style={{padding: '2rem'}} key={image}>
                                     <div>
                                         <div style={{maxWidth: '7.5rem', margin: 'auto'}}>
                                             <img src={`/static/images/${image}`} alt={image} />
