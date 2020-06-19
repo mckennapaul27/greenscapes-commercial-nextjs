@@ -62,7 +62,7 @@ export default class NavBarMobile extends Component {
                     aria-label="main navigation"                    
                     >                    
                      <a href="/" style={{maxWidth: '125px', height: '100%', padding: '0.5rem 0 0.5rem 0.5rem'}}>
-                        <img src="/static/images/logo.png" alt="greenscapes logo" />
+                        <img src="/images/logo.png" alt="greenscapes logo" />
                     </a>    
                     <div 
                         role="button" 

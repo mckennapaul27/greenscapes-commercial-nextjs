@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NavBar from './NavBar';
 import NavBarMobile from './NavBarMobile';
 import TopMenu from './TopMenu';
-import '../styles/styles.scss'
+// import '../styles/styles.scss'
 import Router from 'next/router';
 
 const Loader = ({ loading }) => <div className={loading ? 'loading-show' : ''} id="loader-bar" />;

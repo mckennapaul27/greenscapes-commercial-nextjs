@@ -24,13 +24,13 @@ app.prepare()
     });
 
     server.get('/sitemap.xml', (req, res) => {
-      const sitemap = path.join(__dirname, 'static', 'sitemap.xml')
-      app.serveStatic(req, res, sitemap)
+      const sitemap = path.join(__dirname, 'public', 'sitemap.xml')
+      app.servepublic(req, res, sitemap)
     })
 
     server.get('/robots.txt', (req, res) => {
-      const robots = path.join(__dirname, 'static', 'robots.txt')
-      app.serveStatic(req, res, robots)
+      const robots = path.join(__dirname, 'public', 'robots.txt')
+      app.servepublic(req, res, robots)
     })
     server.get('/services/:id', (req, res) => {
       const actualPage = '/service';

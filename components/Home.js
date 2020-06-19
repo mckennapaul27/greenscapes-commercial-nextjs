@@ -8,7 +8,7 @@ import Contact from './Contact';
 const Home = () => {
     
     const contentStyle = {  
-        backgroundImage: "url('/static/images/office_garden.jpg')",
+        backgroundImage: "url('/images/office_garden.jpg')",
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
@@ -16,14 +16,14 @@ const Home = () => {
     }
 
     const servicesStyle = {
-        backgroundImage: "url('/static/images/commercial.jpg')",
+        backgroundImage: "url('/images/commercial.jpg')",
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
         backgroundSize: 'cover',
         minHeight: '60vh'
     }
     const contentStyleMobile = {  
-        backgroundImage: "url('/static/images/flats_garden.jpg')",
+        backgroundImage: "url('/images/flats_garden.jpg')",
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center center',
         backgroundSize: 'cover'
@@ -56,8 +56,8 @@ const Home = () => {
                                     <h1><span className='is-hidden-mobile'>Established And Trustworthy</span> Commercial Garden &amp; Grounds Maintenance</h1>
                                     <div className='columns'>
                                         <div className='column'>
-                                            <img src="/static/images/logo-x.png" alt="greenscapes logo" style={{ maxWidth: '155px' }} />
-                                            {/* <img src="/static/images/logo.png" alt="greenscapes logo" style={{ maxWidth: '155px' }} /> */}
+                                            <img src="/images/greenscapes-commercial-white-trans.png" alt="greenscapes logo" style={{ maxWidth: '155px' }} />
+                                            {/* <img src="/images/logo.png" alt="greenscapes logo" style={{ maxWidth: '155px' }} /> */}
                                         </div>
                                     </div>
                                     <p>Based in South Manchester, we provide professional garden &amp; grounds maintenance over the whole of the North West.</p>
@@ -99,7 +99,7 @@ const Home = () => {
             <div className='container' style={{minHeight: '40vh'}}>
                 <div className='columns is-centered' style={{padding: '2rem 1rem 1rem 1rem', margin: '0'}}>
                     <div className='column' > 
-                        <img src="/static/images/peoples-home.jpeg" alt="" style={{maxHeight: '75%'}}/>
+                        <img src="/images/peoples-home.jpeg" alt="" style={{maxHeight: '75%'}}/>
                     </div>
                     <div className='column'>
                         <div className='content'>                            
@@ -181,7 +181,7 @@ const Home = () => {
                                 <div className="column is-one-quarter" style={{padding: '2rem'}} key={image}>
                                     <div>
                                         <div style={{maxWidth: '7.5rem', margin: 'auto'}}>
-                                            <img src={`/static/images/${image}`} alt={image} />
+                                            <img src={`/images/${image}`} alt={image} />
                                         </div>                        
                                     </div>
                                 </div>
@@ -202,7 +202,7 @@ const Home = () => {
                 color: white;
             }
             .wave-container {
-                background-image: url('/static/images/office_garden.jpg');
+                background-image: url('/images/office_garden.jpg');
                 background-repeat: no-repeat;
                 background-position: center center;
                 background-size: cover;

@@ -51,12 +51,12 @@ const ServiceSelected = (service) => {
                     <div className='columns'>
                         <div className='column'>
                             <h4>Hard Landscaping</h4>
-                            <img src='/static/images/corporate-landscaping.jpg' alt='landscaping'/>
+                            <img src='/images/corporate-landscaping.jpg' alt='landscaping'/>
                             <p>Hard landscaping provides the structure of the scheme, creating a framework for the planting and a pathway to guide the eye and the feet through the scene.</p><p>We can construct walkways, bridges, decking, paving and fencing using top quality materials and workmanship, for durability and continued good looks.</p>
                         </div>
                         <div className='column'>
                             <h4>Soft Landscaping</h4>
-                            <img src='/static/images/soft.jpg' alt='landscaping'/>
+                            <img src='/images/soft.jpg' alt='landscaping'/>
                             <p>By choosing top quality plants and trees, we can ensure that the finished project will look good immediately and continue to thrive in the years to come. We know the best plants for particular soils and topography, and can advise on varieties suitable for formal or informal settings.</p><p>We carry out groundworks and irrigation with due regard to both the ecology of the local environment and health and safety.</p>
                             <div class="field is-grouped">
                                 <p class="control">

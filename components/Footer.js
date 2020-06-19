@@ -1,6 +1,6 @@
 import moment  from 'moment';
 import Link from 'next/link';
-import '../styles/styles.scss'
+// import '../styles/styles.scss'
 
 const linkStyle = {
     color: 'white',
@@ -85,13 +85,17 @@ const Footer = () => (
                 </div>  
                 <div className='column is-2 is-mobile-12 has-text-centered'>
                     <h6 style={titleStyle}><span className='is-hidden-mobile'></span>ACCREDITATIONS</h6>
-                    <img src="/static/images/certified.jpeg" alt="" style={{maxWidth: '125px'}}/>
+                    <img src="/images/certified.jpeg" alt="" style={{maxWidth: '125px'}}/>
                 </div>                    
             </div>            
             <hr style={{height: '0.06rem', background: 'gray'}} />
         </div>   
         <div className='container has-text-centered' style={{marginTop: '0.5rem'}}>
-            <p style={{fontSize: '0.75rem', color: 'white'}}>Copyright {moment().format('YYYY')} | <a href="/" style={{fontSize: '0.75rem', color: 'white'}}>www.greenscapes-commercial.co.uk</a> | All Rights Reserved.</p>
+            <p style={{fontSize: '0.75rem', color: 'white'}}>                
+                <a href='/'><img src="/images/greenscapes-commercial-white-trans.png" alt="greenscapes logo" style={{ maxHeight: '70px' }}/></a>
+                <a href='https://www.greenscapes-gardening.co.uk/'><img src="/images/greenscapes-test.png" alt="greenscapes logo" style={{ maxHeight: '70px' }}/> </a>
+            </p>
+                  
         </div>
     </footer>
 )  

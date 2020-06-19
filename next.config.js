@@ -1,2 +1,6 @@
 const withSass = require('@zeit/next-sass') 
-module.exports = withSass({})
+const withPlugins = require('next-compose-plugins');
+
+module.exports = withPlugins([
+    // [withSass]
+])

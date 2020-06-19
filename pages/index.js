@@ -1,4 +1,4 @@
-import '../styles/styles.scss';
+// import '../styles/styles.scss';
 import Home from '../components/Home';
 import Head from 'next/head';
 

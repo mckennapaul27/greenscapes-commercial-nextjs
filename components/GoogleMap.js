@@ -5,7 +5,7 @@ const AnyReactComponent = ({ text }) => {
     return (
         <div style={{maxWidth: '10px'}}>            
             <figure className="image is-96x96">
-                <img src="/static/images/logo-x.png" />
+                <img src="/images/logo-x.png" />
             </figure>
         </div>
         

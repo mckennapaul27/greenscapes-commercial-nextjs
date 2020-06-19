@@ -15,7 +15,7 @@ const Level = ({isVisible}) => {
             <div className="level-item has-text-centered" style={levelStyle}>
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
-                        <img src="/static/images/certificate.svg" alt="experienced grounds maintenance" />
+                        <img src="/images/certificate.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>Years Experience</p>
                     <p className="title">{isVisible && <CountUp start={1} end={15} duration={6} />}+</p>
@@ -24,7 +24,7 @@ const Level = ({isVisible}) => {
             <div className="level-item has-text-centered" style={levelStyle}>
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
-                        <img src="/static/images/edit.svg" alt="experienced grounds maintenance" />
+                        <img src="/images/edit.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>Commercial Contracts</p>
                     <p className="title">{isVisible && <CountUp start={1} end={32} duration={6} />}+</p>
@@ -33,7 +33,7 @@ const Level = ({isVisible}) => {
             <div className="level-item has-text-centered" style={levelStyle}>
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
-                        <img src="/static/images/team.svg" alt="experienced grounds maintenance" />
+                        <img src="/images/team.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>Team Members</p>
                     <p className="title">{isVisible && <CountUp start={1} end={12} duration={6} />}</p>
@@ -42,7 +42,7 @@ const Level = ({isVisible}) => {
             <div className="level-item has-text-centered" style={levelStyle}>
                 <div>
                     <div style={{width: '3rem', margin: 'auto'}}>
-                        <img src="/static/images/services.svg" alt="experienced grounds maintenance" />
+                        <img src="/images/services.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>Services</p>
                     <p className="title">{isVisible && <CountUp start={1} end={15} duration={6} />}+</p>

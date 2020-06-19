@@ -29,7 +29,7 @@ export default withRouter(class NavBar extends Component {
                         style={{display: 'flex', alignItems: 'center', padding: '0.5rem'}}
                         >                    
                         <a href="/" style={{maxWidth: '130px'}}>
-                            <img src="/static/images/logo.png" alt="greenscapes logo" /></a>                    
+                            <img src="/images/logo.png" alt="greenscapes logo" /></a>                    
                     </div>
                     <div className='navbar-menu'> 
                         <div className='navbar-end'>

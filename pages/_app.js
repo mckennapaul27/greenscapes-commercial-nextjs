@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Footer from '../components/Footer';
 import NProgress from 'nprogress'
 import Router from 'next/router'
+import '../styles/styles.scss';
 
 Router.events.on('routeChangeStart', url => {
     NProgress.start()
