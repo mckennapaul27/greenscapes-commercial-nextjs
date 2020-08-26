@@ -18,7 +18,7 @@ const Level = ({isVisible}) => {
                         <img src="/images/certificate.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>Years Experience</p>
-                    <p className="title">{isVisible && <CountUp start={1} end={15} duration={6} />}+</p>
+                    <p className="title">{isVisible && <CountUp start={1} end={16} duration={6} />}+</p>
                 </div>
             </div>
             <div className="level-item has-text-centered" style={levelStyle}>
@@ -27,7 +27,7 @@ const Level = ({isVisible}) => {
                         <img src="/images/edit.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>Commercial Contracts</p>
-                    <p className="title">{isVisible && <CountUp start={1} end={32} duration={6} />}+</p>
+                    <p className="title">{isVisible && <CountUp start={1} end={35} duration={6} />}+</p>
                 </div>
             </div>            
             <div className="level-item has-text-centered" style={levelStyle}>
@@ -36,7 +36,7 @@ const Level = ({isVisible}) => {
                         <img src="/images/team.svg" alt="experienced grounds maintenance" />
                     </div>
                     <p className="heading" style={headingStyle}>Team Members</p>
-                    <p className="title">{isVisible && <CountUp start={1} end={12} duration={6} />}</p>
+                    <p className="title">{isVisible && <CountUp start={1} end={16} duration={6} />}</p>
                 </div>
             </div>
             <div className="level-item has-text-centered" style={levelStyle}>
