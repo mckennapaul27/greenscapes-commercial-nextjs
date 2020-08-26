@@ -34,13 +34,15 @@ const Home = () => {
         'emerson.jpg',
         'mcgoff.png',
         'bupa.png',
-        'energi.png',
+        'hallmark.jpeg',
         // 'fairhurst.jpg',
         'mccarthy.jpeg',
         // 'ninas.jpg',
         'nursery-rhymes.png',
         'booles.png',
-        'olea.jpg'
+        'olea.jpg',
+        'serenity.jpeg',
+        'mmcg.jpeg'
     ]
 
     
