@@ -28,6 +28,20 @@ $ig-blue: #339935;
 @import "../node_modules/react-responsive-carousel/lib/styles/carousel.min.css";
 @import "../node_modules/react-image-gallery/styles/scss/image-gallery.scss";
 
+#logo-group .logo-group-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #logo-group .logo-group-box a {
+    padding: 0.5rem;
+  }
+  
+  #logo-group .logo-group-box a img {
+    max-height: 60px;
+  }
+
 
 
 

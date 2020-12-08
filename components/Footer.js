@@ -90,11 +90,11 @@ const Footer = () => (
             </div>            
             <hr style={{height: '0.06rem', background: 'gray'}} />
         </div>   
-        <div className='container has-text-centered' style={{marginTop: '0.5rem'}}>
-            <p style={{fontSize: '0.75rem', color: 'white'}}>                
-                <a href='/'><img src="/images/greenscapes-commercial-white-trans.png" alt="greenscapes logo" style={{ maxHeight: '70px' }}/></a>
-                <a href='https://www.greenscapes-gardening.co.uk/'><img src="/images/greenscapes-test.png" alt="greenscapes logo" style={{ maxHeight: '70px' }}/> </a>
-            </p>
+        <div id='logo-group' className='container has-text-centered'>
+            <div className='logo-group-box'>   
+                <a href='https://www.greenscapes-powerwashing.co.uk/'><img src="/images/greenscapes-pw.png" alt="greenscapes logo" /> </a>
+                <a href='https://www.greenscapes-gardening.co.uk/'><img src="/images/greenscapes-test.png" alt="greenscapes logo" /> </a>
+            </div>
                   
         </div>
     </footer>
