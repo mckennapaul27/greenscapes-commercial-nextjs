@@ -12,10 +12,10 @@ const About = () => {
             </Head>
             <div className='columns' style={{padding: '2rem 0', margin: '0'}}>                
                 <div className='column'>
-                <nav class="breadcrumb" aria-label="breadcrumbs">
+                <nav className="breadcrumb" aria-label="breadcrumbs">
                     <ul>
                         <li><a href="/">Home</a></li>                                    
-                        <li class="is-active"><a href="about-us" aria-current="page">About us</a></li>
+                        <li className="is-active"><a href="about-us" aria-current="page">About us</a></li>
                     </ul>
                 </nav>
                     <div className='content'>                            

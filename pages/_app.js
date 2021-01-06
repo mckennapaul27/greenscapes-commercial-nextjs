@@ -25,12 +25,12 @@ export default class MyApp extends App {
 
   render() {
     const { Component, pageProps } = this.props;
-    return (      
-      <Container>        
-        <Layout />
-        <Component {...pageProps} />
-        <Footer />
-      </Container>
+    return (   
+      <React.Fragment>
+          <Layout />
+              <Component {...pageProps} />
+          <Footer />
+      </React.Fragment>   
     );
   }
 }

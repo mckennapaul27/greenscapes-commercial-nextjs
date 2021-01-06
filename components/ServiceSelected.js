@@ -58,8 +58,8 @@ const ServiceSelected = (service) => {
                             <h4>Soft Landscaping</h4>
                             <img src='/images/soft.jpg' alt='landscaping'/>
                             <p>By choosing top quality plants and trees, we can ensure that the finished project will look good immediately and continue to thrive in the years to come. We know the best plants for particular soils and topography, and can advise on varieties suitable for formal or informal settings.</p><p>We carry out groundworks and irrigation with due regard to both the ecology of the local environment and health and safety.</p>
-                            <div class="field is-grouped">
-                                <p class="control">
+                            <div className="field is-grouped">
+                                <p className="control">
                                     <button className={`button is-primary`}>
                                         <a href='tel:07772656034' style={{color: 'white'}}>
                                             <span>
@@ -265,11 +265,11 @@ const ServiceSelected = (service) => {
 const ServiceLayout = (props) => (    
     <div className='container'>
         <div className='column' style={{padding: '3rem 1rem'}}>
-            <nav class="breadcrumb" aria-label="breadcrumbs">
+            <nav className="breadcrumb" aria-label="breadcrumbs">
                 <ul>
                     <li><a href="/">Home</a></li>
                     <li><a href="/services">Services</a></li>                    
-                    <li class="is-active"><a href="#" aria-current="page">{props.title}</a></li>
+                    <li className="is-active"><a href="#" aria-current="page">{props.title}</a></li>
                 </ul>
             </nav>
             <div className='content'>                            

@@ -173,7 +173,7 @@ export default class NavBarMobile extends Component {
                     </div>
                 </div>
             </div>
-            <div class="tabs is-info is-hidden-tablet">
+            <div className="tabs is-info is-hidden-tablet">
                 <ul>
                     <li>
                         <a href="mailto: info@greenscapes-commercial.co.uk" style={tabsLinkStyle}>

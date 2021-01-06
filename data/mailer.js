@@ -9,31 +9,27 @@ const contactSubmit = pug.compileFile(process.cwd() + '/email-templates/contact.
 
 function sendContactForm (req, res, next) {
     const { name, email, phone, interest, message } = req.body;
-    console.log(req.body)
     const date = moment().format('MMM Do YYYY');
+
     const mailOptions = {
         from: nodeMailerUser, 
-        to: `${email}, ${nodeMailerUser}`,
+        to: [email, 'info@greenscapes-commercial.co.uk'],
         subject: 'We have received your enquiry', 
         replyTo: email,
         html: contactSubmit({name: name, phone: phone, interest: interest, message: message, date: date, email: email})
     };
     const transporter = nodemailer.createTransport({
-        host: 'smtp.office365.com',
-        port: 587,
-        secure: false,
-        requireTLS: true,
+        host: 'smtp.zoho.eu',
+        port: 465,
+        secure: true, //ssl
         auth: {
             user: nodeMailerUser,
             pass: nodeMailerPass
-        },
-        tls: { 
-            ciphers: 'SSLv3' 
-        },
+        }
     });
     transporter.sendMail(mailOptions)
     .then((email) => {
-        console.log('here',email)
+        console.log(email)
         if (email.rejected.length > 0) throw {status: 404, message: 'Rejected'};         
         return res.status(201).send({success: true, msg: 'Enquiry submitted'});       
     })

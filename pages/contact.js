@@ -29,7 +29,7 @@ export default class Contact extends Component {
         e.preventDefault();
         let { name, email, phone, interest, subject, message } = this.state;   
         phone = '0' + phone;     
-        axios.post(`/api/contact`, {name, email, phone, interest, subject, message})
+        axios.post(`/api/contact`, { name, email, phone, interest, subject, message })
         .then((res) => {
             if (res.data.success) {
                 this.setState({
@@ -37,8 +37,8 @@ export default class Contact extends Component {
                 })
             }            
         })     
-        .catch(err => {
-            console.log(err);
+        .catch(error => {
+            console.log(error.response);
         })   
     }
 

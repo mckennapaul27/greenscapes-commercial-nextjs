@@ -12,10 +12,10 @@ const ServicesOverview = () => {
             </Head>
             <div className='columns is-centered' style={{padding: '2rem 0', margin: '0'}}>                
                 <div className='column'>
-                    <nav class="breadcrumb" aria-label="breadcrumbs">
+                    <nav className="breadcrumb" aria-label="breadcrumbs">
                         <ul>
                             <li><a href="/">Home</a></li>                                    
-                            <li class="is-active"><a href="cservices" aria-current="page">Services overview</a></li>
+                            <li className="is-active"><a href="cservices" aria-current="page">Services overview</a></li>
                         </ul>
                     </nav>
 

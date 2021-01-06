@@ -86,7 +86,7 @@ mixin ie-close(props)
 //- Preheader
 //--------------------------------
 mixin preheader
-	table(class="Preheader" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #FFF")
+	table(className="Preheader" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color: #FFF")
 		tr: td(style="background: #FFF; color: #FFF; font-size: 1px; height: 0px") Thank you for contacting us. We have received your request and we will respond to you very soon.
 		tr: td
 //- Header
@@ -103,10 +103,10 @@ mixin super-heading
 		td(style="font-size: 0; background-color: #1C541D; text-align: center; padding: 16px 0")
 			+ie-open(({cell: 300}))
 			div(style="display: inline-block;")
-				table(cellspacing="0" cellpadding="0" border="0" width="300"): tr: td(class="u-textFallback" style="font-weight: bold; text-align: left; font-size: 19px; color: white; padding: 7px 20px; font-family: Montserrat, Arial, sans-serif; line-height: 1.4") WE HAVE RECEIVED YOUR<br>ENQUIRY
+				table(cellspacing="0" cellpadding="0" border="0" width="300"): tr: td(className="u-textFallback" style="font-weight: bold; text-align: left; font-size: 19px; color: white; padding: 7px 20px; font-family: Montserrat, Arial, sans-serif; line-height: 1.4") WE HAVE RECEIVED YOUR<br>ENQUIRY
 			+ie-col(({cell: 300}))
 			div(style="display: inline-block;")
-				table(cellspacing="0" cellpadding="0" border="0" width="300"): tr: td(class="u-textFallback" style="text-align: right; font-size: 14px; color: white; padding: 7px 20px; font-family: Montserrat, Arial, sans-serif; line-height: 1.7") <br>Date: #{date}
+				table(cellspacing="0" cellpadding="0" border="0" width="300"): tr: td(className="u-textFallback" style="text-align: right; font-size: 14px; color: white; padding: 7px 20px; font-family: Montserrat, Arial, sans-serif; line-height: 1.7") <br>Date: #{date}
 			+ie-close
 
 
@@ -117,7 +117,7 @@ mixin intro-block
 		td(style="font-size: 0; background-color: white; text-align: center; padding: 15px 0 35px 0")
 			+ie-open(({cell: 600}))
 			div(style="display: inline-block; vertical-align: top")
-				table(cellspacing="0" cellpadding="0" border="0" width="600"): tr: td(class="u-textFallback" style="line-height: 1.4; text-align: left; font-size: 15px; color: #666666; padding: 15px 20px; font-family: Montserrat, Arial, sans-serif") <p>Hi #{name}</p><p>Thank you for contacting us. We have received your enquiry and we will respond to you very soon.</p><p>Below is your message:</p><div style="background-color: #F0F0F0; padding: 15px"><p><strong>Name:</strong> #{name}</p><p><strong>Email:</strong> #{email}</p><p><strong>Phone:</strong> #{phone}</p><p><strong>Interested:</strong> #{interest}</p><p><strong>Message:</strong> #{message}</p></div><p>We aim to respond to all enquiries within 24-48 hours but if you need an immediate response or your question is urgent please call us.</p><p>Kind Regards,</p><p>Greenscapes Commercial</p>					
+				table(cellspacing="0" cellpadding="0" border="0" width="600"): tr: td(className="u-textFallback" style="line-height: 1.4; text-align: left; font-size: 15px; color: #666666; padding: 15px 20px; font-family: Montserrat, Arial, sans-serif") <p>Hi #{name}</p><p>Thank you for contacting us. We have received your enquiry and we will respond to you very soon.</p><p>Below is your message:</p><div style="background-color: #F0F0F0; padding: 15px"><p><strong>Name:</strong> #{name}</p><p><strong>Email:</strong> #{email}</p><p><strong>Phone:</strong> #{phone}</p><p><strong>Interested:</strong> #{interest}</p><p><strong>Message:</strong> #{message}</p></div><p>We aim to respond to all enquiries within 24-48 hours but if you need an immediate response or your question is urgent please call us.</p><p>Kind Regards,</p><p>Greenscapes Commercial</p>					
 
 			+ie-close
 
@@ -126,7 +126,7 @@ mixin intro-block
 //--------------------------------
 mixin small-header
 	tr
-		td(class="u-textFallback" style="font-size: 16px; background-color: #1C541D; padding: 15px 20px; color: white; font-family: Montserrat, Arial, sans-serif; font-weight: bold") OVERVIEW
+		td(className="u-textFallback" style="font-size: 16px; background-color: #1C541D; padding: 15px 20px; color: white; font-family: Montserrat, Arial, sans-serif; font-weight: bold") OVERVIEW
 
 
 
@@ -142,12 +142,12 @@ mixin item-order
 				table(cellspacing="0" cellpadding="0" border="0" width="300" valign="top"): tr
 					td(style="padding: 0 20px")
 						img(src="http://placehold.it/82x82" width="82" height="82" style="border: 1px solid #D4D4D4")
-					td(class="u-textFallback" style="line-height: 1.4; padding: 0 20px 0 0; color: #666666; text-align: left; font-size: 14px; font-family: Montserrat, Arial, sans-serif;") <b>Kids Aztec Diamond Mermaid Flip Flops</b><br>Size: XL
+					td(className="u-textFallback" style="line-height: 1.4; padding: 0 20px 0 0; color: #666666; text-align: left; font-size: 14px; font-family: Montserrat, Arial, sans-serif;") <b>Kids Aztec Diamond Mermaid Flip Flops</b><br>Size: XL
 			+ie-col(({cell: 300}))
 			div(style="display: inline-block; vertical-align: top")
 				table(cellspacing="0" cellpadding="0" border="0" width="300")
-					tr: td(class="u-textFallback" style="font-size: 14px; padding: 15px 40px 0 0; color: #666666; text-align: right; font-size: 14px; font-family: Montserrat, Arial, sans-serif; line-height: 1.4") R500 x 3
-					tr: td(class="u-textFallback" style="font-size: 14px; padding: 0px 40px 0 0; color: #666666; text-align: right; font-size: 14px; font-family: Montserrat, Arial, sans-serif; line-height: 1.4") <b>R1500</b>
+					tr: td(className="u-textFallback" style="font-size: 14px; padding: 15px 40px 0 0; color: #666666; text-align: right; font-size: 14px; font-family: Montserrat, Arial, sans-serif; line-height: 1.4") R500 x 3
+					tr: td(className="u-textFallback" style="font-size: 14px; padding: 0px 40px 0 0; color: #666666; text-align: right; font-size: 14px; font-family: Montserrat, Arial, sans-serif; line-height: 1.4") <b>R1500</b>
 			+ie-close
 
 
@@ -156,7 +156,7 @@ mixin item-order
 //--------------------------------
 mixin call-to-action
 	tr
-		td(class="u-textFallback" style="padding-bottom: 20px; text-align: center; font-size: 15px; font-family: Montserrat, Arial, sans-serif; color: #666666") <span style="line-height: 1.4"><b>Earn more cashback</b><br>You can have unlimited eWallet accounts under us</span>
+		td(className="u-textFallback" style="padding-bottom: 20px; text-align: center; font-size: 15px; font-family: Montserrat, Arial, sans-serif; color: #666666") <span style="line-height: 1.4"><b>Earn more cashback</b><br>You can have unlimited eWallet accounts under us</span>
 			table(cellspacing="0" cellpadding="0" border="0" align="center"): tr
 				td(style="padding-top: 15px").
 					<!--[if mso]>
@@ -164,7 +164,7 @@ mixin call-to-action
 						<w:anchorlock/>
 						<center>
 					<![endif]-->
-					<a class="u-textFallback" href="#"
+					<a className="u-textFallback" href="#"
 					style="background-color:#F05032;color:#ffffff;display:block;font-family:sans-serif;font-weight:bold;line-height:45px;text-align:center;text-decoration:none;width:260px;-webkit-text-size-adjust:none; font-family: Montserrat, Arial, sans-serif; font-size: 14px;">APPLY NOW</a>
 					<!--[if mso]>
 						</center>
@@ -182,11 +182,11 @@ mixin footer(props)
 				td(width="100%" style="padding: 45px 0 35px;")
 					+ie-open({table: 600})
 					table(width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="max-width: 600px; background-color: #1C541D; border-bottom-width: 1px; border-bottom-style: solid; border-bottom-color: #777777;")
-						tr: td(class="u-textFallback" width="100%" style="font-size: 13px; font-family: Montserrat, Arial, Helvetica, sans-serif; color: white; text-align: center; padding: 8px 40px") For any queries email us at info@greenscapes-commercial.co.uk or call us at 0161 4250035
-						tr: td(class="u-textFallback" width="100%" style="font-size: 13px; font-family: Montserrat, Arial, Helvetica, sans-serif; color: white; text-align: center; padding: 8px 40px 16px;") Seal Road, Stockport, SK7 2LL 
+						tr: td(className="u-textFallback" width="100%" style="font-size: 13px; font-family: Montserrat, Arial, Helvetica, sans-serif; color: white; text-align: center; padding: 8px 40px") For any queries email us at info@greenscapes-commercial.co.uk or call us at 0161 4250035
+						tr: td(className="u-textFallback" width="100%" style="font-size: 13px; font-family: Montserrat, Arial, Helvetica, sans-serif; color: white; text-align: center; padding: 8px 40px 16px;") Seal Road, Stockport, SK7 2LL 
 					table(width="100%" align="center" cellspacing="0" cellpadding="0" border="0" style="width: 100%; max-width: 600px;")
 
-						tr: td(class="u-textFallback" width="100%" style="font-size: 13px; font-family: Montserrat, Arial, Helvetica, sans-serif; color: white; text-align: center; padding: 15px 20px 7px")
+						tr: td(className="u-textFallback" width="100%" style="font-size: 13px; font-family: Montserrat, Arial, Helvetica, sans-serif; color: white; text-align: center; padding: 15px 20px 7px")
 							a(href="#" style="color: white; text-decoration: none; font-weight: 700") GREENSCAPES COMMERCIAL GARDEN &amp; GROUNDS MAINTENANCE
 												
 					+ie-close
