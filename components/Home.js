@@ -207,7 +207,7 @@ const Home = () => {
                                         </a>
                                     </button>
                                 </Link>
-                                <span style={{ marginLeft: '1rem' }}>
+                                {/* <span style={{ marginLeft: '1rem' }}>
                                     <button
                                         className={`button is-primary is-outlined is-medium  is-hidden-mobile`}>
                                         <a
@@ -223,7 +223,7 @@ const Home = () => {
                                             Call Us
                                         </a>
                                     </button>
-                                </span>
+                                </span> */}
                             </div>
                         </div>
                     </div>

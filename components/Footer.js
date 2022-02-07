@@ -61,7 +61,7 @@ const Footer = () => (
                                         </a>
                                     </li>
                                 </Link>
-                                <li>
+                                {/* <li>
                                     <a style={linkStyle} href='tel:07772656034'>
                                         <span>
                                             <i
@@ -73,7 +73,7 @@ const Footer = () => (
                                         </span>
                                         07772 656034
                                     </a>
-                                </li>
+                                </li> */}
 
                                 <li>
                                     <a style={linkStyle} href='tel:01614250035'>

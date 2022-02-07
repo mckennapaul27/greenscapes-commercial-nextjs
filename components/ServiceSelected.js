@@ -59,7 +59,7 @@ const ServiceSelected = (service) => {
                             <img src='/images/soft.jpg' alt='landscaping'/>
                             <p>By choosing top quality plants and trees, we can ensure that the finished project will look good immediately and continue to thrive in the years to come. We know the best plants for particular soils and topography, and can advise on varieties suitable for formal or informal settings.</p><p>We carry out groundworks and irrigation with due regard to both the ecology of the local environment and health and safety.</p>
                             <div className="field is-grouped">
-                                <p className="control">
+                                {/* <p className="control">
                                     <button className={`button is-primary`}>
                                         <a href='tel:07772656034' style={{color: 'white'}}>
                                             <span>
@@ -68,7 +68,7 @@ const ServiceSelected = (service) => {
                                             </span>
                                         </a>                 
                                     </button>
-                                </p>
+                                </p> */}
                                 <Link href='/contact'>
                                     <button className={`button is-primary is-outlined`}>                        
                                         <span>
